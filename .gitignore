@@ -1,2 +1,3 @@
 .ipynb_checkpoints
-*aligned*.html
+data/alignments_trimmed/*.html
+analyses/*_fasttrees
