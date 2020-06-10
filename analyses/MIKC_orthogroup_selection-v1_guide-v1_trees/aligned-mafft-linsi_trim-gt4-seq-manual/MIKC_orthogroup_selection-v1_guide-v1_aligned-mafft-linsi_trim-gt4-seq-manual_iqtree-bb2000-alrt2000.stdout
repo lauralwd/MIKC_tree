@@ -1,0 +1,1966 @@
+IQ-TREE multicore version 1.6.11 for Linux 64-bit built Jul 27 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    mpp-server (AVX, 62 GB RAM)
+Command: iqtree -s data/alignments_trimmed/MIKC_orthogroup_selection-v1_guide-v1_aligned-mafft-linsi_trim-gt4-seq-manual.fasta -m MFP -bb 2000 -alrt 2000 -nt AUTO -ntmax 12 -pre analyses/MIKC_orthogroup_selection-v1_guide-v1_trees/aligned-mafft-linsi_trim-gt4-seq-manual/MIKC_orthogroup_selection-v1_guide-v1_aligned-mafft-linsi_trim-gt4-seq-manual_iqtree-bb2000-alrt2000
+Seed:    397936 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jun  9 12:30:08 2020
+Kernel:  AVX - auto-detect threads (12 CPU cores detected)
+
+Reading alignment file data/alignments_trimmed/MIKC_orthogroup_selection-v1_guide-v1_aligned-mafft-linsi_trim-gt4-seq-manual.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 1037 sequences with 181 columns, 181 distinct patterns
+181 parsimony-informative, 0 singleton sites, 0 constant sites
+WARNING: Some sequence names are changed as follows:
+c17234_g1_i1_orf=340-999(+) -> c17234_g1_i1_orf_340-999___
+
+                                                                Gap/Ambiguity  Composition  p-value
+   1  MCM2_YBL023C_SGDID                                                2.21%    passed     47.89%
+   2  CRM2_CAA69277                                                    23.20%    passed     68.08%
+   3  CRM3_CAA69407                                                     2.76%    passed     18.77%
+   4  CRM4_CAA69408                                                    13.81%    passed     17.75%
+   5  CRM5_CAA69409                                                    13.81%    failed      0.19%
+   6  CRM6_CAA69410                                                    13.26%    passed     71.42%
+   7  CRM7_CAA69411                                                    13.81%    passed     33.42%
+   8  OPM1_CAA69412                                                    11.60%    passed     98.67%
+   9  CMADS1_AAC24492                                                   0.55%    passed     95.32%
+  10  CMADS2_AAC24493                                                   2.21%    passed     55.00%
+  11  CMADS3_AAC24319                                                   2.21%    passed     47.89%
+  12  CMADS4_AAC24320                                                   2.21%    passed     99.10%
+  13  CMADS6_AAC24325                                                  25.41%    passed     12.63%
+  14  c13007_g1_i2                                                     46.41%    passed     58.49%
+  15  c13878_g2_i1                                                      7.18%    passed     88.43%
+  16  c16672_g3_i1                                                      7.73%    passed      9.09%
+  17  c17234_g1_i1_orf_340-999___                                       3.31%    passed     18.76%
+  18  c17498_g1_i1                                                      0.55%    passed     64.44%
+  19  c17498_g1_i3                                                      0.55%    passed     64.44%
+  20  c18103_g1_i2                                                      7.18%    failed      1.77%
+  21  c20834_g1_i1                                                      4.42%    passed     70.22%
+  22  c22288_g1_i1                                                      0.55%    passed     32.80%
+  23  c22288_g1_i2                                                      8.29%    passed     46.57%
+  24  c22964_g1_i2                                                      6.08%    passed     86.54%
+  25  c23605_g1_i2                                                     24.86%    passed     57.64%
+  26  c24583_g1_i2                                                      2.21%    passed     54.72%
+  27  c24583_g4_i1                                                      2.21%    passed     43.03%
+  28  c24798_g1_i1                                                      5.52%    passed     88.65%
+  29  c24798_g1_i3                                                      1.10%    passed     89.17%
+  30  c28870_g2_i1                                                      1.66%    passed     23.29%
+  31  c28870_g2_i3                                                      1.10%    passed     14.07%
+  32  c29048_g3_i1                                                      5.52%    failed      3.72%
+  33  c29048_g3_i7                                                      5.52%    failed      0.65%
+  34  c29067_g1_i2                                                      3.31%    passed     96.44%
+  35  c29067_g1_i3                                                      1.10%    passed     95.11%
+  36  c29067_g1_i5                                                      1.10%    passed     95.23%
+  37  c29106_g1_i1                                                      0.55%    passed     93.69%
+  38  c29292_g1_i1                                                      2.21%    passed     98.68%
+  39  c29292_g1_i3                                                      2.21%    passed     98.95%
+  40  c29292_g1_i4                                                      3.87%    passed     97.41%
+  41  cgMADS1_BAD88436                                                  7.18%    passed     92.71%
+  42  SmMADS6                                                           0.55%    passed     74.92%
+  43  SmMADS4                                                           9.94%    passed     56.77%
+  44  SmMADS3                                                           0.55%    failed      3.30%
+  45  SmMADS2                                                           3.87%    passed     79.11%
+  46  SmMADS10                                                          8.84%    passed     96.27%
+  47  SmMADS1                                                           0.00%    passed     43.55%
+  48  PPM1_Pp012G078200                                                 2.21%    passed     89.56%
+  49  PPM2_Pp003G125000                                                 2.21%    passed     92.27%
+  50  PpMADS1_Pp004G002000                                              2.21%    passed     81.74%
+  51  PpMADS_S                                                          2.21%    passed     86.75%
+  52  PPMC5_Pp017G019900                                                2.21%    passed     75.86%
+  53  PPMC6_Pp014G056100                                                2.21%    passed     78.30%
+  54  PpMADS2_Pp012G080000                                              0.55%    passed     37.97%
+  55  PpMADS3_Pp003G124300                                              1.66%    passed     50.97%
+  56  PPM3_Pp014G086000                                                 7.18%    passed     71.17%
+  57  PPM4_Pp001G158500                                                 7.18%    passed     51.70%
+  58  PPM6_Pp008G025800                                                 0.55%    passed     64.74%
+  59  PPM7_Pp017G043700                                                 0.00%    passed     46.23%
+  60  PPMA8_Pp008G025900                                                0.55%    passed     52.86%
+  61  PPMA9_Pp003G124400                                                0.00%    passed     53.74%
+  62  PPMA11_Pp001G158400                                               6.08%    passed     36.89%
+  63  PPMA12_Pp004G013900                                               0.55%    passed     73.49%
+  64  Pp014G086100                                                     35.36%    passed     66.89%
+  65  PI                                                                6.63%    passed     62.95%
+  66  AP3                                                               4.42%    passed     53.37%
+  67  AGL2_SEP1                                                         0.00%    passed     35.08%
+  68  AGL6                                                              0.00%    passed     94.18%
+  69  AGL8_FUL                                                          0.00%    passed     77.55%
+  70  AGL25_FLC                                                         4.42%    passed     15.16%
+  71  AG                                                                0.00%    passed     32.51%
+  72  AGL12                                                             1.66%    passed     69.81%
+  73  AGL15                                                             3.87%    passed     89.67%
+  74  AGL17                                                             2.21%    passed     99.02%
+  75  AGL20_SOC1                                                        0.55%    passed     95.00%
+  76  AGL22_SVP                                                         0.00%    passed     81.13%
+  77  AGL32_ABS                                                         3.87%    failed      1.26%
+  78  AGL104                                                           11.05%    passed     79.61%
+  79  AGL67                                                             7.73%    passed     60.93%
+  80  AGL66                                                             9.94%    passed     71.49%
+  81  AGL30                                                             3.87%    passed     92.80%
+  82  AGL94                                                             4.97%    passed     82.20%
+  83  AGL33                                                            50.83%    passed     53.27%
+  84  AGL65                                                             3.87%    passed     73.79%
+  85  OsMADS2                                                           6.08%    passed     49.96%
+  86  OsMADS16                                                          4.42%    passed     36.67%
+  87  OsMADS55                                                         12.71%    passed     96.30%
+  88  OsMADS30                                                          2.76%    passed     47.58%
+  89  OsMADS6                                                           1.10%    passed     92.42%
+  90  OsMADS8                                                           0.00%    passed     85.36%
+  91  OsMADS15                                                          0.00%    passed     29.87%
+  92  OsMADS23                                                         14.92%    passed     94.52%
+  93  OsMADS26                                                          2.21%    passed     15.41%
+  94  OsMADS3                                                           0.00%    passed     33.39%
+  95  OsMADS50                                                         37.02%    passed     44.96%
+  96  OsMADS62                                                          5.52%    passed     83.01%
+  97  OsMADS63                                                          5.52%    passed     68.60%
+  98  OsMADS68                                                          4.42%    passed     15.27%
+  99  Azfis6g005_SOC1                                                   8.84%    passed     78.21%
+ 100  Azfis6g006_AGL6                                                   3.87%    passed     87.38%
+ 101  Azfis26g003                                                       3.31%    passed     98.30%
+ 102  Azfis46g001                                                      44.75%    passed     86.18%
+ 103  Azfis70g000030                                                   12.71%    failed      0.44%
+ 104  Azfi132g000050                                                   10.50%    passed     19.96%
+ 105  EeMADS8                                                          27.07%    passed     91.60%
+ 106  EeMADS9                                                          19.34%    passed     66.27%
+ 107  EeMADS13                                                         22.65%    passed     25.23%
+ 108  EeMADS15                                                         22.65%    passed     93.84%
+ 109  EeMADS19                                                         20.99%    passed     95.42%
+ 110  EeMADS21                                                         19.34%    passed     34.36%
+ 111  EeMADS24                                                         19.89%    passed     98.28%
+ 112  EeMADS34                                                         19.89%    passed     95.19%
+ 113  EeMADS38                                                         30.94%    passed     89.01%
+ 114  EeMADS40                                                         27.62%    passed     83.01%
+ 115  EeMADS44                                                         19.89%    passed     72.29%
+ 116  EeMADS47                                                         71.82%    passed     83.30%
+ 117  EeMADS48                                                         17.68%    passed     65.66%
+ 118  TnS000005915t02_-                                                28.73%    passed     49.99%
+ 119  TnS000037257t01                                                   6.08%    failed      4.48%
+ 120  TnS000061251t01_-                                                40.33%    passed     95.06%
+ 121  TnS000061251t02_-                                                24.86%    passed     79.64%
+ 122  TnS000064931t01_-                                                17.68%    passed     49.52%
+ 123  TnS000069483t10_-                                                24.86%    passed     63.45%
+ 124  TnS000077603t01_-                                                23.20%    passed     46.22%
+ 125  TnS000113989t06_-                                                26.52%    passed     66.22%
+ 126  TnS000220241t01_-                                                28.73%    passed     77.03%
+ 127  TnS000222675t04_-                                                19.34%    passed     99.66%
+ 128  TnS000222675t05_-                                                21.55%    passed     98.36%
+ 129  TnS000229425t02_-                                                19.34%    passed     94.66%
+ 130  TnS000251109t02                                                  56.91%    passed     57.76%
+ 131  TnS000310781t01_-                                                27.62%    passed     56.05%
+ 132  TnS000332043t01_-                                                75.69%    passed     90.89%
+ 133  TnS000359159t01                                                  19.34%    passed     22.19%
+ 134  TnS000393325t08_-                                                22.10%    passed     97.23%
+ 135  TnS000423151t01_-                                                76.80%    passed     96.88%
+ 136  TnS000495759t01_-                                                18.23%    passed     60.39%
+ 137  TnS000526315t01                                                  43.65%    passed     48.71%
+ 138  TnS000622401t03_-                                                73.48%    passed     91.51%
+ 139  TnS000622401t04_-                                                50.28%    passed     54.13%
+ 140  TnS000633747t09                                                  12.71%    passed     85.35%
+ 141  TnS000633747t10                                                  12.15%    passed     66.11%
+ 142  TnS000640815t04_-                                                23.20%    passed     70.85%
+ 143  TnS000655931t01_-                                                27.62%    passed     47.24%
+ 144  TnS000655931t02_-                                                27.62%    passed     46.85%
+ 145  TnS000758371t02                                                   6.08%    failed      4.04%
+ 146  TnS000767679t01                                                  27.07%    passed     17.07%
+ 147  TnS000803113t11                                                   6.63%    failed      0.09%
+ 148  TnS000843651t05_-                                                29.28%    passed     60.30%
+ 149  TnS000843651t06_-                                                26.52%    passed     23.57%
+ 150  TnS000843651t07_-                                                71.82%    passed     60.80%
+ 151  TnS000843651t08_-                                                18.78%    passed     86.79%
+ 152  TnS000925533t06_-                                                72.38%    passed     61.62%
+ 153  TnS000967423t06_-                                                19.34%    passed     68.07%
+ 154  TnS000980857t01_-                                                27.07%    passed     94.54%
+ 155  TnS000980857t02_-                                                29.28%    passed     73.78%
+ 156  TnS000980857t03_-                                                27.62%    passed     66.28%
+ 157  TnS000980857t06_-                                                28.18%    passed     37.94%
+ 158  TnS000983259t01_-                                                27.07%    passed     16.66%
+ 159  TnS000983259t02_-                                                27.62%    passed     75.06%
+ 160  TnS000983499t01                                                  13.26%    failed      3.02%
+ 161  TnS001001281t02                                                  11.05%    failed      2.14%
+ 162  TnS001003199t02_-                                                28.73%    passed     41.86%
+ 163  TnS001003199t03_-                                                41.44%    passed     39.69%
+ 164  TnS001008199t01_-                                                24.86%    passed     69.20%
+ 165  TnS013912449t01_-                                                39.23%    passed     70.58%
+ 166  TnS013912549t01_-                                                20.99%    passed     68.99%
+ 167  AtSTK_Homeotic_D                                                  0.00%    passed     18.03%
+ 168  AtAP1_Homeotic_A                                                  0.00%    passed     89.35%
+ 169  OsMADS14_Homeotic_A                                               0.00%    passed     57.61%
+ 170  MpMADS1                                                           2.21%    passed     67.55%
+ 171  MpMADS2                                                           0.55%    passed     76.95%
+ 172  afiSOC1                                                           8.84%    passed     78.21%
+ 173  afiAGL6                                                          17.13%    passed     49.47%
+ 174  afi26                                                             3.31%    passed     98.30%
+ 175  afi70                                                            12.71%    failed      0.44%
+ 176  afi132                                                           10.50%    passed     19.96%
+ 177  DFHO-2005517-Danaea_nodosa                                       28.73%    passed     60.70%
+ 178  GANB-2006313-Cyathea_spinulosa                                    2.76%    passed     90.82%
+ 179  Solly_iTAGv2_3-Solyc03g007020_1_1-Solanum_lycopersicum           17.68%    failed      0.02%
+ 180  Pinta_v2_0-PITA_000032286_RA-Pinus_taeda                         61.88%    passed     86.02%
+ 181  KAWQ-2002758-Stangeria_eriopus                                    6.63%    passed     58.23%
+ 182  Pinta_v2_0-PITA_000019990_RA-Pinus_taeda                         63.54%    passed     92.85%
+ 183  Pinta_v2_0-PITA_000023822_RA-Pinus_taeda                         66.85%    passed     89.20%
+ 184  Arath_TAIR10-AT5G58890_1-Arabidopsis_thaliana                    15.47%    passed      7.81%
+ 185  Orysa_v7_0-LOC_Os03g03100_1-Oryza_sativa                         37.02%    passed     44.96%
+ 186  Solly_iTAGv2_3-Solyc05g015730_1_1-Solanum_lycopersicum           56.35%    passed     17.21%
+ 187  Pinta_v2_0-PITA_000001745_RA-Pinus_taeda                         56.91%    passed     48.90%
+ 188  Solly_iTAGv2_3-Solyc00g179240_1_1-Solanum_lycopersicum           70.17%    passed     94.50%
+ 189  NHCM-2008499-Angiopteris_evecta                                   4.97%    passed     58.65%
+ 190  Ostlu_v2_0-5960-Ostreococcus_lucimarinus                         24.86%    failed      1.31%
+ 191  Orysa_v7_0-LOC_Os03g54170_1-Oryza_sativa                          0.55%    passed     72.05%
+ 192  Aquco_v1_1-Aquca_001_00458_1-Aquilegia_coerulea                   3.31%    passed      8.62%
+ 193  Solly_iTAGv2_3-Solyc02g071730_2_1-Solanum_lycopersicum            0.00%    passed     13.03%
+ 194  Pinta_v2_0-PITA_000023823_RA-Pinus_taeda                         39.23%    passed     42.10%
+ 195  Arath_TAIR10-AT3G54340_1-Arabidopsis_thaliana                     4.42%    passed     53.37%
+ 196  Pinta_v2_0-PITA_000087416_RA-Pinus_taeda                         54.70%    passed     42.39%
+ 197  PIVW-2001489-Ceratopteris_thalictroides                          13.26%    passed     36.07%
+ 198  Pinta_v2_0-PITA_000063206_RA-Pinus_taeda                         12.15%    passed     12.85%
+ 199  EWXK-2012884-Thyrsopteris_elegans                                 1.66%    passed     92.35%
+ 200  WZFE-2013734-Ascarina_rubricaulis                                 0.55%    passed     78.36%
+ 201  Aquco_v1_1-Aquca_007_00336_1-Aquilegia_coerulea                   4.42%    passed     49.66%
+ 202  Solly_iTAGv2_3-Solyc12g087820_1_1-Solanum_lycopersicum           44.75%    passed     62.62%
+ 203  IRBN-2000158-Scapania_nemorosa                                   20.44%    passed     86.00%
+ 204  Solly_iTAGv2_3-Solyc12g056460_1_1-Solanum_lycopersicum            1.10%    passed     90.78%
+ 205  Orysa_v7_0-LOC_Os06g49840_1-Oryza_sativa                          4.42%    passed     36.67%
+ 206  Solly_iTAGv2_3-Solyc01g103550_1_1-Solanum_lycopersicum           15.47%    passed     33.64%
+ 207  Aquco_v1_1-Aquca_009_00337_1-Aquilegia_coerulea                   1.10%    passed     82.07%
+ 208  Spipo_v2-Spipo8G0023400-Spirodella_polyrhiza                     57.46%    passed     64.81%
+ 209  ZZEI-2022803-Phylloglossum_drummondii                             0.55%    passed     98.96%
+ 210  FFPD-2048003-Ceratodon_purpureus                                 56.91%    passed     77.86%
+ 211  WZFE-2188236-Ascarina_rubricaulis                                 6.08%    passed     22.55%
+ 212  ALVQ-2003396-Tmesipteris_parva                                   59.12%    passed     91.99%
+ 213  YEPO-2004754-cf._Physcomicromitrium_sp.                           2.21%    passed     73.44%
+ 214  GTHK-2003137-Gnetum_montanum                                      7.18%    passed     38.61%
+ 215  Solly_iTAGv2_3-Solyc06g035570_1_1-Solanum_lycopersicum           70.17%    passed     68.27%
+ 216  GTHK-2000145-Gnetum_montanum                                      6.08%    passed     95.02%
+ 217  Arath_TAIR10-AT1G29962_1-Arabidopsis_thaliana                    20.44%    passed     75.02%
+ 218  Pinta_v2_0-PITA_000053045_RA-Pinus_taeda                         53.04%    passed      8.51%
+ 219  XZUY-2010046-Cycas_micholitzii                                    6.63%    passed     97.01%
+ 220  Solly_iTAGv2_3-Solyc05g015750_2_1-Solanum_lycopersicum            0.00%    passed     62.67%
+ 221  Spipo_v2-Spipo1G0108300-Spirodella_polyrhiza                      8.84%    failed      2.20%
+ 222  Aquco_v1_1-Aquca_002_00913_1-Aquilegia_coerulea                  43.65%    passed     99.61%
+ 223  Vitvi_Genoscope_12X-GSVIVT01006592001-Vitis_vinifera             14.36%    passed     88.92%
+ 224  Solly_iTAGv2_3-Solyc08g080100_2_1-Solanum_lycopersicum            0.55%    passed     32.08%
+ 225  Pinta_v2_0-PITA_000094479_RA-Pinus_taeda                         53.04%    passed     96.29%
+ 226  Aquco_v1_1-Aquca_017_00589_1-Aquilegia_coerulea                   9.94%    passed     17.33%
+ 227  DFHO-2000694-Danaea_nodosa                                        4.97%    passed     65.12%
+ 228  GANB-2069446-Cyathea_spinulosa                                    6.63%    passed     99.83%
+ 229  Aquco_v1_1-Aquca_015_00177_1-Aquilegia_coerulea                   0.00%    passed     53.53%
+ 230  Ambtr_v1_0_27-AmTr_v1_0_scaffold00127_17-Amborella_trichopoda     0.55%    passed     91.29%
+ 231  DFHO-2009105-Danaea_nodosa                                        0.55%    passed     99.58%
+ 232  Pinta_v2_0-PITA_000034689_RA-Pinus_taeda                         70.72%    passed     76.25%
+ 233  EWXK-2012663-Thyrsopteris_elegans                                 2.76%    passed     52.34%
+ 234  Arath_TAIR10-AT5G62165_1-Arabidopsis_thaliana                     0.55%    passed     81.04%
+ 235  Ambtr_v1_0_27-AmTr_v1_0_scaffold00013_57-Amborella_trichopoda    66.30%    passed     99.61%
+ 236  BMJR-2003979-Adiantum_tenerum                                     3.31%    passed     57.11%
+ 237  CJNT-2001577-Polypodium_glycyrrhiza                               6.63%    passed     76.37%
+ 238  Spipo_v2-Spipo4G0080000-Spirodella_polyrhiza                      0.55%    passed     81.95%
+ 239  Pinta_v2_0-PITA_000024668_RA-Pinus_taeda                         35.91%    passed     68.71%
+ 240  Solly_iTAGv2_3-Solyc01g066730_2_1-Solanum_lycopersicum           19.89%    failed      1.09%
+ 241  SGTW-2005326-Ginkgo_biloba                                        0.55%    passed     73.63%
+ 242  WGTU-2009301-Leucostegia_immersa                                 11.60%    passed     82.89%
+ 243  Vitvi_Genoscope_12X-GSVIVT01010521001-Vitis_vinifera              0.00%    passed     74.09%
+ 244  Solly_iTAGv2_3-Solyc02g084630_2_1-Solanum_lycopersicum            4.42%    passed     60.06%
+ 245  IRBN-2163827-Scapania_nemorosa                                   39.78%    passed     16.90%
+ 246  Orysa_v7_0-LOC_Os07g41370_1-Oryza_sativa                          1.10%    passed     93.54%
+ 247  Arath_TAIR10-AT1G24260_2-Arabidopsis_thaliana                     0.00%    passed     48.99%
+ 248  WGTU-2010169-Leucostegia_immersa                                 50.83%    passed     11.33%
+ 249  Spipo_v2-Spipo2G0082100-Spirodella_polyrhiza                     39.23%    passed     64.95%
+ 250  Arath_TAIR10-AT1G77980_1-Arabidopsis_thaliana                     9.94%    passed     71.49%
+ 251  Solly_iTAGv2_3-Solyc01g106730_1_1-Solanum_lycopersicum           15.47%    passed     38.88%
+ 252  QVMR-2011359-Psilotum_nudum                                       2.76%    passed     85.89%
+ 253  BMJR-2009874-Adiantum_tenerum                                    17.13%    passed     98.17%
+ 254  Phypa_v3_0-Phpat_009G005300_1-Physcomitrella_patens              38.67%    failed      0.00%
+ 255  NHCM-2060520-Angiopteris_evecta                                  23.76%    passed     69.97%
+ 256  Spipo_v2-Spipo0G0069200-Spirodella_polyrhiza                     12.71%    passed     94.94%
+ 257  EWXK-2001247-Thyrsopteris_elegans                                 7.73%    passed     94.78%
+ 258  Orysa_v7_0-LOC_Os09g02780_1-Oryza_sativa                         24.86%    failed      0.00%
+ 259  PIVW-2016418-Ceratopteris_thalictroides                           3.31%    passed     30.66%
+ 260  EWXK-2014821-Thyrsopteris_elegans                                 7.73%    passed     93.69%
+ 261  IHJY-2008922-Kappaphycus_alvarezii                               55.25%    passed     70.72%
+ 262  Selmo_v1_0-4727-Selaginella_moellendorffii                        2.76%    passed     89.57%
+ 263  QFND-2006855-Cyanophora_paradoxa-CCAC_0074                       54.14%    passed     91.72%
+ 264  Solly_iTAGv2_3-Solyc04g064860_1_1-Solanum_lycopersicum            8.29%    passed     70.53%
+ 265  UDHA-2026691-Ceratocapnos_vesicaria                               8.29%    passed     91.53%
+ 266  Solly_iTAGv2_3-Solyc04g078300_2_1-Solanum_lycopersicum            7.18%    passed     16.25%
+ 267  FFPD-2013099-Ceratodon_purpureus                                  2.21%    passed     89.27%
+ 268  UOMY-2075692-Osmunda_sp.-gametophyte                             10.50%    passed     73.65%
+ 269  CJNT-2000176-Polypodium_glycyrrhiza                               7.73%    passed     81.67%
+ 270  Solly_iTAGv2_3-Solyc06g033820_1_1-Solanum_lycopersicum           24.86%    passed     57.20%
+ 271  Ostlu_v2_0-93174-Ostreococcus_lucimarinus                        17.68%    failed      0.00%
+ 272  Spipo_v2-Spipo20G0020800-Spirodella_polyrhiza                     1.66%    passed     99.14%
+ 273  Spipo_v2-Spipo2G0115300-Spirodella_polyrhiza                     19.89%    failed      0.22%
+ 274  Ambtr_v1_0_27-AmTr_v1_0_scaffold00046_134-Amborella_trichopoda    0.55%    passed     95.59%
+ 275  Vitvi_Genoscope_12X-GSVIVT01000802001-Vitis_vinifera              0.00%    passed     49.20%
+ 276  NHCM-2004139-Angiopteris_evecta                                   2.76%    passed     71.91%
+ 277  Solly_iTAGv2_3-Solyc12g038510_1_1-Solanum_lycopersicum            0.00%    passed     94.73%
+ 278  Spipo_v2-Spipo1G0109200-Spirodella_polyrhiza                      5.52%    failed      0.00%
+ 279  Spipo_v2-Spipo29G0029200-Spirodella_polyrhiza                    14.36%    failed      0.20%
+ 280  Solly_iTAGv2_3-Solyc01g098050_1_1-Solanum_lycopersicum           25.97%    passed     37.78%
+ 281  UDHA-2023597-Ceratocapnos_vesicaria                              69.06%    passed     67.10%
+ 282  Ambtr_v1_0_27-AmTr_v1_0_scaffold00001_413-Amborella_trichopoda    1.10%    passed     76.22%
+ 283  Vitvi_Genoscope_12X-GSVIVT01012250001-Vitis_vinifera              0.00%    passed     98.44%
+ 284  QVMR-2011722-Psilotum_nudum                                       1.66%    passed     85.56%
+ 285  Solly_iTAGv2_3-Solyc10g018080_1_1-Solanum_lycopersicum           30.94%    passed     37.92%
+ 286  Solly_iTAGv2_3-Solyc10g050950_1_1-Solanum_lycopersicum           25.97%    passed     16.30%
+ 287  Spipo_v2-Spipo4G0098100-Spirodella_polyrhiza                     17.13%    passed     88.24%
+ 288  Orysa_v7_0-LOC_Os01g66290_1-Oryza_sativa                          0.00%    passed     63.02%
+ 289  Orysa_v7_0-LOC_Os01g69850_1-Oryza_sativa                         14.92%    passed     31.66%
+ 290  UOMY-2074188-Osmunda_sp.-gametophyte                             37.57%    passed     36.69%
+ 291  JVSZ-2127794-Equisetum_hymale                                     2.21%    passed     72.32%
+ 292  Aquco_v1_1-Aquca_003_00807_1-Aquilegia_coerulea                  12.71%    failed      0.16%
+ 293  Pinta_v2_0-PITA_000056634_RA-Pinus_taeda                         70.17%    passed     84.00%
+ 294  Ambtr_v1_0_27-AmTr_v1_0_scaffold00109_2-Amborella_trichopoda     51.93%    passed     16.18%
+ 295  Orysa_v7_0-LOC_Os02g49840_1-Oryza_sativa                          1.66%    passed     69.01%
+ 296  Vitvi_Genoscope_12X-GSVIVT01025945001-Vitis_vinifera              0.00%    passed     64.21%
+ 297  Solly_iTAGv2_3-Solyc04g025030_1_1-Solanum_lycopersicum           34.25%    passed     39.29%
+ 298  Arath_TAIR10-AT3G58780_3-Arabidopsis_thaliana                     0.00%    passed     51.20%
+ 299  Spipo_v2-Spipo8G0023100-Spirodella_polyrhiza                     38.67%    passed      8.34%
+ 300  Pinta_v2_0-PITA_000070228_RA-Pinus_taeda                         72.38%    passed     89.22%
+ 301  Solly_iTAGv2_3-Solyc03g033940_1_1-Solanum_lycopersicum           17.68%    passed     30.31%
+ 302  Aquco_v1_1-Aquca_014_00308_1-Aquilegia_coerulea                   6.08%    failed      2.09%
+ 303  UGNK-2016561-Marattia_attenuata                                   1.10%    passed     61.64%
+ 304  XZUY-2049770-Cycas_micholitzii                                    4.42%    passed     97.20%
+ 305  WZFE-2192878-Ascarina_rubricaulis                                 6.63%    passed     82.25%
+ 306  Pinta_v2_0-PITA_000024669_RA-Pinus_taeda                         65.19%    passed     98.00%
+ 307  EWXK-2021067-Thyrsopteris_elegans                                62.98%    passed     52.59%
+ 308  Arath_TAIR10-AT1G28450_1-Arabidopsis_thaliana                    20.44%    passed     63.15%
+ 309  Pinta_v2_0-PITA_000015871_RA-Pinus_taeda                         61.88%    passed     60.87%
+ 310  Solly_iTAGv2_3-Solyc03g034260_1_1-Solanum_lycopersicum           18.23%    failed      0.38%
+ 311  Aquco_v1_1-Aquca_040_00096_1-Aquilegia_coerulea                   9.39%    passed      8.85%
+ 312  Pinta_v2_0-PITA_000005770_RA-Pinus_taeda                         62.98%    passed     94.66%
+ 313  EWXK-2007395-Thyrsopteris_elegans                                 0.55%    passed     75.47%
+ 314  AKXB-2066716-Phaeomegaceros_coriaceus                             2.21%    passed     82.69%
+ 315  Ambtr_v1_0_27-AmTr_v1_0_scaffold00023_210-Amborella_trichopoda   39.23%    failed      0.01%
+ 316  Orysa_v7_0-LOC_Os06g30810_1-Oryza_sativa                         17.68%    failed      0.00%
+ 317  ALVQ-2019595-Tmesipteris_parva                                    8.84%    passed     97.69%
+ 318  Pinta_v2_0-PITA_000032439_RA-Pinus_taeda                          6.63%    passed     85.65%
+ 319  Aquco_v1_1-Aquca_006_00074_1-Aquilegia_coerulea                   4.42%    passed     86.42%
+ 320  GANB-2067749-Cyathea_spinulosa                                   48.07%    passed     89.71%
+ 321  WGTU-2004648-Leucostegia_immersa                                  4.42%    passed     33.21%
+ 322  IHJY-2008923-Kappaphycus_alvarezii                               55.25%    passed     70.72%
+ 323  Vitvi_Genoscope_12X-GSVIVT01008140001-Vitis_vinifera              0.00%    passed     74.39%
+ 324  DFHO-2003130-Danaea_nodosa                                        7.73%    passed     24.17%
+ 325  Orysa_v7_0-LOC_Os07g01820_1-Oryza_sativa                          0.00%    passed     29.87%
+ 326  JVSZ-2004872-Equisetum_hymale                                     4.97%    passed     88.05%
+ 327  Pinta_v2_0-PITA_000010797_RA-Pinus_taeda                         47.51%    failed      1.26%
+ 328  Solly_iTAGv2_3-Solyc07g052700_2_1-Solanum_lycopersicum           22.65%    passed     35.23%
+ 329  Orysa_v7_0-LOC_Os10g39130_1-Oryza_sativa                          0.55%    passed     87.42%
+ 330  UDHA-2002597-Ceratocapnos_vesicaria                               2.21%    passed     98.15%
+ 331  WGTU-2003348-Leucostegia_immersa                                  7.18%    passed     89.55%
+ 332  SGTW-2003634-Ginkgo_biloba                                        1.10%    passed     74.31%
+ 333  Spipo_v2-Spipo11G0042900-Spirodella_polyrhiza                    30.94%    failed      0.00%
+ 334  Solly_iTAGv2_3-Solyc03g006830_2_1-Solanum_lycopersicum            3.87%    passed     96.71%
+ 335  WGTU-2005195-Leucostegia_immersa                                  7.18%    passed     17.15%
+ 336  Arath_TAIR10-AT4G18960_1-Arabidopsis_thaliana                     0.00%    passed     32.51%
+ 337  ZZEI-2128106-Phylloglossum_drummondii                             2.21%    passed     99.94%
+ 338  Arath_TAIR10-AT3G02310_1-Arabidopsis_thaliana                     0.00%    passed     44.82%
+ 339  VYLQ-2046924-Cassytha_filiformis                                  7.18%    passed     90.37%
+ 340  EWXK-2014957-Thyrsopteris_elegans                                 3.87%    passed     29.63%
+ 341  ALVQ-2003291-Tmesipteris_parva                                   16.57%    passed     80.83%
+ 342  Orysa_v7_0-LOC_Os04g38770_1-Oryza_sativa                         45.86%    passed     64.94%
+ 343  Solly_iTAGv2_3-Solyc10g017630_1_1-Solanum_lycopersicum           22.65%    passed      8.93%
+ 344  UGNK-2021827-Marattia_attenuata                                  13.81%    passed     55.48%
+ 345  Aquco_v1_1-Aquca_013_00477_1-Aquilegia_coerulea                   0.55%    passed     85.32%
+ 346  Spipo_v2-Spipo4G0055100-Spirodella_polyrhiza                     23.20%    passed     14.15%
+ 347  WLIC-2000046-Dioon_edule                                         56.35%    passed     31.65%
+ 348  ZFRE-2001130-Phaeoceros_carolinianus-sporophyte_1575              3.31%    passed     75.50%
+ 349  QVMR-2000174-Psilotum_nudum                                       8.29%    passed     94.83%
+ 350  Ambtr_v1_0_27-AmTr_v1_0_scaffold00071_203-Amborella_trichopoda    0.00%    passed     40.32%
+ 351  Arath_TAIR10-AT4G24540_1-Arabidopsis_thaliana                     0.00%    passed     75.60%
+ 352  Arath_TAIR10-AT5G51870_3-Arabidopsis_thaliana                     1.66%    passed     95.78%
+ 353  Solly_iTAGv2_3-Solyc05g056620_1_1-Solanum_lycopersicum            0.00%    passed     88.74%
+ 354  Solly_iTAGv2_3-Solyc01g092950_2_1-Solanum_lycopersicum           18.23%    passed     78.06%
+ 355  GNQG-2084807-Encephalartos_barteri                                6.08%    passed     68.93%
+ 356  BMJR-2014474-Adiantum_tenerum                                    14.92%    passed     78.87%
+ 357  DFHO-2054909-Danaea_nodosa                                       10.50%    passed     98.27%
+ 358  RDOO-2005177-Racomitrium_varium                                   0.55%    passed     25.28%
+ 359  Solly_iTAGv2_3-Solyc04g081000_2_1-Solanum_lycopersicum            4.42%    passed     69.93%
+ 360  MUNP-2007266-Piper_auritum                                       61.88%    passed     43.59%
+ 361  Aquco_v1_1-Aquca_024_00131_1-Aquilegia_coerulea                  22.65%    passed     28.81%
+ 362  Selmo_v1_0-9596-Selaginella_moellendorffii                       68.51%    passed     13.41%
+ 363  Vitvi_Genoscope_12X-GSVIVT01012249001-Vitis_vinifera              0.00%    passed     98.53%
+ 364  EEAQ-2008813-Sceptridium_dissectum                                6.63%    passed     86.74%
+ 365  Aquco_v1_1-Aquca_022_00241_1-Aquilegia_coerulea                   3.31%    passed     90.82%
+ 366  GANB-2006317-Cyathea_spinulosa                                    4.97%    passed     87.23%
+ 367  Solly_iTAGv2_3-Solyc06g069430_2_1-Solanum_lycopersicum            0.00%    passed     96.45%
+ 368  Pinta_v2_0-PITA_000067237_RA-Pinus_taeda                         44.20%    passed     39.11%
+ 369  PIVW-2002304-Ceratopteris_thalictroides                          28.73%    passed     83.02%
+ 370  Orysa_v7_0-LOC_Os08g33488_1-Oryza_sativa                         14.92%    passed     94.52%
+ 371  Ambtr_v1_0_27-AmTr_v1_0_scaffold00001_225-Amborella_trichopoda    4.42%    passed     12.77%
+ 372  Solly_iTAGv2_3-Solyc01g098070_1_1-Solanum_lycopersicum           26.52%    passed     14.62%
+ 373  Solly_iTAGv2_3-Solyc09g061950_1_1-Solanum_lycopersicum           25.41%    passed     17.88%
+ 374  GNQG-2006953-Encephalartos_barteri                                3.31%    passed     65.97%
+ 375  Aquco_v1_1-Aquca_069_00019_1-Aquilegia_coerulea                  13.26%    failed      2.68%
+ 376  Aquco_v1_1-Aquca_014_00077_1-Aquilegia_coerulea                   1.66%    passed     74.58%
+ 377  SGTW-2002038-Ginkgo_biloba                                       13.81%    passed     71.35%
+ 378  GANB-2019253-Cyathea_spinulosa                                    0.00%    passed     95.74%
+ 379  Orysa_v7_0-LOC_Os02g07430_1-Oryza_sativa                          2.76%    passed     88.70%
+ 380  PIVW-2019843-Ceratopteris_thalictroides                           7.18%    passed     96.98%
+ 381  YTYU-2001928-Cyanophora_paradoxa-CCAC_0091                       54.14%    passed     91.72%
+ 382  Vitvi_Genoscope_12X-GSVIVT01033067001-Vitis_vinifera              3.87%    passed     93.43%
+ 383  Phypa_v3_0-Phpat_001G158500_1-Physcomitrella_patens               7.18%    passed     51.70%
+ 384  Solly_iTAGv2_3-Solyc01g097850_1_1-Solanum_lycopersicum           20.44%    failed      1.93%
+ 385  Pinta_v2_0-PITA_000019023_RA-Pinus_taeda                         66.30%    failed      4.72%
+ 386  Arath_TAIR10-AT5G10140_1-Arabidopsis_thaliana                     4.42%    passed     15.16%
+ 387  Pinta_v2_0-PITA_000042350_RA-Pinus_taeda                         55.80%    passed     72.12%
+ 388  Selmo_v1_0-121275-Selaginella_moellendorffii                      2.21%    passed      6.25%
+ 389  RDOO-2000123-Racomitrium_varium                                   7.18%    passed      6.47%
+ 390  UDHA-2023596-Ceratocapnos_vesicaria                              69.06%    passed     67.10%
+ 391  CAPN-2004193-Equisetum_diffusum                                   8.29%    passed     87.38%
+ 392  Aquco_v1_1-Aquca_052_00029_1-Aquilegia_coerulea                  17.13%    passed     70.25%
+ 393  RDOO-2000812-Racomitrium_varium                                  12.71%    passed     63.11%
+ 394  Vitvi_Genoscope_12X-GSVIVT01009171001-Vitis_vinifera              0.00%    passed     98.41%
+ 395  Pinta_v2_0-PITA_000053158_RA-Pinus_taeda                         36.46%    passed     29.42%
+ 396  Spipo_v2-Spipo4G0054700-Spirodella_polyrhiza                      5.52%    passed     91.30%
+ 397  QVMR-2015287-Psilotum_nudum                                       3.31%    passed     99.67%
+ 398  Orysa_v7_0-LOC_Os03g14850_1-Oryza_sativa                         27.07%    passed     65.03%
+ 399  Aquco_v1_1-Aquca_010_00058_1-Aquilegia_coerulea                  33.70%    passed     17.59%
+ 400  WGTU-2002156-Leucostegia_immersa                                 61.33%    passed     77.68%
+ 401  Arath_TAIR10-AT1G54760_1-Arabidopsis_thaliana                    34.81%    passed     12.14%
+ 402  Pinta_v2_0-PITA_000020510_RA-Pinus_taeda                         73.48%    passed     43.25%
+ 403  JKHA-2005702-Cyanoptyche_gloeocystis                             53.04%    passed     16.01%
+ 404  SGTW-2004686-Ginkgo_biloba                                        1.66%    passed     95.38%
+ 405  EWXK-2021232-Thyrsopteris_elegans                                24.86%    passed     86.69%
+ 406  GANB-2006314-Cyathea_spinulosa                                    4.97%    passed     87.94%
+ 407  Phypa_v3_0-Phpat_004G002000_1-Physcomitrella_patens               2.21%    passed     81.74%
+ 408  Solly_iTAGv2_3-Solyc11g069770_1_1-Solanum_lycopersicum           21.55%    passed     18.44%
+ 409  Ambtr_v1_0_27-AmTr_v1_0_scaffold00066_97-Amborella_trichopoda     5.52%    passed     11.68%
+ 410  DXOU-2036490-Nothoceros_aenigmaticus                              4.42%    passed     62.66%
+ 411  Phypa_v3_0-Phpat_004G013900_1-Physcomitrella_patens               0.55%    passed     73.49%
+ 412  CAPN-2039264-Equisetum_diffusum                                   6.08%    passed     76.24%
+ 413  UOMY-2004193-Osmunda_sp.-gametophyte                             11.05%    passed     56.25%
+ 414  Ambtr_v1_0_27-AmTr_v1_0_scaffold00071_216-Amborella_trichopoda   45.86%    passed     79.50%
+ 415  VYLQ-2001761-Cassytha_filiformis                                  0.55%    passed     67.88%
+ 416  Ambtr_v1_0_27-AmTr_v1_0_scaffold00001_226-Amborella_trichopoda   34.81%    passed     98.67%
+ 417  DFHO-2053403-Danaea_nodosa                                        4.97%    passed     94.96%
+ 418  EWXK-2001249-Thyrsopteris_elegans                                 7.73%    passed     94.78%
+ 419  Solly_iTAGv2_3-Solyc12g005210_1_1-Solanum_lycopersicum           60.22%    passed     45.04%
+ 420  GTHK-2000824-Gnetum_montanum                                      8.84%    passed     65.62%
+ 421  WGTU-2070218-Leucostegia_immersa                                 14.92%    passed     54.91%
+ 422  GNQG-2016097-Encephalartos_barteri                                4.42%    passed     96.48%
+ 423  Phypa_v3_0-Phpat_014G056100_1-Physcomitrella_patens               2.21%    passed     78.30%
+ 424  Arath_TAIR10-AT2G22630_1-Arabidopsis_thaliana                     2.21%    passed     99.02%
+ 425  Orysa_v7_0-LOC_Os09g02830_1-Oryza_sativa                         19.34%    failed      0.00%
+ 426  Arath_TAIR10-AT1G47760_1-Arabidopsis_thaliana                    18.23%    passed     48.66%
+ 427  Vitvi_Genoscope_12X-GSVIVT01009219001-Vitis_vinifera              0.55%    passed     98.67%
+ 428  Phypa_v3_0-Phpat_012G078200_1-Physcomitrella_patens               2.21%    passed     89.56%
+ 429  Arath_TAIR10-AT3G61120_1-Arabidopsis_thaliana                     1.10%    passed     52.78%
+ 430  GNQG-2074588-Encephalartos_barteri                               47.51%    passed     17.89%
+ 431  Spipo_v2-Spipo7G0069800-Spirodella_polyrhiza                      9.94%    passed     11.54%
+ 432  BMJR-2011716-Adiantum_tenerum                                    11.60%    passed     82.15%
+ 433  PQED-2054148-Gloeochaete_wittrockiana                            49.72%    passed     59.20%
+ 434  Arath_TAIR10-AT5G65080_1-Arabidopsis_thaliana                     4.42%    passed     80.53%
+ 435  Pinta_v2_0-PITA_000073487_RA-Pinus_taeda                         56.91%    passed      6.97%
+ 436  Arath_TAIR10-AT1G22130_1-Arabidopsis_thaliana                    11.05%    passed     79.61%
+ 437  WGTU-2008081-Leucostegia_immersa                                 45.30%    passed     24.04%
+ 438  VYLQ-2008907-Cassytha_filiformis                                  1.66%    passed     84.80%
+ 439  Pinta_v2_0-PITA_000082350_RA-Pinus_taeda                         69.06%    passed     56.04%
+ 440  PIVW-2004036-Ceratopteris_thalictroides                           5.52%    passed     63.15%
+ 441  Orysa_v7_0-LOC_Os06g22760_1-Oryza_sativa                         10.50%    passed     51.40%
+ 442  WZFE-2002134-Ascarina_rubricaulis                                 6.08%    passed     23.94%
+ 443  CJNT-2007742-Polypodium_glycyrrhiza                              45.30%    passed     83.34%
+ 444  GANB-2069720-Cyathea_spinulosa                                    6.08%    passed     55.99%
+ 445  MUNP-2001472-Piper_auritum                                        0.00%    passed     94.23%
+ 446  Spipo_v2-Spipo9G0016400-Spirodella_polyrhiza                     20.99%    passed     99.91%
+ 447  Aquco_v1_1-Aquca_136_00010_1-Aquilegia_coerulea                   0.00%    passed     38.18%
+ 448  KAWQ-2005462-Stangeria_eriopus                                    7.73%    passed     43.67%
+ 449  Spipo_v2-Spipo4G0015000-Spirodella_polyrhiza                     16.02%    passed     94.84%
+ 450  Selmo_v1_0-9597-Selaginella_moellendorffii                       68.51%    passed     13.41%
+ 451  Arath_TAIR10-AT2G45650_1-Arabidopsis_thaliana                     0.00%    passed     94.18%
+ 452  Aquco_v1_1-Aquca_022_00039_1-Aquilegia_coerulea                   0.00%    passed     48.30%
+ 453  Pinta_v2_0-PITA_000085505_RA-Pinus_taeda                         70.72%    passed     85.96%
+ 454  Aquco_v1_1-Aquca_018_00120_1-Aquilegia_coerulea                  32.04%    passed     90.35%
+ 455  Pinta_v2_0-PITA_000081517_RA-Pinus_taeda                         40.88%    passed     51.67%
+ 456  MUNP-2011435-Piper_auritum                                        0.55%    passed     86.11%
+ 457  EEAQ-2008812-Sceptridium_dissectum                                6.63%    passed     86.74%
+ 458  Phypa_v3_0-Phpat_017G019900_1-Physcomitrella_patens               2.21%    passed     75.86%
+ 459  Orysa_v7_0-LOC_Os06g11970_1-Oryza_sativa                          5.52%    passed     68.60%
+ 460  Orysa_v7_0-LOC_Os06g06750_1-Oryza_sativa                          0.55%    passed     83.84%
+ 461  Selmo_v1_0-235487-Selaginella_moellendorffii                      8.29%    passed     88.62%
+ 462  VYLQ-2004977-Cassytha_filiformis                                  0.00%    passed     96.23%
+ 463  WGTU-2005194-Leucostegia_immersa                                  7.73%    passed     19.36%
+ 464  Orysa_v7_0-LOC_Os05g23780_1-Oryza_sativa                         13.81%    passed     88.33%
+ 465  RDOO-2000122-Racomitrium_varium                                   7.18%    passed      6.47%
+ 466  DXOU-2000995-Nothoceros_aenigmaticus                             70.17%    passed      5.48%
+ 467  Pinta_v2_0-PITA_000019989_RA-Pinus_taeda                         56.35%    passed     14.99%
+ 468  Selmo_v1_0-5960-Selaginella_moellendorffii                       34.25%    failed      0.60%
+ 469  PIVW-2020998-Ceratopteris_thalictroides                           6.63%    passed     77.44%
+ 470  Spipo_v2-Spipo4G0049400-Spirodella_polyrhiza                     14.92%    failed      0.00%
+ 471  Spipo_v2-Spipo15G0008400-Spirodella_polyrhiza                    64.09%    passed     88.87%
+ 472  Pinta_v2_0-PITA_000015004_RA-Pinus_taeda                         17.68%    passed     13.10%
+ 473  UYFR-2005123-Symphyocladia_latiuscula                            45.30%    passed     57.80%
+ 474  Orysa_v7_0-LOC_Os03g11614_1-Oryza_sativa                          1.66%    passed     93.98%
+ 475  UGNK-2005217-Marattia_attenuata                                  18.23%    passed     89.27%
+ 476  WZFE-2014212-Ascarina_rubricaulis                                 0.55%    passed     96.62%
+ 477  KAWQ-2049380-Stangeria_eriopus                                   63.54%    passed     92.28%
+ 478  Arath_TAIR10-AT3G57390_1-Arabidopsis_thaliana                     0.55%    passed     97.52%
+ 479  MUNP-2011315-Piper_auritum                                       16.57%    passed     86.39%
+ 480  Arath_TAIR10-AT2G26320_1-Arabidopsis_thaliana                    50.83%    passed     53.27%
+ 481  CJNT-2000006-Polypodium_glycyrrhiza                              59.12%    passed     58.92%
+ 482  Solly_iTAGv2_3-Solyc03g033890_1_1-Solanum_lycopersicum           38.12%    passed     11.95%
+ 483  EWXK-2007131-Thyrsopteris_elegans                                13.81%    passed     99.55%
+ 484  WLIC-2120152-Dioon_edule                                          1.66%    passed     60.64%
+ 485  Spipo_v2-Spipo1G0115200-Spirodella_polyrhiza                      5.52%    failed      0.00%
+ 486  Orysa_v7_0-LOC_Os12g21850_1-Oryza_sativa                         18.23%    failed      0.00%
+ 487  PIVW-2004304-Ceratopteris_thalictroides                          25.41%    passed     95.53%
+ 488  Arath_TAIR10-AT4G22950_1-Arabidopsis_thaliana                     1.66%    passed     92.53%
+ 489  Phypa_v3_0-Phpat_003G132700_1-Physcomitrella_patens              20.99%    passed      8.38%
+ 490  Arath_TAIR10-AT1G28460_1-Arabidopsis_thaliana                    20.44%    passed     17.88%
+ 491  Pinta_v2_0-PITA_000003250_RA-Pinus_taeda                         63.54%    passed     95.88%
+ 492  GTHK-2012517-Gnetum_montanum                                     60.77%    passed     36.02%
+ 493  DXOU-2004607-Nothoceros_aenigmaticus                             27.62%    passed     14.71%
+ 494  Arath_TAIR10-AT1G01530_1-Arabidopsis_thaliana                    12.15%    passed     75.22%
+ 495  Selmo_v1_0-91791-Selaginella_moellendorffii                      32.04%    passed      8.47%
+ 496  CJNT-2078444-Polypodium_glycyrrhiza                              16.02%    passed     62.72%
+ 497  Solly_iTAGv2_3-Solyc10g017640_1_1-Solanum_lycopersicum           66.30%    passed     97.58%
+ 498  PIVW-2000174-Ceratopteris_thalictroides                          20.44%    passed     71.97%
+ 499  Aquco_v1_1-Aquca_002_01450_1-Aquilegia_coerulea                  25.97%    passed     14.73%
+ 500  Ambtr_v1_0_27-AmTr_v1_0_scaffold00025_385-Amborella_trichopoda   13.26%    passed     10.54%
+ 501  Pinta_v2_0-PITA_000061632_RA-Pinus_taeda                         61.88%    passed     88.42%
+ 502  Ambtr_v1_0_27-AmTr_v1_0_scaffold00013_60-Amborella_trichopoda     8.29%    passed     99.77%
+ 503  BMJR-2060702-Adiantum_tenerum                                     1.10%    passed     98.66%
+ 504  Solly_iTAGv2_3-Solyc03g033570_1_1-Solanum_lycopersicum           18.23%    passed     42.66%
+ 505  Selmo_v1_0-9595-Selaginella_moellendorffii                       68.51%    passed     13.41%
+ 506  JVSZ-2127811-Equisetum_hymale                                     6.08%    passed     79.02%
+ 507  Solly_iTAGv2_3-Solyc01g106170_2_1-Solanum_lycopersicum           51.93%    passed     60.59%
+ 508  Solly_iTAGv2_3-Solyc11g020660_1_1-Solanum_lycopersicum           24.31%    passed     28.17%
+ 509  Arath_TAIR10-AT5G51860_1-Arabidopsis_thaliana                     1.66%    passed     62.51%
+ 510  YEPO-2006471-cf._Physcomicromitrium_sp.                           5.52%    passed     96.21%
+ 511  Solly_iTAGv2_3-Solyc03g062820_1_1-Solanum_lycopersicum           29.83%    passed     56.32%
+ 512  WBOD-2007941-Magnolia_grandiflora                                 2.76%    passed     98.75%
+ 513  Spipo_v2-Spipo0G0120600-Spirodella_polyrhiza                     14.36%    passed     85.90%
+ 514  Vitvi_Genoscope_12X-GSVIVT01011300001-Vitis_vinifera              2.76%    passed     61.22%
+ 515  Solly_iTAGv2_3-Solyc06g059780_1_1-Solanum_lycopersicum           18.23%    passed      9.68%
+ 516  UYFR-2005122-Symphyocladia_latiuscula                            45.30%    passed     57.80%
+ 517  Solly_iTAGv2_3-Solyc01g060300_1_1-Solanum_lycopersicum           14.36%    failed      0.01%
+ 518  Phypa_v3_0-Phpat_008G072400_1-Physcomitrella_patens              23.20%    failed      0.22%
+ 519  Orysa_v7_0-LOC_Os05g11414_1-Oryza_sativa                          0.00%    passed     56.32%
+ 520  Orysa_v7_0-LOC_Os08g41960_1-Oryza_sativa                         16.02%    passed     94.25%
+ 521  Orysa_v7_0-LOC_Os01g67890_1-Oryza_sativa                         13.26%    failed      0.29%
+ 522  CJNT-2000177-Polypodium_glycyrrhiza                               4.42%    passed     84.15%
+ 523  Pinta_v2_0-PITA_000007524_RA-Pinus_taeda                         65.19%    passed     98.02%
+ 524  JVSZ-2014698-Equisetum_hymale                                     6.63%    passed     88.43%
+ 525  VYLQ-2001763-Cassytha_filiformis                                  0.55%    passed     67.88%
+ 526  Vitvi_Genoscope_12X-GSVIVT01036551001-Vitis_vinifera              0.00%    passed     75.13%
+ 527  Ambtr_v1_0_27-AmTr_v1_0_scaffold00159_17-Amborella_trichopoda    14.92%    passed     16.81%
+ 528  Vitvi_Genoscope_12X-GSVIVT01037026001-Vitis_vinifera             19.34%    passed     53.37%
+ 529  SGTW-2038810-Ginkgo_biloba                                        0.55%    passed     95.15%
+ 530  Ambtr_v1_0_27-AmTr_v1_0_scaffold00021_296-Amborella_trichopoda    0.00%    passed     73.55%
+ 531  Solly_iTAGv2_3-Solyc05g051830_2_1-Solanum_lycopersicum            2.21%    passed     55.85%
+ 532  Solly_iTAGv2_3-Solyc02g065730_1_1-Solanum_lycopersicum            1.10%    passed     67.45%
+ 533  SGTW-2003633-Ginkgo_biloba                                       15.47%    passed     92.26%
+ 534  UXCS-2114288-Marattia_sp.                                        60.22%    passed     74.06%
+ 535  Spipo_v2-Spipo11G0016900-Spirodella_polyrhiza                    17.68%    failed      0.00%
+ 536  SGTW-2004706-Ginkgo_biloba                                       12.15%    passed     99.69%
+ 537  Arath_TAIR10-AT4G11880_1-Arabidopsis_thaliana                     1.66%    passed     96.42%
+ 538  JVSZ-2127731-Equisetum_hymale                                     7.18%    passed     73.50%
+ 539  Selmo_v1_0-79393-Selaginella_moellendorffii                      66.30%    passed     99.61%
+ 540  PIVW-2000450-Ceratopteris_thalictroides                           6.63%    passed     54.56%
+ 541  Orysa_v7_0-LOC_Os12g21880_1-Oryza_sativa                         49.17%    passed     14.31%
+ 542  Pinta_v2_0-PITA_000083852_RA-Pinus_taeda                          8.29%    passed     22.23%
+ 543  Vitvi_Genoscope_12X-GSVIVT01014093001-Vitis_vinifera             57.46%    passed     58.78%
+ 544  JVSZ-2000819-Equisetum_hymale                                    40.33%    passed     85.67%
+ 545  CJNT-2000178-Polypodium_glycyrrhiza                               4.42%    passed     99.70%
+ 546  VYLQ-2046532-Cassytha_filiformis                                  0.55%    passed     52.84%
+ 547  VYLQ-2000902-Cassytha_filiformis                                  1.10%    passed     73.46%
+ 548  ALVQ-2003398-Tmesipteris_parva                                   59.12%    passed     91.99%
+ 549  KAWQ-2012075-Stangeria_eriopus                                    3.87%    passed     98.97%
+ 550  Arath_TAIR10-AT2G45660_1-Arabidopsis_thaliana                     0.55%    passed     95.00%
+ 551  Phypa_v3_0-Phpat_012G080000_1-Physcomitrella_patens               0.55%    passed     37.97%
+ 552  VYLQ-2010257-Cassytha_filiformis                                 13.81%    passed     49.39%
+ 553  Spipo_v2-Spipo4G0113500-Spirodella_polyrhiza                      6.08%    passed     93.03%
+ 554  Selmo_v1_0-93174-Selaginella_moellendorffii                      66.85%    passed     69.17%
+ 555  AKXB-2062983-Phaeomegaceros_coriaceus                            39.78%    passed     11.61%
+ 556  UDHA-2013443-Ceratocapnos_vesicaria                              21.55%    passed     79.21%
+ 557  Aquco_v1_1-Aquca_015_00243_1-Aquilegia_coerulea                   9.39%    passed      6.80%
+ 558  UDHA-2025578-Ceratocapnos_vesicaria                              30.39%    passed     86.05%
+ 559  Aquco_v1_1-Aquca_017_00580_1-Aquilegia_coerulea                  13.81%    failed      1.62%
+ 560  KAWQ-2002759-Stangeria_eriopus                                   13.26%    passed     68.04%
+ 561  Arath_TAIR10-AT1G26310_1-Arabidopsis_thaliana                     0.00%    passed     72.15%
+ 562  CJNT-2009523-Polypodium_glycyrrhiza                              12.71%    passed     79.47%
+ 563  Ambtr_v1_0_27-AmTr_v1_0_scaffold00025_268-Amborella_trichopoda   13.26%    passed     33.20%
+ 564  RDOO-2000811-Racomitrium_varium                                  12.71%    passed     63.11%
+ 565  Pinta_v2_0-PITA_000077451_RA-Pinus_taeda                         63.54%    passed     79.52%
+ 566  Aquco_v1_1-Aquca_010_00060_1-Aquilegia_coerulea                  44.20%    passed     42.23%
+ 567  Solly_iTAGv2_3-Solyc02g089200_2_1-Solanum_lycopersicum            0.00%    passed     65.33%
+ 568  Selmo_v1_0-5961-Selaginella_moellendorffii                       34.25%    failed      0.01%
+ 569  Vitvi_Genoscope_12X-GSVIVT01021303001-Vitis_vinifera              0.00%    passed     57.96%
+ 570  Solly_iTAGv2_3-Solyc04g047870_1_1-Solanum_lycopersicum           17.68%    passed     24.84%
+ 571  Pinta_v2_0-PITA_000094441_RA-Pinus_taeda                         20.44%    failed      0.98%
+ 572  WBOD-2102650-Magnolia_grandiflora                                 4.97%    passed     90.04%
+ 573  Pinta_v2_0-PITA_000025560_RA-Pinus_taeda                         53.59%    passed     94.77%
+ 574  Vitvi_Genoscope_12X-GSVIVT01021534001-Vitis_vinifera              8.29%    failed      1.90%
+ 575  EEAQ-2088070-Sceptridium_dissectum                                3.31%    passed     96.17%
+ 576  Arath_TAIR10-AT5G20240_1-Arabidopsis_thaliana                     6.63%    passed     62.95%
+ 577  Vitvi_Genoscope_12X-GSVIVT01001437001-Vitis_vinifera              1.66%    passed     74.16%
+ 578  Solly_iTAGv2_3-Solyc02g063500_1_1-Solanum_lycopersicum           54.70%    passed     14.71%
+ 579  Solly_iTAGv2_3-Solyc10g018070_1_1-Solanum_lycopersicum           46.96%    passed     17.05%
+ 580  Arath_TAIR10-AT2G22540_1-Arabidopsis_thaliana                     0.00%    passed     81.13%
+ 581  GTHK-2003336-Gnetum_montanum                                     61.33%    passed     85.28%
+ 582  Ambtr_v1_0_27-AmTr_v1_0_scaffold00159_19-Amborella_trichopoda    14.92%    failed      2.68%
+ 583  Arath_TAIR10-AT1G72350_1-Arabidopsis_thaliana                    25.97%    passed     91.70%
+ 584  Orysa_v7_0-LOC_Os06g01890_1-Oryza_sativa                          2.76%    passed     94.32%
+ 585  Vitvi_Genoscope_12X-GSVIVT01003861001-Vitis_vinifera              2.76%    passed     97.16%
+ 586  Pinta_v2_0-PITA_000047804_RA-Pinus_taeda                         58.01%    passed     80.39%
+ 587  Solly_iTAGv2_3-Solyc10g050900_1_1-Solanum_lycopersicum           22.10%    passed     21.86%
+ 588  RDOO-2005175-Racomitrium_varium                                   0.55%    passed     25.28%
+ 589  Arath_TAIR10-AT5G60440_1-Arabidopsis_thaliana                    14.36%    failed      2.67%
+ 590  WBOD-2007940-Magnolia_grandiflora                                 0.55%    passed     99.96%
+ 591  Aquco_v1_1-Aquca_035_00266_1-Aquilegia_coerulea                   0.55%    passed     49.52%
+ 592  Selmo_v1_0-69980-Selaginella_moellendorffii                      65.75%    passed     70.65%
+ 593  Orysa_v7_0-LOC_Os03g54160_1-Oryza_sativa                          0.00%    passed     57.61%
+ 594  PIVW-2008000-Ceratopteris_thalictroides                           6.63%    passed      9.52%
+ 595  NHCM-2003005-Angiopteris_evecta                                  24.31%    passed     83.14%
+ 596  Vitvi_Genoscope_12X-GSVIVT01033253001-Vitis_vinifera              6.08%    passed     74.86%
+ 597  Orysa_v7_0-LOC_Os04g49150_1-Oryza_sativa                          0.55%    passed     84.57%
+ 598  Aquco_v1_1-Aquca_003_00853_1-Aquilegia_coerulea                   1.10%    passed     74.75%
+ 599  Pinta_v2_0-PITA_000045452_RA-Pinus_taeda                          3.87%    passed     99.35%
+ 600  UDHA-2002598-Ceratocapnos_vesicaria                               3.31%    passed     96.90%
+ 601  BAKF-2055440-Cryptomonas_curvata                                 62.43%    passed     77.78%
+ 602  Arath_TAIR10-AT5G23260_2-Arabidopsis_thaliana                     3.87%    failed      1.26%
+ 603  Pinta_v2_0-PITA_000030980_RA-Pinus_taeda                         25.41%    passed     69.78%
+ 604  Pinta_v2_0-PITA_000049545_RA-Pinus_taeda                         58.01%    passed     80.74%
+ 605  Solly_iTAGv2_3-Solyc06g054680_1_1-Solanum_lycopersicum           18.23%    passed      8.45%
+ 606  Pinta_v2_0-PITA_000039230_RA-Pinus_taeda                          3.31%    passed     61.62%
+ 607  GANB-2009539-Cyathea_spinulosa                                   11.05%    passed     72.96%
+ 608  UOMY-2005778-Osmunda_sp.-gametophyte                             12.71%    passed     76.56%
+ 609  Orysa_v7_0-LOC_Os08g41950_1-Oryza_sativa                          0.00%    passed     95.24%
+ 610  Solly_iTAGv2_3-Solyc11g005120_1_1-Solanum_lycopersicum            5.52%    passed     48.09%
+ 611  Pinta_v2_0-PITA_000066224_RA-Pinus_taeda                         65.75%    passed     19.55%
+ 612  UGNK-2000125-Marattia_attenuata                                   7.18%    passed     74.23%
+ 613  Pinta_v2_0-PITA_000052033_RA-Pinus_taeda                         38.67%    passed     19.99%
+ 614  PIVW-2004305-Ceratopteris_thalictroides                          13.26%    passed     97.14%
+ 615  SGTW-2004990-Ginkgo_biloba                                        7.73%    passed     99.87%
+ 616  WGTU-2073258-Leucostegia_immersa                                  3.87%    passed     95.23%
+ 617  Vitvi_Genoscope_12X-GSVIVT01015641001-Vitis_vinifera              0.00%    passed     34.72%
+ 618  Aquco_v1_1-Aquca_013_00471_1-Aquilegia_coerulea                   1.10%    passed     90.20%
+ 619  CJNT-2076819-Polypodium_glycyrrhiza                               9.39%    passed     94.42%
+ 620  AKXB-2008754-Phaeomegaceros_coriaceus                            23.76%    passed     75.98%
+ 621  Selmo_v1_0-113962-Selaginella_moellendorffii                     61.88%    passed     55.76%
+ 622  BNCU-2018766-Radula_lindenbergia                                 24.31%    passed     17.38%
+ 623  Vitvi_Genoscope_12X-GSVIVT01019167001-Vitis_vinifera             54.14%    passed     49.40%
+ 624  GANB-2018861-Cyathea_spinulosa                                   18.78%    passed     64.65%
+ 625  Ambtr_v1_0_27-AmTr_v1_0_scaffold00089_36-Amborella_trichopoda     4.97%    passed     91.92%
+ 626  Aquco_v1_1-Aquca_069_00020_1-Aquilegia_coerulea                  14.36%    failed      3.06%
+ 627  Solly_iTAGv2_3-Solyc11g020320_1_1-Solanum_lycopersicum           20.44%    passed     25.91%
+ 628  Ambtr_v1_0_27-AmTr_v1_0_scaffold00044_48-Amborella_trichopoda    46.41%    failed      3.89%
+ 629  WZFE-2193922-Ascarina_rubricaulis                                49.72%    failed      0.05%
+ 630  GANB-2001914-Cyathea_spinulosa                                   16.02%    passed     90.74%
+ 631  SGTW-2038131-Ginkgo_biloba                                        0.55%    passed     92.50%
+ 632  Ambtr_v1_0_27-AmTr_v1_0_scaffold00010_217-Amborella_trichopoda   52.49%    passed     95.26%
+ 633  UDHA-2096224-Ceratocapnos_vesicaria                               5.52%    passed     33.84%
+ 634  GANB-2016797-Cyathea_spinulosa                                   22.10%    passed     80.91%
+ 635  VYLQ-2048023-Cassytha_filiformis                                  0.00%    passed     90.64%
+ 636  Solly_iTAGv2_3-Solyc05g012020_2_1-Solanum_lycopersicum            0.00%    passed     45.72%
+ 637  VYLQ-2047299-Cassytha_filiformis                                  1.10%    passed     68.08%
+ 638  Arath_TAIR10-AT2G14210_1-Arabidopsis_thaliana                     1.10%    passed     93.45%
+ 639  Orysa_v7_0-LOC_Os04g23910_1-Oryza_sativa                          0.55%    passed     99.76%
+ 640  Phypa_v3_0-Phpat_014G086100_1-Physcomitrella_patens              35.36%    passed     66.89%
+ 641  Solly_iTAGv2_3-Solyc04g025050_1_1-Solanum_lycopersicum           69.06%    passed     22.12%
+ 642  Aquco_v1_1-Aquca_054_00126_1-Aquilegia_coerulea                  14.36%    passed     33.77%
+ 643  WGTU-2007621-Leucostegia_immersa                                 13.81%    passed     67.39%
+ 644  Solly_iTAGv2_3-Solyc01g106720_1_1-Solanum_lycopersicum           13.26%    passed     24.85%
+ 645  JKHA-2002021-Cyanoptyche_gloeocystis                             38.67%    passed     68.78%
+ 646  Arath_TAIR10-AT5G55690_1-Arabidopsis_thaliana                    18.23%    failed      0.07%
+ 647  Aquco_v1_1-Aquca_069_00021_1-Aquilegia_coerulea                   6.63%    failed      2.69%
+ 648  ZZEI-2126243-Phylloglossum_drummondii                             1.66%    passed     94.19%
+ 649  MUNP-2001867-Piper_auritum                                        0.00%    passed     97.02%
+ 650  Vitvi_Genoscope_12X-GSVIVT01010218001-Vitis_vinifera             52.49%    passed     30.40%
+ 651  Solly_iTAGv2_3-Solyc04g076680_2_1-Solanum_lycopersicum           65.19%    passed     82.71%
+ 652  Solly_iTAGv2_3-Solyc03g119680_1_1-Solanum_lycopersicum           25.41%    passed     35.51%
+ 653  PIVW-2004303-Ceratopteris_thalictroides                          22.65%    passed     96.02%
+ 654  XZUY-2005062-Cycas_micholitzii                                    1.10%    passed     88.34%
+ 655  Pinta_v2_0-PITA_000033441_RA-Pinus_taeda                         50.28%    passed     87.78%
+ 656  Arath_TAIR10-AT1G77080_4-Arabidopsis_thaliana                     4.42%    passed     62.09%
+ 657  Pinta_v2_0-PITA_000078830_RA-Pinus_taeda                         60.77%    passed     58.44%
+ 658  Pinta_v2_0-PITA_000037411_RA-Pinus_taeda                         71.27%    passed      5.87%
+ 659  Selmo_v1_0-85851-Selaginella_moellendorffii                      66.85%    passed     38.38%
+ 660  UDHA-2015404-Ceratocapnos_vesicaria                              24.86%    passed     82.34%
+ 661  Vitvi_Genoscope_12X-GSVIVT01012110001-Vitis_vinifera              3.87%    passed     53.24%
+ 662  EEAQ-2016217-Sceptridium_dissectum                               16.02%    passed     87.62%
+ 663  KAWQ-2009922-Stangeria_eriopus                                    6.08%    passed     82.85%
+ 664  Aquco_v1_1-Aquca_136_00009_1-Aquilegia_coerulea                   0.00%    passed     44.42%
+ 665  PIVW-2001491-Ceratopteris_thalictroides                          16.02%    passed     83.44%
+ 666  CJNT-2077965-Polypodium_glycyrrhiza                               7.73%    passed     81.16%
+ 667  CJNT-2001581-Polypodium_glycyrrhiza                               6.63%    passed     76.37%
+ 668  Pinta_v2_0-PITA_000003989_RA-Pinus_taeda                         54.70%    passed     86.13%
+ 669  Solly_iTAGv2_3-Solyc01g098060_1_1-Solanum_lycopersicum           27.07%    passed     24.11%
+ 670  GANB-2011936-Cyathea_spinulosa                                    9.94%    passed     48.82%
+ 671  WGTU-2002157-Leucostegia_immersa                                 61.33%    passed     55.18%
+ 672  MUNP-2001384-Piper_auritum                                        9.94%    passed     89.35%
+ 673  Aquco_v1_1-Aquca_010_00738_1-Aquilegia_coerulea                  22.65%    passed     29.04%
+ 674  Orysa_v7_0-LOC_Os05g34940_1-Oryza_sativa                          6.08%    passed     65.29%
+ 675  Pinta_v2_0-PITA_000024101_RA-Pinus_taeda                         56.91%    passed     35.66%
+ 676  Ambtr_v1_0_27-AmTr_v1_0_scaffold00002_466-Amborella_trichopoda   59.67%    passed     78.69%
+ 677  Vitvi_Genoscope_12X-GSVIVT01003864001-Vitis_vinifera              2.76%    passed     95.53%
+ 678  EWXK-2023492-Thyrsopteris_elegans                                 4.42%    passed     88.07%
+ 679  DFHO-2046772-Danaea_nodosa                                       18.23%    passed     95.53%
+ 680  PIVW-2001490-Ceratopteris_thalictroides                          16.02%    passed     82.09%
+ 681  SGTW-2000330-Ginkgo_biloba                                       29.28%    passed     96.44%
+ 682  Vitvi_Genoscope_12X-GSVIVT01019180001-Vitis_vinifera             54.14%    passed     38.48%
+ 683  EWXK-2007542-Thyrsopteris_elegans                                 4.97%    passed     98.44%
+ 684  BEGM-2005793-Botrypus_virginianus                                 3.31%    passed     96.23%
+ 685  Solly_iTAGv2_3-Solyc04g025110_1_1-Solanum_lycopersicum           36.46%    passed     44.51%
+ 686  Arath_TAIR10-AT5G65050_3-Arabidopsis_thaliana                     4.42%    passed     86.19%
+ 687  BMJR-2004059-Adiantum_tenerum                                    67.40%    passed     28.12%
+ 688  Aquco_v1_1-Aquca_069_00022_1-Aquilegia_coerulea                  45.30%    passed     20.45%
+ 689  FFPD-2013100-Ceratodon_purpureus                                  2.21%    passed     84.22%
+ 690  Solly_iTAGv2_3-Solyc07g055920_2_1-Solanum_lycopersicum            1.10%    passed     82.34%
+ 691  Spipo_v2-Spipo11G0017500-Spirodella_polyrhiza                    23.76%    passed     41.33%
+ 692  Spipo_v2-Spipo8G0020700-Spirodella_polyrhiza                     44.75%    passed     19.13%
+ 693  SGTW-2006362-Ginkgo_biloba                                        3.87%    passed     72.57%
+ 694  Solly_iTAGv2_3-Solyc12g087830_1_1-Solanum_lycopersicum            3.87%    passed     61.96%
+ 695  Vitvi_Genoscope_12X-GSVIVT01010221001-Vitis_vinifera             24.31%    passed     22.80%
+ 696  Orysa_v7_0-LOC_Os03g08754_1-Oryza_sativa                          0.00%    passed     87.08%
+ 697  Spipo_v2-Spipo4G0055000-Spirodella_polyrhiza                     48.07%    failed      3.59%
+ 698  Solly_iTAGv2_3-Solyc06g048380_1_1-Solanum_lycopersicum           33.15%    passed     71.53%
+ 699  Pinta_v2_0-PITA_000025650_RA-Pinus_taeda                         53.04%    passed     89.39%
+ 700  BMJR-2007912-Adiantum_tenerum                                    12.71%    passed     69.14%
+ 701  UGNK-2000126-Marattia_attenuata                                   7.18%    passed     55.02%
+ 702  CJNT-2012070-Polypodium_glycyrrhiza                               7.73%    passed     87.51%
+ 703  VYLQ-2003626-Cassytha_filiformis                                  0.55%    passed     92.41%
+ 704  Solly_iTAGv2_3-Solyc02g091550_1_1-Solanum_lycopersicum            2.21%    passed     93.88%
+ 705  BNCU-2016430-Radula_lindenbergia                                 55.80%    passed     34.65%
+ 706  Solly_iTAGv2_3-Solyc01g106710_1_1-Solanum_lycopersicum            8.29%    failed      4.85%
+ 707  Pinta_v2_0-PITA_000076489_RA-Pinus_taeda                          8.29%    passed     10.93%
+ 708  Solly_iTAGv2_3-Solyc04g025970_1_1-Solanum_lycopersicum           45.30%    passed     74.11%
+ 709  Solly_iTAGv2_3-Solyc01g093960_2_1-Solanum_lycopersicum            1.10%    passed     84.71%
+ 710  PIVW-2002392-Ceratopteris_thalictroides                           5.52%    failed      2.80%
+ 711  Ambtr_v1_0_27-AmTr_v1_0_scaffold00001_409-Amborella_trichopoda    0.55%    passed     86.79%
+ 712  Pinta_v2_0-PITA_000045150_RA-Pinus_taeda                         48.07%    passed      5.78%
+ 713  CJNT-2005244-Polypodium_glycyrrhiza                               4.42%    passed     61.72%
+ 714  Aquco_v1_1-Aquca_041_00050_1-Aquilegia_coerulea                  16.02%    passed     72.42%
+ 715  Arath_TAIR10-AT3G57230_1-Arabidopsis_thaliana                     0.55%    passed     92.76%
+ 716  UDHA-2015405-Ceratocapnos_vesicaria                              26.52%    passed     75.83%
+ 717  Spipo_v2-Spipo2G0125000-Spirodella_polyrhiza                      1.10%    passed     98.70%
+ 718  VYLQ-2047513-Cassytha_filiformis                                  2.21%    passed     68.24%
+ 719  MUNP-2004875-Piper_auritum                                        0.55%    passed     91.81%
+ 720  BEGM-2005792-Botrypus_virginianus                                 3.31%    passed     96.23%
+ 721  Arath_TAIR10-AT1G77950_1-Arabidopsis_thaliana                     7.73%    passed     60.93%
+ 722  WBOD-2018999-Magnolia_grandiflora                                 0.55%    passed     98.84%
+ 723  Phypa_v3_0-Phpat_013G084000_1-Physcomitrella_patens               6.08%    failed      0.29%
+ 724  Ambtr_v1_0_27-AmTr_v1_0_scaffold00159_18-Amborella_trichopoda    30.39%    passed     73.66%
+ 725  BMJR-2004058-Adiantum_tenerum                                    67.40%    passed     22.74%
+ 726  Pinta_v2_0-PITA_000032730_RA-Pinus_taeda                         11.05%    passed     98.51%
+ 727  Arath_TAIR10-AT5G65070_3-Arabidopsis_thaliana                     4.42%    passed     60.50%
+ 728  Aquco_v1_1-Aquca_006_00411_1-Aquilegia_coerulea                   0.00%    passed     99.08%
+ 729  EWXK-2001250-Thyrsopteris_elegans                                 6.08%    passed     91.86%
+ 730  Aquco_v1_1-Aquca_007_00029_1-Aquilegia_coerulea                  15.47%    failed      0.19%
+ 731  GTHK-2005406-Gnetum_montanum                                      2.21%    passed     84.99%
+ 732  Pinta_v2_0-PITA_000023515_RA-Pinus_taeda                         65.75%    passed     52.32%
+ 733  WBOD-2009700-Magnolia_grandiflora                                 1.10%    passed     98.56%
+ 734  Vitvi_Genoscope_12X-GSVIVT01018450001-Vitis_vinifera              0.00%    passed     77.27%
+ 735  Solly_iTAGv2_3-Solyc03g114840_2_1-Solanum_lycopersicum            0.00%    passed     82.58%
+ 736  Arath_TAIR10-AT2G34440_1-Arabidopsis_thaliana                    18.23%    passed     96.19%
+ 737  Pinta_v2_0-PITA_000015874_RA-Pinus_taeda                         60.22%    passed     86.52%
+ 738  Arath_TAIR10-AT5G15800_2-Arabidopsis_thaliana                     0.00%    passed     35.08%
+ 739  Arath_TAIR10-AT3G30260_1-Arabidopsis_thaliana                     1.10%    passed     91.55%
+ 740  Orysa_v7_0-LOC_Os02g52340_1-Oryza_sativa                          0.00%    passed     69.83%
+ 741  JVSZ-2000820-Equisetum_hymale                                     8.29%    passed     80.85%
+ 742  Vitvi_Genoscope_12X-GSVIVT01025916001-Vitis_vinifera              1.66%    passed      8.30%
+ 743  Orysa_v7_0-LOC_Os12g31748_2-Oryza_sativa                          1.10%    passed     99.61%
+ 744  Ambtr_v1_0_27-AmTr_v1_0_scaffold00050_92-Amborella_trichopoda    12.15%    passed     13.82%
+ 745  WZFE-2192960-Ascarina_rubricaulis                                 1.66%    passed     56.38%
+ 746  JVSZ-2008957-Equisetum_hymale                                     7.73%    passed     51.22%
+ 747  Phypa_v3_0-Phpat_003G125000_1-Physcomitrella_patens               2.21%    passed     92.27%
+ 748  CJNT-2001580-Polypodium_glycyrrhiza                               6.63%    passed     76.37%
+ 749  ALVQ-2003289-Tmesipteris_parva                                   16.57%    passed     68.05%
+ 750  Pinta_v2_0-PITA_000041908_RA-Pinus_taeda                         64.64%    passed     78.76%
+ 751  UDHA-2023341-Ceratocapnos_vesicaria                               0.00%    passed     96.39%
+ 752  DFHO-2052641-Danaea_nodosa                                       12.71%    passed     63.49%
+ 753  Solly_iTAGv2_3-Solyc04g005320_2_1-Solanum_lycopersicum            0.00%    passed     87.05%
+ 754  Spipo_v2-Spipo7G0069700-Spirodella_polyrhiza                     45.86%    failed      0.19%
+ 755  JVSZ-2014398-Equisetum_hymale                                     2.76%    passed     67.95%
+ 756  PIVW-2019502-Ceratopteris_thalictroides                           7.18%    passed     85.24%
+ 757  Vitvi_Genoscope_12X-GSVIVT01005934001-Vitis_vinifera              0.00%    passed     89.54%
+ 758  Orysa_v7_0-LOC_Os12g10540_3-Oryza_sativa                          0.00%    passed     69.29%
+ 759  Solly_iTAGv2_3-Solyc02g032000_1_1-Solanum_lycopersicum           49.72%    passed     42.77%
+ 760  CAPN-2037723-Equisetum_diffusum                                  28.18%    passed     17.73%
+ 761  Solly_iTAGv2_3-Solyc11g028020_1_1-Solanum_lycopersicum            2.76%    passed     37.57%
+ 762  Spipo_v2-Spipo0G0153900-Spirodella_polyrhiza                      9.94%    passed      5.81%
+ 763  GTHK-2056793-Gnetum_montanum                                      7.18%    passed     66.25%
+ 764  UDHA-2016816-Ceratocapnos_vesicaria                              37.02%    passed     88.56%
+ 765  Vitvi_Genoscope_12X-GSVIVT01008806001-Vitis_vinifera             21.55%    failed      0.80%
+ 766  Vitvi_Genoscope_12X-GSVIVT01037031001-Vitis_vinifera             14.92%    passed     56.40%
+ 767  Vitvi_Genoscope_12X-GSVIVT01037034001-Vitis_vinifera             14.92%    passed     43.43%
+ 768  ALVQ-2003288-Tmesipteris_parva                                   16.57%    passed     80.83%
+ 769  Selmo_v1_0-437868-Selaginella_moellendorffii                     40.88%    passed     66.18%
+ 770  Phypa_v3_0-Phpat_014G086000_1-Physcomitrella_patens               7.18%    passed     71.17%
+ 771  Vitvi_Genoscope_12X-GSVIVT01008980001-Vitis_vinifera             53.04%    passed     67.68%
+ 772  Orysa_v7_0-LOC_Os12g10520_1-Oryza_sativa                          1.10%    passed     20.19%
+ 773  DFHO-2052405-Danaea_nodosa                                        4.97%    passed     69.54%
+ 774  Arath_TAIR10-AT3G66656_1-Arabidopsis_thaliana                    17.68%    passed     36.82%
+ 775  CJNT-2013110-Polypodium_glycyrrhiza                               3.87%    passed     99.94%
+ 776  Ambtr_v1_0_27-AmTr_v1_0_scaffold00013_53-Amborella_trichopoda     1.10%    passed     81.26%
+ 777  UGNK-2017569-Marattia_attenuata                                   4.97%    passed     64.49%
+ 778  FFPD-2057947-Ceratodon_purpureus                                  2.21%    passed     83.58%
+ 779  CJNT-2000175-Polypodium_glycyrrhiza                               4.42%    passed     99.70%
+ 780  Orysa_v7_0-LOC_Os06g23950_1-Oryza_sativa                         57.46%    passed     25.33%
+ 781  Arath_TAIR10-AT2G42830_2-Arabidopsis_thaliana                     0.00%    passed     60.14%
+ 782  Chlre_v5_5-Cre11_g467577_t1_1-Chlamydomonas_reinhardtii           9.39%    failed      0.03%
+ 783  CAPN-2040055-Equisetum_diffusum                                   2.21%    passed     27.65%
+ 784  WGTU-2010552-Leucostegia_immersa                                  3.87%    passed     98.66%
+ 785  Spipo_v2-Spipo0G0016500-Spirodella_polyrhiza                     14.36%    failed      0.00%
+ 786  ZZEI-2002270-Phylloglossum_drummondii                            16.02%    passed     99.87%
+ 787  VYLQ-2011352-Cassytha_filiformis                                  6.08%    passed     61.71%
+ 788  Orysa_v7_0-LOC_Os08g02070_1-Oryza_sativa                          2.21%    passed     15.41%
+ 789  Solly_iTAGv2_3-Solyc11g010570_1_1-Solanum_lycopersicum            0.00%    passed     82.39%
+ 790  UGNK-2004366-Marattia_attenuata                                   0.55%    passed     94.32%
+ 791  Arath_TAIR10-AT4G37940_1-Arabidopsis_thaliana                     1.66%    passed     83.50%
+ 792  WGTU-2071023-Leucostegia_immersa                                 12.15%    passed     84.32%
+ 793  GANB-2011934-Cyathea_spinulosa                                    9.94%    passed     46.06%
+ 794  Solly_iTAGv2_3-Solyc03g019710_2_1-Solanum_lycopersicum            6.08%    passed     91.90%
+ 795  Aquco_v1_1-Aquca_005_00633_1-Aquilegia_coerulea                   1.10%    passed     82.42%
+ 796  Solly_iTAGv2_3-Solyc10g080030_1_1-Solanum_lycopersicum            6.63%    passed     71.01%
+ 797  Pinta_v2_0-PITA_000023835_RA-Pinus_taeda                         58.56%    passed     81.83%
+ 798  UGNK-2002092-Marattia_attenuata                                  14.92%    passed     97.82%
+ 799  EEAQ-2012501-Sceptridium_dissectum                               14.92%    passed     32.35%
+ 800  Vitvi_Genoscope_12X-GSVIVT01019883001-Vitis_vinifera              6.08%    passed     63.99%
+ 801  NRWZ-2002384-Metzgeria_crassipilis                               12.71%    passed     83.58%
+ 802  Ambtr_v1_0_27-AmTr_v1_0_scaffold00001_461-Amborella_trichopoda    2.76%    passed     88.74%
+ 803  VYLQ-2001760-Cassytha_filiformis                                  0.55%    passed     67.88%
+ 804  Pinta_v2_0-PITA_000005950_RA-Pinus_taeda                         72.38%    passed     89.22%
+ 805  Pinta_v2_0-PITA_000049499_RA-Pinus_taeda                         20.99%    passed     19.52%
+ 806  WLIC-2017838-Dioon_edule                                          6.63%    passed     98.52%
+ 807  Spipo_v2-Spipo19G0001100-Spirodella_polyrhiza                    12.71%    passed     43.17%
+ 808  Pinta_v2_0-PITA_000086223_RA-Pinus_taeda                         55.25%    passed     12.52%
+ 809  Solly_iTAGv2_3-Solyc02g089210_2_1-Solanum_lycopersicum            0.00%    passed     91.53%
+ 810  BNCU-2085227-Radula_lindenbergia                                 23.20%    passed     94.88%
+ 811  VYLQ-2046403-Cassytha_filiformis                                  6.08%    passed     96.60%
+ 812  WBOD-2021940-Magnolia_grandiflora                                 4.97%    passed     93.46%
+ 813  Pinta_v2_0-PITA_000034331_RA-Pinus_taeda                         36.46%    passed     77.24%
+ 814  Spipo_v2-Spipo20G0021100-Spirodella_polyrhiza                    17.68%    passed     97.21%
+ 815  Orysa_v7_0-LOC_Os01g66030_1-Oryza_sativa                          6.08%    passed     49.96%
+ 816  CJNT-2007741-Polypodium_glycyrrhiza                              21.55%    passed     99.94%
+ 817  Pinta_v2_0-PITA_000059648_RA-Pinus_taeda                          1.66%    passed     80.69%
+ 818  Aquco_v1_1-Aquca_002_00916_1-Aquilegia_coerulea                   0.00%    passed     89.71%
+ 819  Pinta_v2_0-PITA_000058910_RA-Pinus_taeda                         40.33%    passed     23.22%
+ 820  Pinta_v2_0-PITA_000022046_RA-Pinus_taeda                         46.41%    passed     10.31%
+ 821  GANB-2006316-Cyathea_spinulosa                                    4.97%    passed     99.53%
+ 822  Vitvi_Genoscope_12X-GSVIVT01018446001-Vitis_vinifera              4.97%    passed     80.53%
+ 823  Vitvi_Genoscope_12X-GSVIVT01008139001-Vitis_vinifera              0.00%    passed     92.31%
+ 824  Solly_iTAGv2_3-Solyc03g033900_1_1-Solanum_lycopersicum           17.68%    passed     11.84%
+ 825  YEPO-2064880-cf._Physcomicromitrium_sp.                          49.17%    failed      4.40%
+ 826  BMJR-2007502-Adiantum_tenerum                                    14.92%    passed     58.59%
+ 827  PIVW-2004035-Ceratopteris_thalictroides                           5.52%    passed     63.15%
+ 828  Phypa_v3_0-Phpat_017G094300_1-Physcomitrella_patens              22.65%    failed      1.67%
+ 829  SGTW-2038474-Ginkgo_biloba                                        6.63%    passed     96.62%
+ 830  Solly_iTAGv2_3-Solyc01g105800_2_1-Solanum_lycopersicum            0.55%    passed     74.40%
+ 831  ZZEI-2025845-Phylloglossum_drummondii                             6.08%    passed     26.72%
+ 832  Pinta_v2_0-PITA_000006953_RA-Pinus_taeda                         48.62%    passed     32.25%
+ 833  YEPO-2004752-cf._Physcomicromitrium_sp.                           2.21%    passed     73.44%
+ 834  GANB-2017108-Cyathea_spinulosa                                   14.36%    passed     80.46%
+ 835  GANB-2006315-Cyathea_spinulosa                                    4.97%    passed     87.69%
+ 836  ZZEI-2008514-Phylloglossum_drummondii                             1.66%    passed     93.81%
+ 837  Arath_TAIR10-AT3G04100_1-Arabidopsis_thaliana                    16.02%    passed     37.33%
+ 838  Orysa_v7_0-LOC_Os02g01355_1-Oryza_sativa                          1.66%    passed     96.47%
+ 839  Arath_TAIR10-AT5G65060_1-Arabidopsis_thaliana                     4.42%    passed     72.40%
+ 840  GANB-2001915-Cyathea_spinulosa                                   22.10%    passed     93.95%
+ 841  UOMY-2077375-Osmunda_sp.-gametophyte                             13.26%    passed     70.49%
+ 842  BAKF-2006321-Cryptomonas_curvata                                 62.43%    passed     45.60%
+ 843  Orysa_v7_0-LOC_Os06g30830_1-Oryza_sativa                         13.26%    failed      4.48%
+ 844  Solly_iTAGv2_3-Solyc10g050940_1_1-Solanum_lycopersicum           22.10%    passed     13.68%
+ 845  Phypa_v3_0-Phpat_003G124300_1-Physcomitrella_patens               1.66%    passed     50.97%
+ 846  Orysa_v7_0-LOC_Os02g45770_1-Oryza_sativa                          1.10%    passed     92.42%
+ 847  ZZEI-2002271-Phylloglossum_drummondii                             5.52%    passed     97.02%
+ 848  Arath_TAIR10-AT1G17310_1-Arabidopsis_thaliana                    27.07%    passed     85.28%
+ 849  Pinta_v2_0-PITA_000064627_RA-Pinus_taeda                         47.51%    passed     64.25%
+ 850  Orysa_v7_0-LOC_Os08g38590_1-Oryza_sativa                          5.52%    passed     83.01%
+ 851  Orysa_v7_0-LOC_Os04g52410_2-Oryza_sativa                          3.31%    passed     28.26%
+ 852  CJNT-2076748-Polypodium_glycyrrhiza                               6.63%    passed     97.00%
+ 853  VYLQ-2003627-Cassytha_filiformis                                  0.55%    passed     92.41%
+ 854  WBOD-2009701-Magnolia_grandiflora                                 0.00%    passed     99.29%
+ 855  YEPO-2016594-cf._Physcomicromitrium_sp.                          24.31%    passed     86.81%
+ 856  QVMR-2002158-Psilotum_nudum                                       8.84%    passed     96.25%
+ 857  WZFE-2191912-Ascarina_rubricaulis                                12.15%    failed      2.46%
+ 858  PIVW-2003993-Ceratopteris_thalictroides                           5.52%    passed     81.28%
+ 859  UGNK-2010089-Marattia_attenuata                                   0.55%    passed     90.13%
+ 860  GANB-2018607-Cyathea_spinulosa                                   17.13%    passed     55.90%
+ 861  YEPO-2004753-cf._Physcomicromitrium_sp.                           2.21%    passed     73.44%
+ 862  MUNP-2004874-Piper_auritum                                        0.55%    passed     91.81%
+ 863  Spipo_v2-Spipo2G0082200-Spirodella_polyrhiza                      0.00%    passed     93.29%
+ 864  Pinta_v2_0-PITA_000024767_RA-Pinus_taeda                         49.17%    passed     36.95%
+ 865  Aquco_v1_1-Aquca_015_00242_1-Aquilegia_coerulea                   9.39%    passed     12.41%
+ 866  WGTU-2005196-Leucostegia_immersa                                  7.73%    passed     28.85%
+ 867  Solly_iTAGv2_3-Solyc06g059970_2_1-Solanum_lycopersicum            6.08%    passed     58.77%
+ 868  Vitvi_Genoscope_12X-GSVIVT01037024001-Vitis_vinifera             14.92%    passed     55.80%
+ 869  JKHA-2005703-Cyanoptyche_gloeocystis                             53.04%    passed     16.01%
+ 870  Orysa_v7_0-LOC_Os09g32948_1-Oryza_sativa                          0.00%    passed     85.36%
+ 871  Orysa_v7_0-LOC_Os04g31804_1-Oryza_sativa                          8.29%    passed     21.26%
+ 872  PIVW-2003992-Ceratopteris_thalictroides                           5.52%    passed     81.28%
+ 873  Solly_iTAGv2_3-Solyc06g064840_2_1-Solanum_lycopersicum           19.34%    passed     59.84%
+ 874  Spipo_v2-Spipo20G0021000-Spirodella_polyrhiza                     3.87%    passed     96.10%
+ 875  Solly_iTAGv2_3-Solyc01g106700_2_1-Solanum_lycopersicum            8.29%    passed     70.83%
+ 876  PIVW-2009413-Ceratopteris_thalictroides                          16.57%    passed     83.42%
+ 877  Pinta_v2_0-PITA_000007898_RA-Pinus_taeda                         61.33%    passed     96.87%
+ 878  Pinta_v2_0-PITA_000008769_RA-Pinus_taeda                         16.02%    passed     96.45%
+ 879  Vitvi_Genoscope_12X-GSVIVT01036549001-Vitis_vinifera              0.00%    passed     98.63%
+ 880  GTHK-2005405-Gnetum_montanum                                      2.21%    passed     84.99%
+ 881  EWXK-2001251-Thyrsopteris_elegans                                 7.73%    passed     94.78%
+ 882  Arath_TAIR10-AT1G71692_1-Arabidopsis_thaliana                     1.66%    passed     69.81%
+ 883  Aquco_v1_1-Aquca_011_00121_1-Aquilegia_coerulea                   0.00%    passed     48.26%
+ 884  CJNT-2000251-Polypodium_glycyrrhiza                               7.73%    passed     51.84%
+ 885  UOMY-2013288-Osmunda_sp.-gametophyte                             17.68%    passed     97.51%
+ 886  ZFRE-2001131-Phaeoceros_carolinianus-sporophyte_1575              3.31%    passed     75.50%
+ 887  Vitvi_Genoscope_12X-GSVIVT01001701001-Vitis_vinifera              0.00%    passed     45.94%
+ 888  VYLQ-2004978-Cassytha_filiformis                                  0.00%    passed     96.23%
+ 889  XZUY-2048998-Cycas_micholitzii                                    1.66%    passed     47.92%
+ 890  GTHK-2012381-Gnetum_montanum                                      7.73%    passed     85.25%
+ 891  NHCM-2003004-Angiopteris_evecta                                  24.31%    passed     83.14%
+ 892  WZFE-2191766-Ascarina_rubricaulis                                 1.10%    passed     99.60%
+ 893  Aquco_v1_1-Aquca_096_00047_1-Aquilegia_coerulea                  22.10%    passed     38.78%
+ 894  Orysa_v7_0-LOC_Os06g23980_1-Oryza_sativa                         23.20%    passed     15.85%
+ 895  PIVW-2000173-Ceratopteris_thalictroides                          19.34%    passed     86.06%
+ 896  Spipo_v2-Spipo1G0108400-Spirodella_polyrhiza                      7.73%    failed      0.01%
+ 897  WBOD-2001561-Magnolia_grandiflora                                 0.55%    passed     76.00%
+ 898  GTHK-2009352-Gnetum_montanum                                     61.33%    passed     99.56%
+ 899  Vitvi_Genoscope_12X-GSVIVT01000175001-Vitis_vinifera             66.30%    passed     86.56%
+ 900  Solly_iTAGv2_3-Solyc11g020620_1_1-Solanum_lycopersicum           16.02%    passed     43.64%
+ 901  Aquco_v1_1-Aquca_005_00477_1-Aquilegia_coerulea                  16.02%    passed     92.52%
+ 902  Solly_iTAGv2_3-Solyc01g087990_2_1-Solanum_lycopersicum            0.55%    passed     72.33%
+ 903  JVSZ-2014659-Equisetum_hymale                                     2.21%    passed     36.57%
+ 904  Pinta_v2_0-PITA_000015251_RA-Pinus_taeda                         65.75%    passed     92.95%
+ 905  Arath_TAIR10-AT5G13790_1-Arabidopsis_thaliana                     3.87%    passed     89.67%
+ 906  UDHA-2002673-Ceratocapnos_vesicaria                               1.10%    passed     89.07%
+ 907  DFHO-2052970-Danaea_nodosa                                       18.23%    passed     82.67%
+ 908  NHCM-2065303-Angiopteris_evecta                                   0.55%    passed     90.13%
+ 909  Vitvi_Genoscope_12X-GSVIVT01027577001-Vitis_vinifera              1.10%    passed     80.42%
+ 910  Pinta_v2_0-PITA_000054661_RA-Pinus_taeda                          3.87%    passed     89.43%
+ 911  DFHO-2000693-Danaea_nodosa                                       19.89%    passed     46.65%
+ 912  GANB-2006289-Cyathea_spinulosa                                   17.13%    passed     84.11%
+ 913  Orysa_v7_0-LOC_Os01g74440_1-Oryza_sativa                         18.78%    failed      0.00%
+ 914  VYLQ-2001762-Cassytha_filiformis                                  0.55%    passed     67.88%
+ 915  PVGP-2004381-Porphyridium_purpureum                              54.14%    passed     79.33%
+ 916  Pinta_v2_0-PITA_000037881_RA-Pinus_taeda                         66.85%    passed     93.28%
+ 917  Phypa_v3_0-Phpat_017G043700_1-Physcomitrella_patens               0.00%    passed     46.23%
+ 918  UGNK-2110307-Marattia_attenuata                                  14.36%    passed     95.82%
+ 919  UDHA-2027442-Ceratocapnos_vesicaria                               0.00%    passed     97.97%
+ 920  VYLQ-2048060-Cassytha_filiformis                                  4.42%    passed     92.86%
+ 921  UOMY-2005779-Osmunda_sp.-gametophyte                             12.71%    passed     76.56%
+ 922  Solly_iTAGv2_3-Solyc03g033880_1_1-Solanum_lycopersicum           17.68%    passed     59.47%
+ 923  Vitvi_Genoscope_12X-GSVIVT01037022001-Vitis_vinifera             12.15%    passed     14.22%
+ 924  Spipo_v2-Spipo4G0054800-Spirodella_polyrhiza                     29.28%    passed     16.48%
+ 925  Vitvi_Genoscope_12X-GSVIVT01035477001-Vitis_vinifera             18.23%    passed     28.24%
+ 926  WZFE-2193427-Ascarina_rubricaulis                                 3.31%    passed     90.04%
+ 927  Ambtr_v1_0_27-AmTr_v1_0_scaffold00140_17-Amborella_trichopoda     3.87%    passed     29.27%
+ 928  Aquco_v1_1-Aquca_032_00047_1-Aquilegia_coerulea                  64.09%    passed     53.52%
+ 929  Pinta_v2_0-PITA_000024063_RA-Pinus_taeda                         53.04%    passed     56.54%
+ 930  PIVW-2004302-Ceratopteris_thalictroides                          25.41%    passed     93.98%
+ 931  Spipo_v2-Spipo20G0020600-Spirodella_polyrhiza                    12.71%    passed     97.83%
+ 932  Arath_TAIR10-AT1G65360_1-Arabidopsis_thaliana                    11.60%    passed     18.04%
+ 933  CJNT-2013528-Polypodium_glycyrrhiza                              11.60%    passed     66.49%
+ 934  Orysa_v7_0-LOC_Os06g45650_1-Oryza_sativa                          2.76%    passed     47.58%
+ 935  Pinta_v2_0-PITA_000049772_RA-Pinus_taeda                         69.61%    passed     99.87%
+ 936  Orysa_v7_0-LOC_Os05g11380_1-Oryza_sativa                         32.60%    passed      9.57%
+ 937  BMJR-2004060-Adiantum_tenerum                                    40.88%    passed     89.62%
+ 938  PIVW-2009414-Ceratopteris_thalictroides                          16.57%    passed     83.42%
+ 939  Vitvi_Genoscope_12X-GSVIVT01008560001-Vitis_vinifera              0.00%    passed     99.08%
+ 940  Aquco_v1_1-Aquca_069_00018_1-Aquilegia_coerulea                  45.30%    failed      0.78%
+ 941  Solly_iTAGv2_3-Solyc11g032100_1_1-Solanum_lycopersicum            1.66%    passed     27.73%
+ 942  Pinta_v2_0-PITA_000015873_RA-Pinus_taeda                         39.23%    passed     53.79%
+ 943  UDHA-2002674-Ceratocapnos_vesicaria                               1.10%    passed     89.07%
+ 944  Ambtr_v1_0_27-AmTr_v1_0_scaffold00053_185-Amborella_trichopoda    3.87%    passed     85.73%
+ 945  Selmo_v1_0-101522-Selaginella_moellendorffii                     68.51%    passed     13.41%
+ 946  Pinta_v2_0-PITA_000073742_RA-Pinus_taeda                         49.17%    passed     56.72%
+ 947  Spipo_v2-Spipo1G0109400-Spirodella_polyrhiza                      5.52%    failed      0.00%
+ 948  Vitvi_Genoscope_12X-GSVIVT01027579001-Vitis_vinifera              0.55%    passed     94.87%
+ 949  Vitvi_Genoscope_12X-GSVIVT01038474001-Vitis_vinifera              0.55%    passed     91.02%
+ 950  Solly_iTAGv2_3-Solyc04g056740_1_1-Solanum_lycopersicum           18.23%    passed     61.14%
+ 951  Orysa_v7_0-LOC_Os01g52680_1-Oryza_sativa                          4.97%    passed     58.15%
+ 952  Solly_iTAGv2_3-Solyc04g076280_2_1-Solanum_lycopersicum           23.76%    passed     12.66%
+ 953  Ostlu_v2_0-29140-Ostreococcus_lucimarinus                        38.12%    passed     93.51%
+ 954  Aquco_v1_1-Aquca_002_00911_1-Aquilegia_coerulea                   0.00%    passed     84.42%
+ 955  Ambtr_v1_0_27-AmTr_v1_0_scaffold00022_374-Amborella_trichopoda    6.63%    failed      0.02%
+ 956  PIVW-2007999-Ceratopteris_thalictroides                           6.63%    passed      9.52%
+ 957  NRWZ-2014421-Metzgeria_crassipilis                                0.55%    passed     73.75%
+ 958  Phypa_v3_0-Phpat_001G158400_1-Physcomitrella_patens               6.08%    passed     36.89%
+ 959  Phypa_v3_0-Phpat_008G025900_1-Physcomitrella_patens               0.55%    passed     52.86%
+ 960  Pinta_v2_0-PITA_000035874_RA-Pinus_taeda                         69.61%    passed     98.74%
+ 961  Arath_TAIR10-AT4G09960_3-Arabidopsis_thaliana                     0.00%    passed     18.03%
+ 962  Phypa_v3_0-Phpat_008G025800_1-Physcomitrella_patens               0.55%    passed     64.74%
+ 963  GANB-2011935-Cyathea_spinulosa                                   18.23%    passed     91.37%
+ 964  BMJR-2059118-Adiantum_tenerum                                     7.73%    passed     48.49%
+ 965  Vitvi_Genoscope_12X-GSVIVT01022182001-Vitis_vinifera              8.84%    passed     87.50%
+ 966  Arath_TAIR10-AT2G24840_1-Arabidopsis_thaliana                    13.81%    failed      2.93%
+ 967  Solly_iTAGv2_3-Solyc06g033830_1_1-Solanum_lycopersicum           45.86%    passed     55.35%
+ 968  SGTW-2004707-Ginkgo_biloba                                        2.76%    passed     89.52%
+ 969  Phypa_v3_0-Phpat_003G124400_1-Physcomitrella_patens               0.00%    passed     53.74%
+ 970  Pinta_v2_0-PITA_000059433_RA-Pinus_taeda                         56.35%    failed      0.54%
+ 971  Solly_iTAGv2_3-Solyc03g114830_2_1-Solanum_lycopersicum            0.00%    passed     97.98%
+ 972  Pinta_v2_0-PITA_000056986_RA-Pinus_taeda                         53.04%    passed     18.63%
+ 973  Spipo_v2-Spipo20G0020900-Spirodella_polyrhiza                    29.28%    passed     61.04%
+ 974  Solly_iTAGv2_3-Solyc10g018110_1_1-Solanum_lycopersicum           17.68%    passed     27.70%
+ 975  PIVW-2001493-Ceratopteris_thalictroides                          13.26%    passed     36.07%
+ 976  Pinta_v2_0-PITA_000075919_RA-Pinus_taeda                         62.98%    passed     87.77%
+ 977  UDHA-2093761-Ceratocapnos_vesicaria                              19.34%    passed     64.97%
+ 978  BMJR-2003980-Adiantum_tenerum                                     7.73%    passed     41.35%
+ 979  Solly_iTAGv2_3-Solyc01g066500_1_1-Solanum_lycopersicum           12.15%    passed      8.88%
+ 980  Pinta_v2_0-PITA_000094403_RA-Pinus_taeda                         66.30%    passed     90.90%
+ 981  Arath_TAIR10-AT1G31140_2-Arabidopsis_thaliana                     2.76%    passed     27.76%
+ 982  Arath_TAIR10-AT2G03710_1-Arabidopsis_thaliana                     0.00%    passed     73.87%
+ 983  UDHA-2013442-Ceratocapnos_vesicaria                              19.89%    passed     61.93%
+ 984  BMJR-2007501-Adiantum_tenerum                                     8.29%    passed     87.27%
+ 985  NHCM-2063818-Angiopteris_evecta                                   1.10%    passed     48.83%
+ 986  Arath_TAIR10-AT4G36590_1-Arabidopsis_thaliana                     8.84%    passed     10.55%
+ 987  Orysa_v7_0-LOC_Os06g11330_1-Oryza_sativa                         12.71%    passed     96.30%
+ 988  ZZEI-2124110-Phylloglossum_drummondii                             8.29%    passed     43.33%
+ 989  CJNT-2008853-Polypodium_glycyrrhiza                              10.50%    passed     11.49%
+ 990  WLIC-2120278-Dioon_edule                                          4.97%    passed     80.00%
+ 991  Pinta_v2_0-PITA_000012777_RA-Pinus_taeda                         54.70%    passed     49.74%
+ 992  Pinta_v2_0-PITA_000022359_RA-Pinus_taeda                          3.87%    passed     21.40%
+ 993  WBOD-2012661-Magnolia_grandiflora                                 0.00%    passed     70.24%
+ 994  YEPO-2016595-cf._Physcomicromitrium_sp.                           2.21%    passed     94.62%
+ 995  Aquco_v1_1-Aquca_014_00554_1-Aquilegia_coerulea                   9.94%    passed     53.42%
+ 996  Solly_iTAGv2_3-Solyc01g010300_1_1-Solanum_lycopersicum           54.70%    passed     24.73%
+ 997  ALVQ-2003290-Tmesipteris_parva                                   16.57%    passed     80.83%
+ 998  Vitvi_Genoscope_12X-GSVIVT01026207001-Vitis_vinifera              4.97%    passed     59.03%
+ 999  WZFE-2192968-Ascarina_rubricaulis                                 0.55%    passed     85.47%
+1000  BMJR-2061980-Adiantum_tenerum                                     7.18%    passed     86.71%
+1001  RDOO-2015055-Racomitrium_varium                                   9.39%    passed     80.45%
+1002  Pinta_v2_0-PITA_000004764_RA-Pinus_taeda                         62.98%    passed     80.81%
+1003  BMJR-2061035-Adiantum_tenerum                                     3.31%    passed     89.63%
+1004  Aquco_v1_1-Aquca_002_00915_1-Aquilegia_coerulea                   0.00%    passed     84.42%
+1005  BNCU-2082902-Radula_lindenbergia                                 53.04%    passed     81.17%
+1006  Solly_iTAGv2_3-Solyc08g067230_2_1-Solanum_lycopersicum            6.08%    passed     76.87%
+1007  Spipo_v2-Spipo8G0020500-Spirodella_polyrhiza                     55.25%    failed      0.00%
+1008  EWXK-2116560-Thyrsopteris_elegans                                23.76%    passed     99.83%
+1009  WZFE-2005264-Ascarina_rubricaulis                                 0.00%    passed     83.90%
+1010  Ambtr_v1_0_27-AmTr_v1_0_scaffold00047_105-Amborella_trichopoda    0.00%    passed     74.08%
+1011  Arath_TAIR10-AT5G60910_1-Arabidopsis_thaliana                     0.00%    passed     77.55%
+1012  YEPO-2078743-cf._Physcomicromitrium_sp.                           6.63%    failed      3.48%
+1013  NHCM-2009884-Angiopteris_evecta                                  31.49%    passed     94.99%
+1014  EWXK-2007540-Thyrsopteris_elegans                                 5.52%    passed     96.21%
+1015  Aquco_v1_1-Aquca_006_00072_1-Aquilegia_coerulea                   4.42%    passed     85.22%
+1016  PVGP-2020165-Porphyridium_purpureum                              61.88%    passed     92.81%
+1017  UDHA-2027222-Ceratocapnos_vesicaria                               0.00%    passed     93.75%
+1018  Solly_iTAGv2_3-Solyc12g088080_1_1-Solanum_lycopersicum           50.83%    passed     29.57%
+1019  BMJR-2054853-Adiantum_tenerum                                     6.63%    passed     71.64%
+1020  BMJR-2007744-Adiantum_tenerum                                     7.73%    passed     71.48%
+1021  UGNK-2108375-Marattia_attenuata                                  14.36%    passed     29.45%
+1022  Orysa_v7_0-LOC_Os02g36924_1-Oryza_sativa                          1.10%    passed     99.31%
+1023  Vitvi_Genoscope_12X-GSVIVT01002442001-Vitis_vinifera             54.14%    passed     37.43%
+1024  UDHA-2016815-Ceratocapnos_vesicaria                              37.02%    passed     88.56%
+1025  BMJR-2014306-Adiantum_tenerum                                    17.13%    passed     95.01%
+1026  DFHO-2009595-Danaea_nodosa                                        0.55%    passed     87.80%
+1027  Vitvi_Genoscope_12X-GSVIVT01009393001-Vitis_vinifera              7.18%    passed     26.05%
+1028  WGTU-2007884-Leucostegia_immersa                                 17.68%    passed     50.15%
+1029  Solly_iTAGv2_3-Solyc01g060310_1_1-Solanum_lycopersicum           36.46%    passed      8.78%
+1030  KAWQ-2055380-Stangeria_eriopus                                    1.10%    passed     92.53%
+1031  Arath_TAIR10-AT1G69120_1-Arabidopsis_thaliana                     0.00%    passed     89.35%
+1032  Pinta_v2_0-PITA_000015182_RA-Pinus_taeda                          3.31%    passed     90.70%
+1033  Orysa_v7_0-LOC_Os02g06860_1-Oryza_sativa                          9.39%    failed      0.00%
+1034  Ambtr_v1_0_27-AmTr_v1_0_scaffold00047_121-Amborella_trichopoda    0.00%    passed     82.99%
+1035  Orysa_v7_0-LOC_Os01g10504_1-Oryza_sativa                          0.00%    passed     33.39%
+1036  ALVQ-2024654-Tmesipteris_parva                                    2.76%    passed     99.62%
+1037  Solly_iTAGv2_3-Solyc04g056550_1_1-Solanum_lycopersicum           17.68%    passed     50.07%
+WARNING: 130 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                            17.77%  77 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: CMADS3_AAC24319 is identical to MCM2_YBL023C_SGDID but kept for subsequent analysis
+NOTE: c17498_g1_i3 is identical to c17498_g1_i1 but kept for subsequent analysis
+NOTE: Phypa_v3_0-Phpat_012G078200_1-Physcomitrella_patens is identical to PPM1_Pp012G078200 but kept for subsequent analysis
+NOTE: Phypa_v3_0-Phpat_003G125000_1-Physcomitrella_patens is identical to PPM2_Pp003G125000 but kept for subsequent analysis
+NOTE: Phypa_v3_0-Phpat_004G002000_1-Physcomitrella_patens is identical to PpMADS1_Pp004G002000 but kept for subsequent analysis
+NOTE: Phypa_v3_0-Phpat_017G019900_1-Physcomitrella_patens is identical to PPMC5_Pp017G019900 but kept for subsequent analysis
+NOTE: Phypa_v3_0-Phpat_014G056100_1-Physcomitrella_patens is identical to PPMC6_Pp014G056100 but kept for subsequent analysis
+NOTE: Phypa_v3_0-Phpat_012G080000_1-Physcomitrella_patens is identical to PpMADS2_Pp012G080000 but kept for subsequent analysis
+NOTE: Phypa_v3_0-Phpat_003G124300_1-Physcomitrella_patens is identical to PpMADS3_Pp003G124300 but kept for subsequent analysis
+NOTE: Phypa_v3_0-Phpat_014G086000_1-Physcomitrella_patens is identical to PPM3_Pp014G086000 but kept for subsequent analysis
+NOTE: Phypa_v3_0-Phpat_001G158500_1-Physcomitrella_patens is identical to PPM4_Pp001G158500 but kept for subsequent analysis
+NOTE: Phypa_v3_0-Phpat_008G025800_1-Physcomitrella_patens is identical to PPM6_Pp008G025800 but kept for subsequent analysis
+NOTE: Phypa_v3_0-Phpat_017G043700_1-Physcomitrella_patens is identical to PPM7_Pp017G043700 but kept for subsequent analysis
+NOTE: Phypa_v3_0-Phpat_008G025900_1-Physcomitrella_patens is identical to PPMA8_Pp008G025900 but kept for subsequent analysis
+NOTE: Phypa_v3_0-Phpat_003G124400_1-Physcomitrella_patens is identical to PPMA9_Pp003G124400 but kept for subsequent analysis
+NOTE: Phypa_v3_0-Phpat_001G158400_1-Physcomitrella_patens is identical to PPMA11_Pp001G158400 but kept for subsequent analysis
+NOTE: Phypa_v3_0-Phpat_004G013900_1-Physcomitrella_patens is identical to PPMA12_Pp004G013900 but kept for subsequent analysis
+NOTE: Phypa_v3_0-Phpat_014G086100_1-Physcomitrella_patens is identical to Pp014G086100 but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT5G20240_1-Arabidopsis_thaliana is identical to PI but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT3G54340_1-Arabidopsis_thaliana is identical to AP3 but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT5G15800_2-Arabidopsis_thaliana is identical to AGL2_SEP1 but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT2G45650_1-Arabidopsis_thaliana is identical to AGL6 but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT5G60910_1-Arabidopsis_thaliana is identical to AGL8_FUL but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT5G10140_1-Arabidopsis_thaliana is identical to AGL25_FLC but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT4G18960_1-Arabidopsis_thaliana is identical to AG but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT1G71692_1-Arabidopsis_thaliana is identical to AGL12 but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT5G13790_1-Arabidopsis_thaliana is identical to AGL15 but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT2G22630_1-Arabidopsis_thaliana is identical to AGL17 but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT2G45660_1-Arabidopsis_thaliana is identical to AGL20_SOC1 but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT2G22540_1-Arabidopsis_thaliana is identical to AGL22_SVP but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT5G23260_2-Arabidopsis_thaliana is identical to AGL32_ABS but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT1G22130_1-Arabidopsis_thaliana is identical to AGL104 but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT1G77950_1-Arabidopsis_thaliana is identical to AGL67 but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT1G77980_1-Arabidopsis_thaliana is identical to AGL66 but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT2G26320_1-Arabidopsis_thaliana is identical to AGL33 but kept for subsequent analysis
+NOTE: Orysa_v7_0-LOC_Os01g66030_1-Oryza_sativa is identical to OsMADS2 but kept for subsequent analysis
+NOTE: Orysa_v7_0-LOC_Os06g49840_1-Oryza_sativa is identical to OsMADS16 but kept for subsequent analysis
+NOTE: Orysa_v7_0-LOC_Os06g11330_1-Oryza_sativa is identical to OsMADS55 but kept for subsequent analysis
+NOTE: Orysa_v7_0-LOC_Os06g45650_1-Oryza_sativa is identical to OsMADS30 but kept for subsequent analysis
+NOTE: Orysa_v7_0-LOC_Os02g45770_1-Oryza_sativa is identical to OsMADS6 but kept for subsequent analysis
+NOTE: Orysa_v7_0-LOC_Os09g32948_1-Oryza_sativa is identical to OsMADS8 but kept for subsequent analysis
+NOTE: Orysa_v7_0-LOC_Os07g01820_1-Oryza_sativa is identical to OsMADS15 but kept for subsequent analysis
+NOTE: Orysa_v7_0-LOC_Os08g33488_1-Oryza_sativa is identical to OsMADS23 but kept for subsequent analysis
+NOTE: Orysa_v7_0-LOC_Os08g02070_1-Oryza_sativa is identical to OsMADS26 but kept for subsequent analysis
+NOTE: Orysa_v7_0-LOC_Os01g10504_1-Oryza_sativa is identical to OsMADS3 but kept for subsequent analysis
+NOTE: Orysa_v7_0-LOC_Os03g03100_1-Oryza_sativa is identical to OsMADS50 but kept for subsequent analysis
+NOTE: Orysa_v7_0-LOC_Os08g38590_1-Oryza_sativa is identical to OsMADS62 but kept for subsequent analysis
+NOTE: Orysa_v7_0-LOC_Os06g11970_1-Oryza_sativa is identical to OsMADS63 but kept for subsequent analysis
+NOTE: afiSOC1 is identical to Azfis6g005_SOC1 but kept for subsequent analysis
+NOTE: afi26 is identical to Azfis26g003 but kept for subsequent analysis
+NOTE: afi70 is identical to Azfis70g000030 but kept for subsequent analysis
+NOTE: afi132 is identical to Azfi132g000050 but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT4G09960_3-Arabidopsis_thaliana is identical to AtSTK_Homeotic_D but kept for subsequent analysis
+NOTE: Arath_TAIR10-AT1G69120_1-Arabidopsis_thaliana is identical to AtAP1_Homeotic_A but kept for subsequent analysis
+NOTE: Orysa_v7_0-LOC_Os03g54160_1-Oryza_sativa is identical to OsMADS14_Homeotic_A but kept for subsequent analysis
+NOTE: PIVW-2001493-Ceratopteris_thalictroides is identical to PIVW-2001489-Ceratopteris_thalictroides but kept for subsequent analysis
+NOTE: ALVQ-2003398-Tmesipteris_parva is identical to ALVQ-2003396-Tmesipteris_parva but kept for subsequent analysis
+NOTE: YEPO-2004752-cf._Physcomicromitrium_sp. is identical to YEPO-2004754-cf._Physcomicromitrium_sp. but kept for subsequent analysis
+NOTE: CJNT-2001581-Polypodium_glycyrrhiza is identical to CJNT-2001577-Polypodium_glycyrrhiza but kept for subsequent analysis
+NOTE: EWXK-2001249-Thyrsopteris_elegans is identical to EWXK-2001247-Thyrsopteris_elegans but kept for subsequent analysis
+NOTE: IHJY-2008923-Kappaphycus_alvarezii is identical to IHJY-2008922-Kappaphycus_alvarezii but kept for subsequent analysis
+NOTE: YTYU-2001928-Cyanophora_paradoxa-CCAC_0091 is identical to QFND-2006855-Cyanophora_paradoxa-CCAC_0074 but kept for subsequent analysis
+NOTE: UDHA-2023596-Ceratocapnos_vesicaria is identical to UDHA-2023597-Ceratocapnos_vesicaria but kept for subsequent analysis
+NOTE: Pinta_v2_0-PITA_000005950_RA-Pinus_taeda is identical to Pinta_v2_0-PITA_000070228_RA-Pinus_taeda but kept for subsequent analysis
+NOTE: ALVQ-2003288-Tmesipteris_parva is identical to ALVQ-2003291-Tmesipteris_parva but kept for subsequent analysis
+NOTE: ZFRE-2001131-Phaeoceros_carolinianus-sporophyte_1575 is identical to ZFRE-2001130-Phaeoceros_carolinianus-sporophyte_1575 but kept for subsequent analysis
+NOTE: RDOO-2005175-Racomitrium_varium is identical to RDOO-2005177-Racomitrium_varium but kept for subsequent analysis
+NOTE: Selmo_v1_0-9597-Selaginella_moellendorffii is identical to Selmo_v1_0-9596-Selaginella_moellendorffii but kept for subsequent analysis
+NOTE: EEAQ-2008812-Sceptridium_dissectum is identical to EEAQ-2008813-Sceptridium_dissectum but kept for subsequent analysis
+NOTE: RDOO-2000122-Racomitrium_varium is identical to RDOO-2000123-Racomitrium_varium but kept for subsequent analysis
+NOTE: RDOO-2000811-Racomitrium_varium is identical to RDOO-2000812-Racomitrium_varium but kept for subsequent analysis
+NOTE: JKHA-2005703-Cyanoptyche_gloeocystis is identical to JKHA-2005702-Cyanoptyche_gloeocystis but kept for subsequent analysis
+NOTE: VYLQ-2001763-Cassytha_filiformis is identical to VYLQ-2001761-Cassytha_filiformis but kept for subsequent analysis
+NOTE: PIVW-2004035-Ceratopteris_thalictroides is identical to PIVW-2004036-Ceratopteris_thalictroides but kept for subsequent analysis
+NOTE: VYLQ-2004978-Cassytha_filiformis is identical to VYLQ-2004977-Cassytha_filiformis but kept for subsequent analysis
+NOTE: UYFR-2005122-Symphyocladia_latiuscula is identical to UYFR-2005123-Symphyocladia_latiuscula but kept for subsequent analysis
+NOTE: CJNT-2000175-Polypodium_glycyrrhiza is identical to CJNT-2000178-Polypodium_glycyrrhiza but kept for subsequent analysis
+NOTE: PIVW-2007999-Ceratopteris_thalictroides is identical to PIVW-2008000-Ceratopteris_thalictroides but kept for subsequent analysis
+NOTE: NHCM-2003004-Angiopteris_evecta is identical to NHCM-2003005-Angiopteris_evecta but kept for subsequent analysis
+NOTE: UOMY-2005779-Osmunda_sp.-gametophyte is identical to UOMY-2005778-Osmunda_sp.-gametophyte but kept for subsequent analysis
+NOTE: BEGM-2005792-Botrypus_virginianus is identical to BEGM-2005793-Botrypus_virginianus but kept for subsequent analysis
+NOTE: VYLQ-2003627-Cassytha_filiformis is identical to VYLQ-2003626-Cassytha_filiformis but kept for subsequent analysis
+NOTE: MUNP-2004874-Piper_auritum is identical to MUNP-2004875-Piper_auritum but kept for subsequent analysis
+NOTE: GTHK-2005405-Gnetum_montanum is identical to GTHK-2005406-Gnetum_montanum but kept for subsequent analysis
+NOTE: UDHA-2016815-Ceratocapnos_vesicaria is identical to UDHA-2016816-Ceratocapnos_vesicaria but kept for subsequent analysis
+NOTE: PIVW-2003992-Ceratopteris_thalictroides is identical to PIVW-2003993-Ceratopteris_thalictroides but kept for subsequent analysis
+NOTE: NHCM-2065303-Angiopteris_evecta is identical to UGNK-2010089-Marattia_attenuata but kept for subsequent analysis
+NOTE: PIVW-2009414-Ceratopteris_thalictroides is identical to PIVW-2009413-Ceratopteris_thalictroides but kept for subsequent analysis
+NOTE: UDHA-2002674-Ceratocapnos_vesicaria is identical to UDHA-2002673-Ceratocapnos_vesicaria but kept for subsequent analysis
+NOTE: 8 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: YEPO-2004753-cf._Physcomicromitrium_sp. (identical to YEPO-2004754-cf._Physcomicromitrium_sp.) is ignored but added at the end
+NOTE: CJNT-2001580-Polypodium_glycyrrhiza (identical to CJNT-2001577-Polypodium_glycyrrhiza) is ignored but added at the end
+NOTE: EWXK-2001251-Thyrsopteris_elegans (identical to EWXK-2001247-Thyrsopteris_elegans) is ignored but added at the end
+NOTE: ALVQ-2003290-Tmesipteris_parva (identical to ALVQ-2003291-Tmesipteris_parva) is ignored but added at the end
+NOTE: Selmo_v1_0-9595-Selaginella_moellendorffii (identical to Selmo_v1_0-9596-Selaginella_moellendorffii) is ignored but added at the end
+NOTE: Selmo_v1_0-101522-Selaginella_moellendorffii (identical to Selmo_v1_0-9596-Selaginella_moellendorffii) is ignored but added at the end
+NOTE: VYLQ-2001760-Cassytha_filiformis (identical to VYLQ-2001761-Cassytha_filiformis) is ignored but added at the end
+NOTE: VYLQ-2001762-Cassytha_filiformis (identical to VYLQ-2001761-Cassytha_filiformis) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to analyses/MIKC_orthogroup_selection-v1_guide-v1_trees/aligned-mafft-linsi_trim-gt4-seq-manual/MIKC_orthogroup_selection-v1_guide-v1_aligned-mafft-linsi_trim-gt4-seq-manual_iqtree-bb2000-alrt2000.uniqueseq.phy
+
+NOTE: Restoring information from model checkpoint file analyses/MIKC_orthogroup_selection-v1_guide-v1_trees/aligned-mafft-linsi_trim-gt4-seq-manual/MIKC_orthogroup_selection-v1_guide-v1_aligned-mafft-linsi_trim-gt4-seq-manual_iqtree-bb2000-alrt2000.model.gz
+
+CHECKPOINT: Initial tree restored
+NOTE: ModelFinder requires 325 MB RAM!
+ModelFinder will test 462 protein models (sample size: 181) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Measuring multi-threading efficiency up to 12 CPU cores
+Increase to 10 rounds for branch lengths
+4 trees examined
+Threads: 1 / Time: 12.201 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -293877
+Threads: 2 / Time: 8.845 sec / Speedup: 1.379 / Efficiency: 69% / LogL: -293877
+Threads: 3 / Time: 7.449 sec / Speedup: 1.638 / Efficiency: 55% / LogL: -293877
+Threads: 4 / Time: 6.966 sec / Speedup: 1.752 / Efficiency: 44% / LogL: -293877
+BEST NUMBER OF THREADS: 3
+
+  1  Dayhoff       156498.055   2055 317106.111   8767266.111  323679.022
+  2  Dayhoff+G4    150784.026   2056 305680.053   8764064.053  312256.163
+  3  Dayhoff+R2    152186.264   2057 308486.527   8775098.527  315065.836
+  4  Dayhoff+R3    151097.343   2059 306312.685   8789392.685  312898.391
+  5  Dayhoff+R4    150727.736   2061 305577.472   8805141.472  312169.575
+  6  Dayhoff+R5    150580.330   2063 305286.661   8821350.661  311885.160
+  7  Dayhoff+R6    150445.804   2065 305021.609   8837601.609  311626.505
+  8  Dayhoff+R7    150405.570   2067 304945.139   8854057.139  311556.433
+  9  Dayhoff+R8    150380.319   2069 304898.637   8870558.637  311516.327
+ 10  Dayhoff+R9    150364.056   2071 304870.112   8887094.112  311494.199
+ 11  Dayhoff+R10   150357.925   2073 304861.849   8903665.849  311492.334
+ 12  Dayhoff+F     156392.769   2074 316933.538   8924033.538  323567.221
+ 13  Dayhoff+F+G4  150586.954   2075 305323.908   8920723.908  311960.790
+ 14  Dayhoff+F+R2  152069.849   2076 308291.698   8931995.698  314931.778
+ 15  Dayhoff+F+R3  150941.877   2078 306039.755   8946363.755  312686.231
+ 16  Dayhoff+F+R4  150550.540   2080 305261.080   8962221.080  311913.954
+ 17  Dayhoff+F+R5  150388.271   2082 304940.542   8978552.542  311599.813
+ 18  Dayhoff+F+R6  150266.033   2084 304700.067   8994980.067  311365.734
+ 19  Dayhoff+F+R7  150209.289   2086 304590.577   9011554.577  311262.642
+ 20  Dayhoff+F+R8  150194.822   2088 304565.645   9028229.645  311244.106
+ 21  Dayhoff+F+R9  150186.975   2090 304553.949   9044933.949  311238.808
+ 22  Dayhoff+F+R10 150167.580   2092 304519.160   9061631.160  311210.416
+ 23  mtMAM         170564.665   2055 345239.331   8795399.331  351812.242
+ 24  mtMAM+G4      158579.046   2056 321270.092   8779654.092  327846.202
+ 25  mtMAM+R2      161521.916   2057 327157.832   8793769.832  333737.140
+ 26  mtMAM+R3      159606.399   2059 323330.797   8806410.797  329916.503
+ 27  mtMAM+R4      158971.106   2061 322064.212   8821628.212  328656.315
+ 28  mtMAM+R5      158449.626   2063 321025.252   8837089.252  327623.752
+ 29  mtMAM+R6      158240.512   2065 320611.025   8853191.025  327215.921
+ 30  mtMAM+R7      158159.711   2067 320453.422   8869565.422  327064.715
+ 31  mtMAM+R8      158092.966   2069 320323.933   8885983.933  326941.623
+ 32  mtMAM+R9      158048.753   2071 320239.506   8902463.506  326863.594
+ 33  mtMAM+R10     158034.158   2073 320214.315   8919018.315  326844.800
+ 34  mtMAM+F       161850.710   2074 327849.419   8934949.419  334483.102
+ 35  mtMAM+F+G4    153685.793   2075 311521.586   8926921.586  318158.468
+ 36  mtMAM+F+R2    155605.792   2076 315363.584   8939067.584  322003.663
+ 37  mtMAM+F+R3    154229.184   2078 312614.368   8952938.368  319260.845
+ 38  mtMAM+F+R4    153721.810   2080 311603.620   8968563.620  318256.493
+ 39  mtMAM+F+R5    153458.674   2082 311081.348   8984693.348  317740.619
+ 40  mtMAM+F+R6    153339.238   2084 310846.476   9001126.476  317512.143
+ 41  mtMAM+F+R7    153276.050   2086 310724.099   9017688.099  317396.164
+ 42  mtMAM+F+R8    153176.184   2088 310528.368   9034192.368  317206.829
+ 43  mtMAM+F+R9    153149.068   2090 310478.137   9050858.137  317162.996
+ 44  mtMAM+F+R10   153142.578   2092 310469.155   9067581.155  317160.411
+ 45  JTT           154552.294   2055 313214.588   8763374.588  319787.499
+ 46  JTT+G4        148407.529   2056 300927.058   8759311.058  307503.168
+ 47  JTT+R2        149900.440   2057 303914.881   8770526.881  310494.189
+ 48  JTT+R3        148791.087   2059 301700.174   8784780.174  308285.880
+ 49  JTT+R4        148367.520   2061 300857.041   8800421.041  307449.143
+ 50  JTT+R5        148195.478   2063 300516.956   8816580.956  307115.455
+ 51  JTT+R6        148094.714   2065 300319.429   8832899.429  306924.325
+ 52  JTT+R7        148043.169   2067 300220.339   8849332.339  306831.632
+ 53  JTT+R8        148017.866   2069 300173.732   8865833.732  306791.422
+ 54  JTT+R9        148000.549   2071 300143.099   8882367.099  306767.186
+ 55  JTT+R10       147989.662   2073 300125.324   8898929.324  306755.808
+ 56  JTT+F         154821.053   2074 313790.106   8920890.106  320423.788
+ 57  JTT+F+G4      148581.231   2075 301312.463   8916712.463  307949.344
+ 58  JTT+F+R2      150152.241   2076 304456.481   8928160.481  311096.561
+ 59  JTT+F+R3      148976.983   2078 302109.967   8942433.967  308756.443
+ 60  JTT+F+R4      148542.202   2080 301244.405   8958204.405  307897.278
+ 61  JTT+F+R5      148363.552   2082 300891.105   8974503.105  307550.375
+ 62  JTT+F+R6      148276.802   2084 300721.604   8991001.604  307387.272
+ 63  JTT+F+R7      148210.227   2086 300592.455   9007556.455  307264.520
+ 64  JTT+F+R8      148200.818   2088 300577.636   9024241.636  307256.098
+ 65  JTT+F+R9      148177.489   2090 300534.978   9040914.978  307219.837
+ 66  JTT+F+R10     148166.939   2092 300517.879   9057629.879  307209.134
+ 67  WAG           154965.959   2055 314041.918   8764201.918  320614.829
+ 68  WAG+G4        149466.088   2056 303044.176   8761428.176  309620.286
+ 69  WAG+R2        150984.297   2057 306082.594   8772694.594  312661.903
+ 70  WAG+R3        149761.550   2059 303641.101   8786721.101  310226.806
+ 71  WAG+R4        149422.818   2061 302967.636   8802531.636  309559.738
+ 72  WAG+R5        149230.706   2063 302587.413   8818651.413  309185.912
+ 73  WAG+R6        149142.678   2065 302415.357   8834995.357  309020.253
+ 74  WAG+R7        149078.793   2067 302291.586   8851403.586  308902.879
+ 75  WAG+R8        149073.527   2069 302285.055   8867945.055  308902.745
+ 76  WAG+R9        149052.209   2071 302246.419   8884470.419  308870.506
+ 77  WAG+R10       149049.099   2073 302244.198   8901048.198  308874.683
+ 78  WAG+F         156229.586   2074 316607.171   8923707.171  323240.854
+ 79  WAG+F+G4      150433.691   2075 305017.383   8920417.383  311654.264
+ 80  WAG+F+R2      152039.679   2076 308231.357   8931935.357  314871.437
+ 81  WAG+F+R3      150744.896   2078 305645.793   8945969.793  312292.270
+ 82  WAG+F+R4      150395.005   2080 304950.009   8961910.009  311602.883
+ 83  WAG+F+R5      150209.195   2082 304582.389   8978194.389  311241.660
+ 84  WAG+F+R6      150131.929   2084 304431.858   8994711.858  311097.526
+ 85  WAG+F+R7      150050.186   2086 304272.372   9011236.372  310944.437
+ 86  WAG+F+R8      150031.565   2088 304239.131   9027903.131  310917.593
+ 87  WAG+F+R9      150024.539   2090 304229.078   9044609.078  310913.936
+ 88  WAG+F+R10     150009.573   2092 304203.145   9061315.145  310894.401
+ 89  cpREV         156573.098   2055 317256.196   8767416.196  323829.108
+ 90  cpREV+G4      150360.992   2056 304833.983   8763217.983  311410.093
+ 91  cpREV+R2      152008.466   2057 308130.932   8774742.932  314710.241
+ 92  cpREV+R3      150697.398   2059 305512.796   8788592.796  312098.501
+ 93  cpREV+R4      150309.633   2061 304741.265   8804305.265  311333.368
+ 94  cpREV+R5      150088.022   2063 304302.044   8820366.044  310900.543
+ 95  cpREV+R6      149989.713   2065 304109.426   8836689.426  310714.322
+ 96  cpREV+R7      149915.526   2067 303965.053   8853077.053  310576.346
+ 97  cpREV+R8      149904.247   2069 303946.495   8869606.495  310564.185
+ 98  cpREV+R9      149892.868   2071 303927.736   8886151.736  310551.824
+ 99  cpREV+R10     149878.722   2073 303903.444   8902707.444  310533.928
+100  cpREV+F       158985.941   2074 322119.882   8929219.882  328753.565
+101  cpREV+F+G4    152309.682   2075 308769.364   8924169.364  315406.246
+102  cpREV+F+R2    154152.332   2076 312456.664   8936160.664  319096.744
+103  cpREV+F+R3    152701.135   2078 309558.270   8949882.270  316204.747
+104  cpREV+F+R4    152278.467   2080 308716.934   8965676.934  315369.808
+105  cpREV+F+R5    152102.619   2082 308369.238   8981981.238  315028.509
+106  cpREV+F+R6    151997.230   2084 308162.460   8998442.460  314828.128
+107  cpREV+F+R7    151910.290   2086 307992.580   9014956.580  314664.645
+108  cpREV+F+R8    151890.656   2088 307957.311   9031621.311  314635.773
+109  cpREV+F+R9    151862.469   2090 307904.938   9048284.938  314589.796
+110  cpREV+F+R10   151841.059   2092 307866.119   9064978.119  314557.374
+111  mtREV         164616.208   2055 333342.415   8783502.415  339915.327
+112  mtREV+G4      156226.028   2056 316564.056   8774948.056  323140.166
+113  mtREV+R2      157907.213   2057 319928.425   8786540.425  326507.734
+114  mtREV+R3      156748.530   2059 317615.060   8800695.060  324200.765
+115  mtREV+R4      156207.219   2061 316536.438   8816100.438  323128.541
+116  mtREV+R5      155933.254   2063 315992.508   8832056.508  322591.007
+117  mtREV+R6      155856.305   2065 315842.610   8848422.610  322447.506
+118  mtREV+R7      155805.323   2067 315744.646   8864856.646  322355.940
+119  mtREV+R8      155787.930   2069 315713.861   8881373.861  322331.551
+120  mtREV+R9      155751.633   2071 315645.266   8897869.266  322269.354
+121  mtREV+R10     155730.882   2073 315607.763   8914411.763  322238.248
+122  mtREV+F       158356.145   2074 320860.290   8927960.290  327493.973
+123  mtREV+F+G4    151895.449   2075 307940.898   8923340.898  314577.779
+124  mtREV+F+R2    153554.664   2076 311261.328   8934965.328  317901.408
+125  mtREV+F+R3    152299.434   2078 308754.867   8949078.867  315401.344
+126  mtREV+F+R4    151862.603   2080 307885.205   8964845.205  314538.079
+127  mtREV+F+R5    151706.025   2082 307576.049   8981188.049  314235.320
+128  mtREV+F+R6    151590.689   2084 307349.378   8997629.378  314015.045
+129  mtREV+F+R7    151528.864   2086 307229.729   9014193.729  313901.794
+130  mtREV+F+R8    151516.136   2088 307208.273   9030872.273  313886.735
+131  mtREV+F+R9    151493.724   2090 307167.448   9047547.448  313852.307
+132  mtREV+F+R10   151471.712   2092 307127.423   9064239.423  313818.679
+133  rtREV         156879.380   2055 317868.761   8768028.761  324441.672
+134  rtREV+G4      150690.335   2056 305492.671   8763876.671  312068.781
+135  rtREV+R2      152277.528   2057 308669.055   8775281.055  315248.364
+136  rtREV+R3      151069.487   2059 306256.975   8789336.975  312842.680
+137  rtREV+R4      150642.889   2061 305407.779   8804971.779  311999.881
+138  rtREV+R5      150531.204   2063 305188.407   8821252.407  311786.907
+139  rtREV+R6      150407.325   2065 304944.649   8837524.649  311549.546
+140  rtREV+R7      150351.291   2067 304836.582   8853948.582  311447.876
+141  rtREV+R8      150337.509   2069 304813.017   8870473.017  311430.708
+142  rtREV+R9      150321.190   2071 304784.380   8887008.380  311408.467
+143  rtREV+R10     150308.781   2073 304763.563   8903567.563  311394.047
+144  rtREV+F       156931.653   2074 318011.307   8925111.307  324644.989
+145  rtREV+F+G4    150620.654   2075 305391.309   8920791.309  312028.190
+146  rtREV+F+R2    152297.639   2076 308747.278   8932451.278  315387.358
+147  rtREV+F+R3    151019.493   2078 306194.986   8946518.986  312841.463
+148  rtREV+F+R4    150589.051   2080 305338.101   8962298.101  311990.975
+149  rtREV+F+R5    150474.812   2082 305113.625   8978725.625  311772.896
+150  rtREV+F+R6    150361.004   2084 304890.008   8995170.008  311555.676
+151  rtREV+F+R7    150293.329   2086 304758.658   9011722.658  311430.722
+152  rtREV+F+R8    150270.399   2088 304716.797   9028380.797  311395.259
+153  rtREV+F+R9    150250.974   2090 304681.949   9045061.949  311366.807
+154  rtREV+F+R10   150234.950   2092 304653.899   9061765.899  311345.155
+155  mtART         170315.766   2055 344741.532   8794901.532  351314.444
+156  mtART+G4      158611.361   2056 321334.723   8779718.723  327910.833
+157  mtART+R2      160918.973   2057 325951.947   8792563.947  332531.255
+158  mtART+R3      159322.418   2059 322762.835   8805842.835  329348.541
+159  mtART+R4      158800.973   2061 321723.946   8821287.946  328316.049
+160  mtART+R5      158343.075   2063 320812.149   8836876.149  327410.649
+161  mtART+R6      158283.441   2065 320696.883   8853276.883  327301.779
+162  mtART+R7      158196.444   2067 320526.887   8869638.887  327138.181
+163  mtART+R8      158173.777   2069 320485.554   8886145.554  327103.244
+164  mtART+R9      158142.832   2071 320427.664   8902651.664  327051.751
+165  mtART+R10     158124.901   2073 320395.802   8919199.802  327026.287
+166  mtART+F       162288.275   2074 328724.550   8935824.550  335358.233
+167  mtART+F+G4    153984.354   2075 312118.708   8927518.708  318755.589
+168  mtART+F+R2    155758.665   2076 315669.331   8939373.331  322309.411
+169  mtART+F+R3    154434.740   2078 313025.481   8953349.481  319671.957
+170  mtART+F+R4    153931.346   2080 312022.693   8968982.693  318675.567
+171  mtART+F+R5    153715.729   2082 311595.459   8985207.459  318254.730
+172  mtART+F+R6    153649.840   2084 311467.681   9001747.681  318133.349
+173  mtART+F+R7    153547.337   2086 311266.674   9018230.674  317938.739
+174  mtART+F+R8    153513.630   2088 311203.261   9034867.261  317881.723
+175  mtART+F+R9    153482.675   2090 311145.349   9051525.349  317830.208
+176  mtART+F+R10   153449.011   2092 311082.022   9068194.022  317773.278
+177  mtZOA         164401.884   2055 332913.769   8783073.769  339486.680
+178  mtZOA+G4      154393.147   2056 312898.293   8771282.293  319474.403
+179  mtZOA+R2      156281.065   2057 316676.130   8783288.130  323255.438
+180  mtZOA+R3      154937.283   2059 313992.565   8797072.565  320578.271
+181  mtZOA+R4      154414.285   2061 312950.569   8812514.569  319542.672
+182  mtZOA+R5      154090.987   2063 312307.974   8828371.974  318906.473
+183  mtZOA+R6      154035.579   2065 312201.158   8844781.158  318806.055
+184  mtZOA+R7      153988.948   2067 312111.897   8861223.897  318723.190
+185  mtZOA+R8      153984.044   2069 312106.089   8877766.089  318723.779
+188  mtZOA+F       159064.252   2074 322276.504   8929376.504  328910.187
+189  mtZOA+F+G4    151699.166   2075 307548.331   8922948.331  314185.213
+190  mtZOA+F+R2    153358.912   2076 310869.824   8934573.824  317509.904
+191  mtZOA+F+R3    152185.585   2078 308527.171   8948851.171  315173.648
+192  mtZOA+F+R4    151701.405   2080 307562.811   8964522.811  314215.685
+193  mtZOA+F+R5    151517.002   2082 307198.005   8980810.005  313857.275
+194  mtZOA+F+R6    151445.391   2084 307058.781   8997338.781  313724.449
+195  mtZOA+F+R7    151347.127   2086 306866.255   9013830.255  313538.320
+196  mtZOA+F+R8    151324.583   2088 306825.167   9030489.167  313503.629
+197  mtZOA+F+R9    151296.316   2090 306772.632   9047152.632  313457.491
+198  mtZOA+F+R10   151283.048   2092 306750.096   9063862.096  313441.352
+199  VT            155096.571   2055 314303.142   8764463.142  320876.053
+200  VT+G4         149524.820   2056 303161.640   8761545.640  309737.750
+201  VT+R2         150991.922   2057 306097.844   8772709.844  312677.153
+202  VT+R3         149857.641   2059 303833.282   8786913.282  310418.987
+203  VT+R4         149483.911   2061 303089.821   8802653.821  309681.924
+204  VT+R5         149311.404   2063 302748.808   8818812.808  309347.308
+205  VT+R6         149223.001   2065 302576.001   8835156.001  309180.897
+206  VT+R7         149175.337   2067 302484.673   8851596.673  309095.967
+207  VT+R8         149158.519   2069 302455.038   8868115.038  309072.728
+208  VT+R9         149150.994   2071 302443.987   8884667.987  309068.074
+209  VT+R10        149142.503   2073 302431.006   8901235.006  309061.490
+210  VT+F          155851.966   2074 315851.932   8922951.932  322485.615
+211  VT+F+G4       150165.102   2075 304480.205   8919880.205  311117.086
+212  VT+F+R2       151692.608   2076 307537.216   8931241.216  314177.295
+213  VT+F+R3       150501.477   2078 305158.954   8945482.954  311805.431
+214  VT+F+R4       150130.617   2080 304421.235   8961381.235  311074.108
+215  VT+F+R5       149955.665   2082 304075.329   8977687.329  310734.600
+216  VT+F+R6       149864.929   2084 303897.858   8994177.858  310563.525
+217  VT+F+R7       149813.467   2086 303798.934   9010762.934  310470.999
+218  VT+F+R8       149801.233   2088 303778.466   9027442.466  310456.928
+219  VT+F+R9       149793.868   2090 303767.736   9044147.736  310452.595
+220  VT+F+R10      149788.479   2092 303760.958   9060872.958  310452.213
+221  LG            155092.779   2055 314295.557   8764455.557  320868.469
+222  LG+G4         148755.805   2056 301623.611   8760007.611  308199.721
+223  LG+R2         150342.051   2057 304798.102   8771410.102  311377.410
+224  LG+R3         149154.273   2059 302426.546   8785506.546  309012.251
+225  LG+R4         148712.765   2061 301547.530   8801111.530  308139.632
+226  LG+R5         148574.400   2063 301274.800   8817338.800  307873.299
+227  LG+R6         148448.654   2065 301027.309   8833607.309  307632.205
+228  LG+R7         148418.317   2067 300970.634   8850082.634  307581.928
+229  LG+R8         148403.073   2069 300944.145   8866604.145  307561.835
+230  LG+R9         148381.824   2071 300905.648   8883129.648  307529.736
+231  LG+R10        148364.631   2073 300875.261   8899679.261  307505.746
+232  LG+F          156052.829   2074 316253.659   8923353.659  322887.342
+233  LG+F+G4       149630.830   2075 303411.660   8918811.660  310048.541
+234  LG+F+R2       151293.117   2076 306738.234   8930442.234  313378.314
+235  LG+F+R3       150035.899   2078 304227.798   8944551.798  310874.275
+236  LG+F+R4       149604.866   2080 303369.733   8960329.733  310022.607
+237  LG+F+R5       149438.774   2082 303041.548   8976653.548  309700.819
+238  LG+F+R6       149340.593   2084 302849.186   8993129.186  309514.854
+239  LG+F+R7       149300.958   2086 302773.916   9009737.916  309445.981
+240  LG+F+R8       149281.803   2088 302739.605   9026403.605  309418.067
+241  LG+F+R9       149256.788   2090 302693.576   9043073.576  309378.435
+242  LG+F+R10      149244.414   2092 302672.827   9059784.827  309364.083
+243  DCMut         156496.897   2055 317103.795   8767263.795  323676.706
+244  DCMut+G4      150790.600   2056 305693.201   8764077.201  312269.311
+245  DCMut+R2      152192.467   2057 308498.934   8775110.934  315078.242
+246  DCMut+R3      151103.661   2059 306325.322   8789405.322  312911.028
+247  DCMut+R4      150735.008   2061 305592.017   8805156.017  312184.119
+248  DCMut+R5      150590.191   2063 305306.382   8821370.382  311904.881
+249  DCMut+R6      150462.131   2065 305054.262   8837634.262  311659.159
+250  DCMut+R7      150438.553   2067 305011.106   8854123.106  311622.399
+251  DCMut+R8      150420.379   2069 304978.758   8870638.758  311596.448
+252  DCMut+R9      150402.334   2071 304946.669   8887170.669  311570.756
+253  DCMut+R10     150392.224   2073 304930.447   8903734.447  311560.931
+254  DCMut+F       156388.534   2074 316925.069   8924025.069  323558.752
+255  DCMut+F+G4    150590.738   2075 305331.476   8920731.476  311968.358
+256  DCMut+F+R2    152072.623   2076 308297.246   8932001.246  314937.326
+257  DCMut+F+R3    150944.461   2078 306044.921   8946368.921  312691.398
+258  DCMut+F+R4    150554.534   2080 305269.068   8962229.068  311921.942
+259  DCMut+F+R5    150384.902   2082 304933.804   8978545.804  311593.075
+260  DCMut+F+R6    150277.366   2084 304722.733   8995002.733  311388.401
+261  DCMut+F+R7    150256.388   2086 304684.775   9011648.775  311356.840
+262  DCMut+F+R8    150239.871   2088 304655.742   9028319.742  311334.203
+263  DCMut+F+R9    150204.513   2090 304589.027   9044969.027  311273.885
+264  DCMut+F+R10   150188.459   2092 304560.918   9061672.918  311252.174
+265  PMB           156882.341   2055 317874.682   8768034.682  324447.594
+266  PMB+G4        151260.449   2056 306632.899   8765016.899  313209.009
+267  PMB+R2        152689.528   2057 309493.056   8776105.056  316072.365
+268  PMB+R3        151607.595   2059 307333.189   8790413.189  313918.895
+269  PMB+R4        151213.529   2061 306549.058   8806113.058  313141.160
+270  PMB+R5        151082.989   2063 306291.978   8822355.978  312890.477
+271  PMB+R6        150960.523   2065 306051.047   8838631.047  312655.943
+272  PMB+R7        150920.447   2067 305974.893   8855086.893  312586.187
+273  PMB+R8        150902.646   2069 305943.292   8871603.292  312560.982
+274  PMB+R9        150893.698   2071 305929.396   8888153.396  312553.484
+275  PMB+R10       150884.926   2073 305915.853   8904719.853  312546.337
+276  PMB+F         158012.735   2074 320173.470   8927273.470  326807.153
+277  PMB+F+G4      152314.463   2075 308778.926   8924178.926  315415.807
+278  PMB+F+R2      153838.735   2076 311829.469   8935533.469  318469.549
+279  PMB+F+R3      152640.999   2078 309437.999   8949761.999  316084.476
+280  PMB+F+R4      152277.930   2080 308715.859   8965675.859  315368.733
+281  PMB+F+R5      152078.508   2082 308321.016   8981933.016  314980.287
+282  PMB+F+R6      151981.909   2084 308131.818   8998411.818  314797.486
+283  PMB+F+R7      151939.559   2086 308051.119   9015015.119  314723.184
+284  PMB+F+R8      151927.319   2088 308030.637   9031694.637  314709.099
+285  PMB+F+R9      151918.768   2090 308017.535   9048397.535  314702.394
+286  PMB+F+R10     151912.509   2092 308009.017   9065121.017  314700.273
+287  HIVb          158974.834   2055 322059.669   8772219.669  328632.580
+288  HIVb+G4       151071.044   2056 306254.088   8764638.088  312830.198
+289  HIVb+R2       152890.565   2057 309895.130   8776507.130  316474.438
+290  HIVb+R3       151519.465   2059 307156.930   8790236.930  313742.635
+291  HIVb+R4       151055.397   2061 306232.794   8805796.794  312824.896
+292  HIVb+R5       150781.145   2063 305688.290   8821752.290  312286.789
+293  HIVb+R6       150686.376   2065 305502.752   8838082.752  312107.648
+294  HIVb+R7       150653.094   2067 305440.187   8854552.187  312051.481
+295  HIVb+R8       150629.628   2069 305397.255   8871057.255  312014.946
+296  HIVb+R9       150607.208   2071 305356.417   8887580.417  311980.504
+297  HIVb+R10      150590.698   2073 305327.397   8904131.397  311957.881
+298  HIVb+F        159296.552   2074 322741.104   8929841.104  329374.787
+299  HIVb+F+G4     151123.070   2075 306396.140   8921796.140  313033.021
+300  HIVb+F+R2     153004.555   2076 310161.110   8933865.110  316801.189
+301  HIVb+F+R3     151612.945   2078 307381.891   8947705.891  314028.368
+302  HIVb+F+R4     151129.693   2080 306419.386   8963379.386  313072.260
+303  HIVb+F+R5     150834.725   2082 305833.451   8979445.451  312492.722
+304  HIVb+F+R6     150734.958   2084 305637.916   8995917.916  312303.583
+305  HIVb+F+R7     150700.883   2086 305573.766   9012537.766  312245.831
+306  HIVb+F+R8     150681.902   2088 305539.804   9029203.804  312218.265
+307  HIVb+F+R9     150655.605   2090 305491.209   9045871.209  312176.068
+308  HIVb+F+R10    150634.375   2092 305452.749   9062564.749  312144.005
+309  HIVw          165069.133   2055 334248.266   8784408.266  340821.178
+310  HIVw+G4       157192.631   2056 318497.262   8776881.262  325073.372
+311  HIVw+R2       159158.873   2057 322431.747   8789043.747  329011.055
+312  HIVw+R3       157633.224   2059 319384.449   8802464.449  325970.154
+313  HIVw+R4       157199.468   2061 318520.935   8818084.935  325113.037
+314  HIVw+R5       156861.443   2063 317848.886   8833912.886  324447.386
+315  HIVw+R6       156771.375   2065 317672.749   8850252.749  324277.645
+316  HIVw+R7       156726.466   2067 317586.932   8866698.932  324198.225
+317  HIVw+R8       156711.439   2069 317560.878   8883220.878  324178.568
+318  HIVw+R9       156685.584   2071 317513.169   8899737.169  324137.256
+319  HIVw+R10      156671.786   2073 317489.573   8916293.573  324120.057
+320  HIVw+F        163963.408   2074 332074.817   8939174.817  338708.499
+321  HIVw+F+G4     155566.815   2075 315283.629   8930683.629  321920.510
+322  HIVw+F+R2     157565.038   2076 319282.077   8942986.077  325922.157
+323  HIVw+F+R3     156087.078   2078 316330.155   8956654.155  322976.632
+324  HIVw+F+R4     155573.235   2080 315306.470   8972266.470  321959.344
+325  HIVw+F+R5     155271.328   2082 314706.657   8988318.657  321365.927
+326  HIVw+F+R6     155192.565   2084 314553.129   9004833.129  321218.797
+327  HIVw+F+R7     155114.846   2086 314401.692   9021365.692  321073.757
+328  HIVw+F+R8     155096.915   2088 314369.829   9038033.829  321048.291
+329  HIVw+F+R9     155066.447   2090 314312.893   9054692.893  320997.752
+330  HIVw+F+R10    155047.559   2092 314279.119   9071391.119  320970.375
+331  JTTDCMut      154547.913   2055 313205.826   8763365.826  319778.738
+332  JTTDCMut+G4   148429.476   2056 300970.952   8759354.952  307547.062
+333  JTTDCMut+R2   149929.044   2057 303972.088   8770584.088  310551.396
+334  JTTDCMut+R3   148816.201   2059 301750.402   8784830.402  308336.107
+335  JTTDCMut+R4   148391.064   2061 300904.127   8800468.127  307496.230
+336  JTTDCMut+R5   148211.168   2063 300548.337   8816612.337  307146.836
+337  JTTDCMut+R6   148127.042   2065 300384.084   8832964.084  306988.981
+338  JTTDCMut+R7   148089.212   2067 300312.424   8849424.424  306923.717
+339  JTTDCMut+R8   148075.511   2069 300289.022   8865949.022  306906.713
+340  JTTDCMut+R9   148061.875   2071 300265.750   8882489.750  306889.837
+341  JTTDCMut+R10  148053.786   2073 300253.572   8899057.572  306884.057
+342  JTTDCMut+F    154842.299   2074 313832.598   8920932.598  320466.281
+343  JTTDCMut+F+G4 148623.039   2075 301396.077   8916796.077  308032.958
+344  JTTDCMut+F+R2 150200.812   2076 304553.623   8928257.623  311193.703
+345  JTTDCMut+F+R3 149023.278   2078 302202.556   8942526.556  308849.033
+346  JTTDCMut+F+R4 148585.237   2080 301330.474   8958290.474  307983.348
+347  JTTDCMut+F+R5 148412.337   2082 300988.674   8974600.674  307647.945
+348  JTTDCMut+F+R6 148322.262   2084 300812.524   8991092.524  307478.192
+349  JTTDCMut+F+R7 148282.561   2086 300737.122   9007701.122  307409.187
+350  JTTDCMut+F+R8 148268.124   2088 300712.249   9024376.249  307390.711
+351  JTTDCMut+F+R9 148251.803   2090 300683.605   9041063.605  307368.464
+352  JTTDCMut+F+R10 148243.815   2092 300671.630   9057783.630  307362.886
+353  FLU           159267.682   2055 322645.364   8772805.364  329218.275
+354  FLU+G4        151645.742   2056 307403.485   8765787.485  313979.595
+355  FLU+R2        153446.103   2057 311006.206   8777618.206  317585.514
+356  FLU+R3        152139.520   2059 308397.041   8791477.041  314982.746
+357  FLU+R4        151573.669   2061 307269.339   8806833.339  313861.441
+358  FLU+R5        151400.077   2063 306926.154   8822990.154  313524.653
+359  FLU+R6        151286.017   2065 306702.034   8839282.034  313306.931
+360  FLU+R7        151237.344   2067 306608.688   8855720.688  313219.981
+361  FLU+R8        151223.785   2069 306585.570   8872245.570  313203.260
+362  FLU+R9        151205.753   2071 306553.505   8888777.505  313177.593
+363  FLU+R10       151198.614   2073 306543.228   8905347.228  313173.712
+364  FLU+F         160744.145   2074 325636.290   8932736.290  332269.973
+365  FLU+F+G4      152377.312   2075 308904.623   8924304.623  315541.505
+366  FLU+F+R2      154393.598   2076 312939.197   8936643.197  319579.277
+367  FLU+F+R3      153037.733   2078 310231.466   8950555.466  316877.943
+368  FLU+F+R4      152363.755   2080 308887.511   8965847.511  315540.385
+369  FLU+F+R5      152222.497   2082 308608.995   8982220.995  315268.265
+370  FLU+F+R6      152075.033   2084 308318.065   8998598.065  314983.733
+371  FLU+F+R7      152021.641   2086 308215.282   9015179.282  314887.347
+372  FLU+F+R8      152003.983   2088 308183.966   9031847.966  314862.428
+373  FLU+F+R9      151976.895   2090 308133.791   9048513.791  314818.650
+374  FLU+F+R10     151966.870   2092 308117.741   9065229.741  314808.996
+375  Blosum62      156818.179   2055 317746.358   8767906.358  324319.269
+376  Blosum62+G4   151213.272   2056 306538.543   8764922.543  313114.653
+377  Blosum62+R2   152659.508   2057 309433.016   8776045.016  316012.324
+378  Blosum62+R3   151531.566   2059 307181.132   8790261.132  313766.837
+379  Blosum62+R4   151168.378   2061 306458.755   8806022.755  313050.857
+380  Blosum62+R5   151007.687   2063 306141.374   8822205.374  312739.873
+381  Blosum62+R6   150897.577   2065 305925.155   8838505.155  312530.051
+382  Blosum62+R7   150858.306   2067 305850.611   8854962.611  312461.904
+383  Blosum62+R8   150846.485   2069 305830.970   8871490.970  312448.661
+384  Blosum62+R9   150835.876   2071 305813.751   8888037.751  312437.839
+385  Blosum62+R10  150832.123   2073 305810.246   8904614.246  312440.730
+386  Blosum62+F    158284.787   2074 320717.574   8927817.574  327351.257
+387  Blosum62+F+G4 152547.140   2075 309244.279   8924644.279  315881.161
+388  Blosum62+F+R2 154126.253   2076 312404.506   8936108.506  319044.586
+389  Blosum62+F+R3 152859.196   2078 309874.393   8950198.393  316520.870
+390  Blosum62+F+R4 152511.207   2080 309182.413   8966142.413  315835.287
+391  Blosum62+F+R5 152327.513   2082 308819.027   8982431.027  315478.297
+392  Blosum62+F+R6 152213.675   2084 308595.351   8998875.351  315261.019
+393  Blosum62+F+R7 152171.568   2086 308515.136   9015479.136  315187.201
+394  Blosum62+F+R8 152154.582   2088 308485.164   9032149.164  315163.626
+395  Blosum62+F+R9 152147.091   2090 308474.182   9048854.182  315159.041
+396  Blosum62+F+R10 152143.737   2092 308471.474   9065583.474  315162.730
+397  mtMet         164036.570   2055 332183.139   8782343.139  338756.051
+398  mtMet+G4      155000.493   2056 314112.985   8772496.985  320689.095
+399  mtMet+R2      156805.562   2057 317725.123   8784337.123  324304.431
+400  mtMet+R3      155506.981   2059 315131.961   8798211.961  321717.667
+401  mtMet+R4      154945.985   2061 314013.971   8813577.971  320606.073
+402  mtMet+R5      154734.877   2063 313595.753   8829659.753  320194.253
+403  mtMet+R6      154627.262   2065 313384.524   8845964.524  319989.420
+404  mtMet+R7      154602.834   2067 313339.669   8862451.669  319950.962
+405  mtMet+R8      154586.082   2069 313310.163   8878970.163  319927.854
+406  mtMet+R9      154570.787   2071 313283.574   8895507.574  319907.662
+407  mtMet+R10     154562.652   2073 313271.304   8912075.304  319901.788
+408  mtMet+F       157089.672   2074 318327.345   8925427.345  324961.028
+409  mtMet+F+G4    150260.733   2075 304671.465   8920071.465  311308.347
+410  mtMet+F+R2    151880.438   2076 307912.876   8931616.876  314552.956
+411  mtMet+F+R3    150697.854   2078 305551.708   8945875.708  312198.185
+412  mtMet+F+R4    150246.892   2080 304653.784   8961613.784  311306.658
+413  mtMet+F+R5    150094.045   2082 304352.089   8977964.089  311011.360
+414  mtMet+F+R6    149950.609   2084 304069.219   8994349.219  310734.886
+415  mtMet+F+R7    149920.742   2086 304013.483   9010977.483  310685.548
+416  mtMet+F+R8    149908.555   2088 303993.110   9027657.110  310671.572
+417  mtMet+F+R9    149901.704   2090 303983.407   9044363.407  310668.266
+418  mtMet+F+R10   149897.355   2092 303978.710   9061090.710  310669.966
+419  mtVer         165966.648   2055 336043.297   8786203.297  342616.208
+420  mtVer+G4      156235.884   2056 316583.767   8774967.767  323159.877
+421  mtVer+R2      158258.455   2057 320630.910   8787242.910  327210.219
+422  mtVer+R3      156805.655   2059 317729.311   8800809.311  324315.016
+423  mtVer+R4      156253.870   2061 316629.740   8816193.740  323221.842
+424  mtVer+R5      155987.831   2063 316101.661   8832165.661  322700.161
+425  mtVer+R6      155846.349   2065 315822.698   8848402.698  322427.595
+426  mtVer+R7      155813.066   2067 315760.133   8864872.133  322371.426
+427  mtVer+R8      155804.517   2069 315747.034   8881407.034  322364.724
+428  mtVer+R9      155795.668   2071 315733.335   8897957.335  322357.423
+429  mtVer+R10     155791.143   2073 315728.286   8914532.286  322358.770
+430  mtVer+F       159074.989   2074 322297.977   8929397.977  328931.660
+431  mtVer+F+G4    151915.414   2075 307980.829   8923380.829  314617.710
+432  mtVer+F+R2    153611.382   2076 311374.764   8935078.764  318014.844
+433  mtVer+F+R3    152355.778   2078 308867.557   8949191.557  315514.034
+434  mtVer+F+R4    151896.691   2080 307953.382   8964913.382  314606.256
+435  mtVer+F+R5    151741.665   2082 307647.330   8981259.330  314306.600
+436  mtVer+F+R6    151577.554   2084 307323.107   8997603.107  313988.775
+437  mtVer+F+R7    151537.837   2086 307247.674   9014211.674  313919.739
+438  mtVer+F+R8    151529.399   2088 307234.799   9030898.799  313913.261
+439  mtVer+F+R9    151517.411   2090 307214.823   9047594.823  313899.682
+440  mtVer+F+R10   151512.924   2092 307209.847   9064321.847  313901.103
+441  mtInv         164430.382   2055 332970.763   8783130.763  339543.675
+442  mtInv+G4      156025.968   2056 316163.936   8774547.936  322740.046
+443  mtInv+R2      157655.048   2057 319424.096   8786036.096  326003.405
+444  mtInv+R3      156528.135   2059 317174.270   8800254.270  323759.975
+445  mtInv+R4      155989.626   2061 316101.251   8815665.251  322693.354
+446  mtInv+R5      155782.946   2063 315691.891   8831755.891  322290.391
+447  mtInv+R6      155674.943   2065 315479.886   8848059.886  322084.782
+448  mtInv+R7      155651.434   2067 315436.869   8864548.869  322048.162
+449  mtInv+R8      155630.805   2069 315399.609   8881059.609  322017.299
+450  mtInv+R9      155624.368   2071 315390.736   8897614.736  322014.824
+451  mtInv+R10     155605.767   2073 315357.535   8914161.535  321988.019
+452  mtInv+F       156489.016   2074 317126.031   8924226.031  323759.714
+453  mtInv+F+G4    150028.685   2075 304207.370   8919607.370  310844.252
+454  mtInv+F+R2    151608.859   2076 307369.718   8931073.718  314009.798
+455  mtInv+F+R3    150436.316   2078 305028.631   8945352.631  311675.108
+456  mtInv+F+R4    150010.509   2080 304181.019   8961141.019  310833.893
+457  mtInv+F+R5    149861.429   2082 303886.858   8977498.858  310546.129
+458  mtInv+F+R6    149736.927   2084 303641.853   8993921.853  310307.521
+459  mtInv+F+R7    149696.793   2086 303565.587   9010529.587  310237.652
+460  mtInv+F+R8    149684.332   2088 303544.665   9027208.665  310223.127
+461  mtInv+F+R9    149678.096   2090 303536.192   9043916.192  310221.051
+462  mtInv+F+R10   149677.374   2092 303538.749   9060650.749  310230.004
+Akaike Information Criterion:           JTT+R10
+Corrected Akaike Information Criterion: JTT+G4
+Bayesian Information Criterion:         JTT+R10
+Best-fit model: JTT+R10 chosen according to BIC
+
+All model information printed to analyses/MIKC_orthogroup_selection-v1_guide-v1_trees/aligned-mafft-linsi_trim-gt4-seq-manual/MIKC_orthogroup_selection-v1_guide-v1_aligned-mafft-linsi_trim-gt4-seq-manual_iqtree-bb2000-alrt2000.model.gz
+CPU time for ModelFinder: 34019.341 seconds (9h:26m:59s)
+Wall-clock time for ModelFinder: 12422.687 seconds (3h:27m:2s)
+Generating 2000 samples for ultrafast bootstrap (seed: 397936)...
+
+NOTE: 325 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 12 CPU cores
+4 trees examined
+Threads: 1 / Time: 13.141 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -270807
+Threads: 2 / Time: 7.679 sec / Speedup: 1.711 / Efficiency: 86% / LogL: -270807
+Threads: 3 / Time: 5.864 sec / Speedup: 2.241 / Efficiency: 75% / LogL: -270807
+Threads: 4 / Time: 4.879 sec / Speedup: 2.694 / Efficiency: 67% / LogL: -270807
+Threads: 5 / Time: 4.278 sec / Speedup: 3.071 / Efficiency: 61% / LogL: -270807
+Threads: 6 / Time: 3.844 sec / Speedup: 3.419 / Efficiency: 57% / LogL: -270807
+Threads: 7 / Time: 4.493 sec / Speedup: 2.925 / Efficiency: 42% / LogL: -270807
+BEST NUMBER OF THREADS: 6
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -148076.405
+2. Current log-likelihood: -148009.287
+3. Current log-likelihood: -147994.932
+4. Current log-likelihood: -147993.860
+Optimal log-likelihood: -147993.814
+Site proportion and rates:  (0.077,0.109) (0.062,0.223) (0.093,0.372) (0.086,0.512) (0.135,0.693) (0.113,0.911) (0.127,1.160) (0.169,1.528) (0.133,2.095) (0.006,3.384)
+Parameters optimization took 4 rounds (48.293 sec)
+Computing ML distances based on estimated model parameters... 635.550 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+5.713 seconds
+Log-likelihood of BIONJ tree: -151573.305
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 86.493 second
+Computing log-likelihood of 98 initial trees ... 151.498 seconds
+Current best score: -147495.294
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -146663.825
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -146591.779
+Iteration 10 / LogL: -146971.274 / Time: 0h:15m:13s
+Iteration 20 / LogL: -146915.510 / Time: 0h:22m:8s
+Finish initializing candidate tree set (20)
+Current best tree score: -146591.779 / CPU time: 1100.632
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -146575.333
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -146523.014
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -146486.367
+Iteration 30 / LogL: -146542.592 / Time: 0h:27m:31s (1h:29m:11s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -146480.524
+Iteration 40 / LogL: -146531.372 / Time: 0h:32m:44s (1h:19m:44s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -146479.425
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -146458.804
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -146439.897
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 47: -146430.207
+Iteration 50 / LogL: -146478.371 / Time: 0h:38m:35s (1h:16m:23s left)
+Log-likelihood cutoff on original alignment: -146759.138
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -146391.013
+Iteration 60 / LogL: -146418.632 / Time: 0h:44m:0s (1h:10m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 67: -146384.713
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 68: -146380.265
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 69: -146379.150
+Iteration 70 / LogL: -146383.651 / Time: 0h:49m:31s (1h:11m:4s left)
+Iteration 80 / LogL: -146436.375 / Time: 0h:54m:14s (1h:1m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 84: -146370.723
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 86: -146347.367
+Iteration 90 / LogL: -146362.034 / Time: 0h:59m:21s (1h:4m:1s left)
+Iteration 100 / LogL: -146464.331 / Time: 1h:3m:57s (0h:55m:33s left)
+Log-likelihood cutoff on original alignment: -146666.285
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.892
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -146383.990 / Time: 1h:8m:48s (0h:56m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 112: -146342.607
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 114: -146338.116
+Iteration 120 / LogL: -146414.621 / Time: 1h:14m:30s (0h:58m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 125: -146329.649
+Iteration 130 / LogL: -146349.365 / Time: 1h:19m:39s (0h:58m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 138: -146314.739
+Iteration 140 / LogL: -146353.803 / Time: 1h:24m:49s (0h:59m:48s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 147: -146303.603
+Iteration 150 / LogL: -146335.394 / Time: 1h:30m:5s (0h:58m:39s left)
+Log-likelihood cutoff on original alignment: -146493.808
+Iteration 160 / LogL: -146349.860 / Time: 1h:35m:16s (0h:52m:8s left)
+Iteration 170 / LogL: -146318.371 / Time: 1h:40m:16s (0h:45m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 179: -146301.754
+Iteration 180 / LogL: -146324.660 / Time: 1h:45m:36s (0h:58m:24s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 181: -146298.385
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 189: -146295.520
+Iteration 190 / LogL: -146334.832 / Time: 1h:50m:36s (0h:57m:56s left)
+Iteration 200 / LogL: -146324.556 / Time: 1h:55m:23s (0h:51m:36s left)
+Log-likelihood cutoff on original alignment: -146468.401
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.924
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 210: -146273.736
+Iteration 210 / LogL: -146273.736 / Time: 2h:0m:34s (0h:57m:41s left)
+Iteration 220 / LogL: -146618.230 / Time: 2h:5m:28s (0h:51m:33s left)
+Iteration 230 / LogL: -146315.908 / Time: 2h:10m:4s (0h:45m:26s left)
+Iteration 240 / LogL: -146393.686 / Time: 2h:15m:9s (0h:39m:35s left)
+Iteration 250 / LogL: -146373.143 / Time: 2h:20m:11s (0h:33m:46s left)
+Log-likelihood cutoff on original alignment: -146468.401
+Iteration 260 / LogL: -146289.387 / Time: 2h:25m:23s (0h:28m:4s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 269: -146273.231
+Iteration 270 / LogL: -146333.740 / Time: 2h:30m:38s (0h:55m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 279: -146251.016
+Iteration 280 / LogL: -146336.891 / Time: 2h:35m:54s (0h:55m:19s left)
+Iteration 290 / LogL: -146309.806 / Time: 2h:40m:46s (0h:49m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 300: -146248.701
+Iteration 300 / LogL: -146248.701 / Time: 2h:45m:54s (0h:55m:29s left)
+Log-likelihood cutoff on original alignment: -146430.990
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.930
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 310: -146237.934
+Iteration 310 / LogL: -146237.934 / Time: 2h:50m:52s (0h:55m:17s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 313: -146232.814
+Iteration 320 / LogL: -146445.889 / Time: 2h:55m:58s (0h:51m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 326: -146232.359
+Iteration 330 / LogL: -146262.754 / Time: 3h:1m:2s (0h:52m:49s left)
+Iteration 340 / LogL: -146246.940 / Time: 3h:5m:49s (0h:47m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 343: -146226.599
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 346: -146219.217
+Iteration 350 / LogL: -146232.895 / Time: 3h:10m:51s (0h:52m:30s left)
+Log-likelihood cutoff on original alignment: -146426.353
+Iteration 360 / LogL: -146409.863 / Time: 3h:15m:50s (0h:46m:54s left)
+Iteration 370 / LogL: -146264.355 / Time: 3h:20m:40s (0h:41m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 371: -146217.231
+Iteration 380 / LogL: -146231.796 / Time: 3h:25m:31s (0h:49m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 387: -146216.357
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 390: -146210.335
+Iteration 390 / LogL: -146210.335 / Time: 3h:31m:21s (0h:54m:19s left)
+Iteration 400 / LogL: -146235.931 / Time: 3h:36m:23s (0h:48m:48s left)
+Log-likelihood cutoff on original alignment: -146426.353
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.904
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -146329.295 / Time: 3h:41m:39s (0h:48m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 420: -146208.965
+Iteration 420 / LogL: -146208.965 / Time: 3h:46m:34s (0h:54m:4s left)
+Iteration 430 / LogL: -146225.243 / Time: 3h:51m:31s (0h:48m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 436: -146206.440
+Iteration 440 / LogL: -146238.455 / Time: 3h:56m:47s (0h:51m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 441: -146196.255
+Iteration 450 / LogL: -146245.473 / Time: 4h:1m:57s (0h:49m:2s left)
+Log-likelihood cutoff on original alignment: -146412.628
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 452: -146194.262
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 460: -146182.031
+Iteration 460 / LogL: -146182.031 / Time: 4h:7m:27s (0h:53m:54s left)
+Iteration 470 / LogL: -146239.009 / Time: 4h:12m:20s (0h:48m:25s left)
+Iteration 480 / LogL: -146198.710 / Time: 4h:17m:16s (0h:42m:58s left)
+Iteration 490 / LogL: -146232.131 / Time: 4h:21m:58s (0h:37m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 493: -146176.826
+Iteration 500 / LogL: -146255.236 / Time: 4h:26m:56s (0h:49m:45s left)
+Log-likelihood cutoff on original alignment: -146412.628
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.886
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 507: -146174.450
+Iteration 510 / LogL: -146281.719 / Time: 4h:32m:14s (0h:51m:52s left)
+Iteration 520 / LogL: -146259.363 / Time: 4h:37m:13s (0h:46m:28s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 530: -146171.163
+Iteration 530 / LogL: -146171.163 / Time: 4h:42m:28s (0h:53m:23s left)
+Iteration 540 / LogL: -146176.545 / Time: 4h:47m:34s (0h:48m:1s left)
+Iteration 550 / LogL: -146252.996 / Time: 4h:52m:39s (0h:42m:38s left)
+Log-likelihood cutoff on original alignment: -146412.628
+Iteration 560 / LogL: -146218.805 / Time: 4h:57m:37s (0h:37m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 567: -146170.494
+Iteration 570 / LogL: -146211.386 / Time: 5h:2m:33s (0h:51m:34s left)
+Iteration 580 / LogL: -146279.638 / Time: 5h:7m:35s (0h:46m:13s left)
+Iteration 590 / LogL: -146251.497 / Time: 5h:13m:5s (0h:40m:55s left)
+Iteration 600 / LogL: -146216.900 / Time: 5h:18m:6s (0h:35m:34s left)
+Log-likelihood cutoff on original alignment: -146412.628
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.908
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -146206.750 / Time: 5h:23m:8s (0h:47m:45s left)
+Iteration 620 / LogL: -146209.630 / Time: 5h:28m:13s (0h:42m:25s left)
+Iteration 630 / LogL: -146198.854 / Time: 5h:33m:43s (0h:37m:8s left)
+Iteration 640 / LogL: -146192.032 / Time: 5h:40m:2s (0h:31m:55s left)
+Iteration 650 / LogL: -146196.136 / Time: 5h:45m:1s (0h:26m:34s left)
+Log-likelihood cutoff on original alignment: -146412.628
+Iteration 660 / LogL: -146274.909 / Time: 5h:50m:27s (0h:21m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 667: -146168.745
+Iteration 670 / LogL: -146191.593 / Time: 5h:55m:35s (0h:51m:33s left)
+Iteration 680 / LogL: -146184.720 / Time: 6h:2m:9s (0h:46m:24s left)
+Iteration 690 / LogL: -146202.837 / Time: 6h:7m:6s (0h:41m:1s left)
+Iteration 700 / LogL: -146198.977 / Time: 6h:12m:51s (0h:35m:44s left)
+Log-likelihood cutoff on original alignment: -146412.628
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.930
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 710: -146157.775
+Iteration 710 / LogL: -146157.775 / Time: 6h:18m:10s (0h:53m:20s left)
+Iteration 720 / LogL: -146208.305 / Time: 6h:23m:0s (0h:47m:56s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 728: -146154.542
+Iteration 730 / LogL: -146174.957 / Time: 6h:28m:10s (0h:52m:10s left)
+Iteration 740 / LogL: -146240.087 / Time: 6h:32m:59s (0h:46m:47s left)
+Iteration 750 / LogL: -146203.285 / Time: 6h:38m:11s (0h:41m:27s left)
+Log-likelihood cutoff on original alignment: -146412.628
+Iteration 760 / LogL: -146174.768 / Time: 6h:44m:2s (0h:36m:11s left)
+Iteration 770 / LogL: -146172.289 / Time: 6h:49m:23s (0h:30m:52s left)
+Iteration 780 / LogL: -146237.236 / Time: 6h:54m:59s (0h:25m:34s left)
+Iteration 790 / LogL: -146233.818 / Time: 7h:0m:16s (0h:20m:14s left)
+Iteration 800 / LogL: -146209.016 / Time: 7h:5m:31s (0h:14m:54s left)
+Log-likelihood cutoff on original alignment: -146315.852
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.948
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 810 / LogL: -146270.324 / Time: 7h:10m:33s (0h:47m:53s left)
+Iteration 820 / LogL: -146195.763 / Time: 7h:15m:45s (0h:42m:33s left)
+Iteration 830 / LogL: -146175.707 / Time: 7h:20m:44s (0h:37m:12s left)
+Iteration 840 / LogL: -146192.554 / Time: 7h:25m:39s (0h:31m:52s left)
+Iteration 850 / LogL: -146224.221 / Time: 7h:31m:14s (0h:26m:34s left)
+Log-likelihood cutoff on original alignment: -146315.852
+Iteration 860 / LogL: -146190.089 / Time: 7h:37m:4s (0h:21m:17s left)
+Iteration 870 / LogL: -146248.418 / Time: 7h:42m:47s (0h:15m:58s left)
+Iteration 880 / LogL: -146228.269 / Time: 7h:48m:29s (0h:10m:39s left)
+Iteration 890 / LogL: -146205.876 / Time: 7h:54m:6s (0h:5m:19s left)
+Iteration 900 / LogL: -146220.902 / Time: 7h:59m:10s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -146315.852
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.955
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -146179.973 / Time: 8h:4m:16s (0h:47m:56s left)
+Iteration 920 / LogL: -146181.028 / Time: 8h:9m:10s (0h:42m:35s left)
+Iteration 930 / LogL: -146207.272 / Time: 8h:13m:58s (0h:37m:13s left)
+Iteration 940 / LogL: -146241.121 / Time: 8h:18m:47s (0h:31m:52s left)
+Iteration 950 / LogL: -146209.164 / Time: 8h:24m:10s (0h:26m:33s left)
+Log-likelihood cutoff on original alignment: -146315.852
+Iteration 960 / LogL: -146223.989 / Time: 8h:29m:15s (0h:21m:14s left)
+Iteration 970 / LogL: -146219.643 / Time: 8h:33m:58s (0h:15m:54s left)
+Iteration 980 / LogL: -146218.074 / Time: 8h:39m:34s (0h:10m:36s left)
+Iteration 990 / LogL: -146225.666 / Time: 8h:44m:33s (0h:5m:18s left)
+Iteration 1000 / LogL: -146187.725 / Time: 8h:49m:35s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -146315.852
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.963
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 8h:50m:18s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -146154.542
+2. Current log-likelihood: -146154.531
+Optimal log-likelihood: -146154.514
+Site proportion and rates:  (0.071,0.110) (0.074,0.227) (0.089,0.382) (0.086,0.521) (0.153,0.705) (0.130,0.971) (0.115,1.235) (0.146,1.571) (0.132,2.082) (0.006,3.274)
+Parameters optimization took 2 rounds (7.401 sec)
+BEST SCORE FOUND : -146154.514
+
+Testing tree branches by SH-like aLRT with 2000 replicates...
+Alternative NNI shows better log-likelihood -146154.143 > -146154.514
+Alternative NNI shows better log-likelihood -146153.715 > -146154.514
+Alternative NNI shows better log-likelihood -146154.340 > -146154.514
+4.285 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file analyses/MIKC_orthogroup_selection-v1_guide-v1_trees/aligned-mafft-linsi_trim-gt4-seq-manual/MIKC_orthogroup_selection-v1_guide-v1_aligned-mafft-linsi_trim-gt4-seq-manual_iqtree-bb2000-alrt2000.splits.nex
+Total tree length: 379.868
+
+Total number of iterations: 1001
+CPU time used for tree search: 181756.613 sec (50h:29m:16s)
+Wall-clock time used for tree search: 31589.796 sec (8h:46m:29s)
+Total CPU time used: 182963.602 sec (50h:49m:23s)
+Total wall-clock time used: 31840.653 sec (8h:50m:40s)
+
+Computing bootstrap consensus tree...
+Reading input file analyses/MIKC_orthogroup_selection-v1_guide-v1_trees/aligned-mafft-linsi_trim-gt4-seq-manual/MIKC_orthogroup_selection-v1_guide-v1_aligned-mafft-linsi_trim-gt4-seq-manual_iqtree-bb2000-alrt2000.splits.nex...
+1029 taxa and 6550 splits.
+Consensus tree written to analyses/MIKC_orthogroup_selection-v1_guide-v1_trees/aligned-mafft-linsi_trim-gt4-seq-manual/MIKC_orthogroup_selection-v1_guide-v1_aligned-mafft-linsi_trim-gt4-seq-manual_iqtree-bb2000-alrt2000.contree
+Reading input trees file analyses/MIKC_orthogroup_selection-v1_guide-v1_trees/aligned-mafft-linsi_trim-gt4-seq-manual/MIKC_orthogroup_selection-v1_guide-v1_aligned-mafft-linsi_trim-gt4-seq-manual_iqtree-bb2000-alrt2000.contree
+Log-likelihood of consensus tree: -146150.415
+
+Analysis results written to: 
+  IQ-TREE report:                analyses/MIKC_orthogroup_selection-v1_guide-v1_trees/aligned-mafft-linsi_trim-gt4-seq-manual/MIKC_orthogroup_selection-v1_guide-v1_aligned-mafft-linsi_trim-gt4-seq-manual_iqtree-bb2000-alrt2000.iqtree
+  Maximum-likelihood tree:       analyses/MIKC_orthogroup_selection-v1_guide-v1_trees/aligned-mafft-linsi_trim-gt4-seq-manual/MIKC_orthogroup_selection-v1_guide-v1_aligned-mafft-linsi_trim-gt4-seq-manual_iqtree-bb2000-alrt2000.treefile
+  Likelihood distances:          analyses/MIKC_orthogroup_selection-v1_guide-v1_trees/aligned-mafft-linsi_trim-gt4-seq-manual/MIKC_orthogroup_selection-v1_guide-v1_aligned-mafft-linsi_trim-gt4-seq-manual_iqtree-bb2000-alrt2000.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          analyses/MIKC_orthogroup_selection-v1_guide-v1_trees/aligned-mafft-linsi_trim-gt4-seq-manual/MIKC_orthogroup_selection-v1_guide-v1_aligned-mafft-linsi_trim-gt4-seq-manual_iqtree-bb2000-alrt2000.splits.nex
+  Consensus tree:                analyses/MIKC_orthogroup_selection-v1_guide-v1_trees/aligned-mafft-linsi_trim-gt4-seq-manual/MIKC_orthogroup_selection-v1_guide-v1_aligned-mafft-linsi_trim-gt4-seq-manual_iqtree-bb2000-alrt2000.contree
+  Screen log file:               analyses/MIKC_orthogroup_selection-v1_guide-v1_trees/aligned-mafft-linsi_trim-gt4-seq-manual/MIKC_orthogroup_selection-v1_guide-v1_aligned-mafft-linsi_trim-gt4-seq-manual_iqtree-bb2000-alrt2000.log
+
+Date and Time: Wed Jun 10 00:48:35 2020
