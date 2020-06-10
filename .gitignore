@@ -2,5 +2,5 @@
 data/alignments_trimmed/*.html
 analyses/*_fasttrees
 *.swp
-analyses/*/*.mldist
-analyses/*/*.gz
+*.mldist
+*.gz
