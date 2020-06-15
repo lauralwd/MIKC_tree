@@ -1,4 +1,4 @@
->Saccharomyces cerevisiae MCM2 YBL023C SGDID:S000000119
+>Saccharomyces_cerevisiae_MCM2_YBL023C_SGDID:S000000119
 --------------------------------------------MSDNRRRR--------
 ------------------REEDDSDSENELPP--------------SSPQQHFRGGMNPV
 SSPIGSPDM------------------------------------------INPE----G
@@ -33,7 +33,7 @@ SFVDAQ------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------------------------------------------------
->Antirrhinum majus tr|D2Z013|D2Z013_ANTMA DEFICIENS protein OS=Antirrhinum majus OX=4151 GN=DEFICIENS PE=2 SV=1
+>Antirrhinum_majus_tr|D2Z013|D2Z013_ANTMA_DEFICIENS_protein_OS=Antirrhinum_majus_OX=4151_GN=DEFICIENS_PE=2_SV=1
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------M--------------------------------------------------A
@@ -68,7 +68,7 @@ V-----------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 --------------------------------------------------------
->Homo Sapiens sp|P11831|SRF_HUMAN Serum response factor OS=Homo sapiens OX=9606 GN=SRF PE=1 SV=1
+>Homo_Sapiens_sp|P11831|SRF_HUMAN_Serum_response_factor_OS=Homo_sapiens_OX=9606_GN=SRF_PE=1_SV=1
 MLPT---------QAGAAAALGRGSALGG--------------SLNRTPTG-RPGGGGGT
 RGANGGRVPGNGAGLGPGRLEREAAAAAATTPAPTAGALYSGSEGDSESGEEEELGAERR
 GLKRSLSEMEIGMVVGGPEASAA--------------ATGGYGPVSGAVSGAKPGKKTRG
