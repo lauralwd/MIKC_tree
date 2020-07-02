@@ -1,0 +1,53 @@
+AKXB-2008754-Phaeomegaceros coriaceus
+DXOU-2004607-Nothoceros aenigmaticus
+AKXB-2062983-Phaeomegaceros coriaceus
+HVBQ-2129775-Tetraphis pellucida
+RDOO-2000123-Racomitrium varium
+RDOO-2000122-Racomitrium varium
+Afi v2 s132G000050.1
+Sacu v1.1 s0008.g004031 MADS-box transcription factor 0.179
+Azfi s0684.g082058 sequence match in blast db Azolla filiculoides protein v1.1
+Afi v2 s70G000030.1
+Azfi s0073.g037211 sequence match in blast db Azolla filiculoides protein v1.1
+Sacu v1.1 s0003.g001660 MADS-box transcription factor 0.179
+Sacu v1.1 s0007.g003739 MADS-box transcription factor 0.179
+Sacu v1.1 s0207.g025791 MADS-box transcription factor 0.179
+Afi v2 s2G003330.1
+Afi v2 s1737G000020.1
+AGL30
+OsMADS68
+AGL94
+AGL65
+SmMADS2
+SmMADS4
+SmMADS10
+MA 113509g0010
+OsMADS62
+OsMADS63
+AGL67
+AGL104
+AGL66
+UPMJ-2018444-Pseudolycopodiella caroliniana
+AKXB-2066716-Phaeomegaceros coriaceus
+DXOU-2036490-Nothoceros aenigmaticus
+ANON-2035464-Leiosporoceros dussii-B
+ZFRE-2001130-Phaeoceros carolinianus-sporophyte 1575
+ZFRE-2001131-Phaeoceros carolinianus-sporophyte 1575
+BNCU-2018766-Radula lindenbergia
+BNCU-2085227-Radula lindenbergia
+NRWZ-2002384-Metzgeria crassipilis
+LGOW-2015978-Schistochila sp.
+MpMADS1
+JPYU-2008394-Marchantia polymorpha
+PpMADS2 Pp012G080000
+PPMA12 Pp004G013900
+PpMADS3 Pp003G124300
+PPMA8 Pp008G025900
+RDOO-2005177-Racomitrium varium
+RDOO-2005175-Racomitrium varium
+PPM6 Pp008G025800
+PPMA9 Pp003G124400
+PPM3 Pp014G086000
+PPM4 Pp001G158500
+PPM7 Pp017G043700
+PPMA11 Pp001G158400
