@@ -38,7 +38,7 @@ SIZE_FACTOR,1
 
 #color scheme to use; possible values are 'none','clustal','zappo','taylor','hphob','helix','strand','turn' and 'buried'
 #if CUSTOM_COLOR_SCHEME is defined, its label can also be used here
-COLOR_SCHEME,clustal
+COLOR_SCHEME,MY_SCHEME_1
 
 #start and stop residue of the alignment to display; note that the complete length should be below ~4000 residues
 START_POSITION,1
