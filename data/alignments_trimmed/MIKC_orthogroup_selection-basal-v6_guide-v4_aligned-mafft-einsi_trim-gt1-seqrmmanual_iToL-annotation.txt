@@ -1,69 +1,70 @@
 DATASET_ALIGNMENT
-#_________________________________________________________________#
-#____________________MANDATORY_SETTINGS___________________________#
-#_________________________________________________________________#
+#visualize multiple sequence alignments directly on the tree. Alignment must be in FASTA format.
+#lines starting with a hash are comments and ignored during parsing
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+#SEPARATOR TAB
+#SEPARATOR SPACE
+SEPARATOR COMMA
 
-#SEPARATOR_TAB
-#SEPARATOR_SPACE
-SEPARATOR_COMMA
+#label is used in the legend table (can be changed later)
+DATASET_LABEL,example alignment
 
-#label_is_used_in_the_legend_table_(can_be_changed_later)
-DATASET_LABEL,'trimmed_alignment'
-
-#dataset_color_(can_be_changed_later)
+#dataset color (can be changed later)
 COLOR,#ff0000
 
-#_________________________________________________________________#
-#____________________OPTIONAL_SETTINGS____________________________#
-#_________________________________________________________________#
-#define_one_or_more_custom_alignment_coloring_schemes._They_will_appear_in_the_color_scheme_selection_box
-#first_field_defines_the_scheme_name,_followed_by_a_list_of_letters_and_their_color_assignments._Letters_which_do_not
-#have_a_color_defined_will_be_displayed_with_a_white_background
-CUSTOM_COLOR_SCHEME,MY_SCHEME_1,A_#d2d0c9,M_#d2d0c9,I_#d2d0c9,L_#d2d0c9,V_#d2d0c9,P_#746f69,G_#746f69,C_#746f69,F_#d0ad16,Y_#d0ad16,W_#d0ad16,S_#34acfb,T_#34acfb,N_#34acfb,Q_#34acfb,R_#34fb54,K_#34fb54,H_#34fb54,D_#fb4034,E_#fb4034
-CUSTOM_COLOR_SCHEME,MY_SCHEME_2,A_#30a040,R_#2015a5,N_#10ffa0,D_#6048c0,C_#608a80,Q_#601f00,E_#5048c0,G_#702048,H_#a5a4a4,I_#1a30f0,L_#11a0f0,K_#003505,M_#00a0f0,F_#10a0f0,P_#0ff300,S_#93f300,T_#33ff00,W_#0a30f0,Y_#25a4a4,V_#90a3f0
+#=================================================================#
+#                    OPTIONAL SETTINGS                            #
+#=================================================================#
+#define one or more custom alignment coloring schemes. They will appear in the color scheme selection box
+#first field defines the scheme name, followed by a list of letters and their color assignments. Letters which do not
+#have a color defined will be displayed with a white background
+CUSTOM_COLOR_SCHEME,MY_SCHEME_1,A=#d2d0c9,M=#d2d0c9,I=#d2d0c9,L=#d2d0c9,V=#d2d0c9,P=#746f69,G=#746f69,C=#746f69,F=#d0ad16,Y=#d0ad16,W=#d0ad16,S=#34acfb,T=#34acfb,N=#34acfb,Q=#34acfb,R=#34fb54,K=#34fb54,H=#34fb54,D=#fb4034,E=#fb4034,-=#ffffff
+CUSTOM_COLOR_SCHEME,MY_SCHEME_2,A=#30a040,R=#2015a5,N=#10ffa0,D=#6048c0,C=#608a80,Q=#601f00,E=#5048c0,G=#702048,H=#a5a4a4,I=#1a30f0,L=#11a0f0,K=#003505,M=#00a0f0,F=#10a0f0,P=#0ff300,S=#93f300,T=#33ff00,W=#0a30f0,Y=#25a4a4,V=#90a3f0,-=#ffffff
 
 
-#_________________________________________________________________#
-#_____all_other_optional_settings_can_be_set_or_changed_later_____#
-#___________in_the_web_interface_(under_'Datasets'_tab)___________#
-#_________________________________________________________________#
+#=================================================================#
+#     all other optional settings can be set or changed later     #
+#           in the web interface (under 'Datasets' tab)           #
+#=================================================================#
 
-#left_margin,_used_to_increase/decrease_the_spacing_to_the_next_dataset._Can_be_negative,_causing_datasets_to_overlap._Used_only_for_text_labels_which_are_displayed_on_the_outside
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap. Used only for text labels which are displayed on the outside
 MARGIN,0
 
-#font_size_factor;_default_font_size_will_be_slightly_less_than_the_available_space_between_leaves,_but_you_can_set_a_multiplication_factor_here_to_increase/decrease_it_(values_from_0_to_1_will_decrease_it,_values_above_1_will_increase_it)
+#font size factor; default font size will be slightly less than the available space between leaves, but you can set a multiplication factor here to increase/decrease it (values from 0 to 1 will decrease it, values above 1 will increase it)
 SIZE_FACTOR,1
 
-#color_scheme_to_use;_possible_values_are_'none','clustal','zappo','taylor','hphob','helix','strand','turn'_and_'buried'
-#if_CUSTOM_COLOR_SCHEME_is_defined,_its_label_can_also_be_used_here
+#color scheme to use; possible values are 'none','clustal','zappo','taylor','hphob','helix','strand','turn' and 'buried'
+#if CUSTOM_COLOR_SCHEME is defined, its label can also be used here
 COLOR_SCHEME,clustal
 
-#start_and_stop_residue_of_the_alignment_to_display;_note_that_the_complete_length_should_be_below_~4000_residues
+#start and stop residue of the alignment to display; note that the complete length should be below ~4000 residues
 START_POSITION,1
-END_POSITION,1000
+END_POSITION,100
 
-#display_repeating_identical_residues_in_each_column_as_dots,_instead_of_letters._Only_the_first_letter_in_each_repeat_block_will_be_displayed.
+#display repeating identical residues in each column as dots, instead of letters. Only the first letter in each repeat block will be displayed.
 DOTTED_DISPLAY,0
 
-#when_DOTTED_DISPLAY_1,_backgrounds_of_each_dot_will_be_colored_if_COLORED_DOTS_is_set_to_1
+#when DOTTED_DISPLAY=1, backgrounds of each dot will be colored if COLORED_DOTS is set to 1
 COLORED_DOTS,1
 
-#display_the_consensus_sequence_blow_the_alignment
+#display the consensus sequence blow the alignment
 DISPLAY_CONSENSUS,1
 
-#display_the_residue_conservation_graph_below_the_alignment
+#display the residue conservation graph below the alignment
 DISPLAY_CONSERVATION,1
 
-#_________________________________________________________________#
-#_______Put_the_actual_alignment_below_the_"DATA"_keyword_________#
-#_________________________________________________________________#
-#alignment_must_be_in_FASTA_format
-#lines_starting_with_a_">"_sign_should_contain_the_sequence_IDs_(matching_the_tree_IDs)
-#all_lines_until_the_next_sequence_ID_line_will_be_taken_as_the_actual_aligned_sequence_string
+#=================================================================#
+#       Put the actual alignment below the "DATA" keyword         #
+#=================================================================#
+#alignment must be in FASTA format
+#lines starting with a ">" sign should contain the sequence IDs (matching the tree IDs)
+#all lines until the next sequence ID line will be taken as the actual aligned sequence string
 
-#all_space_characters_will_be_removed_automatically
-#empty_lines_are_ignored
-
+#all space characters will be removed automatically
+#empty lines are ignored
 
 DATA
 >tr_Q5KU24_Q5KU24_COLSC_MADS-box_transcription_factor_CsMADS1_OS_Coleochaete_scutata_OX_3125_GN_csmads1_PE_2_SV_1
