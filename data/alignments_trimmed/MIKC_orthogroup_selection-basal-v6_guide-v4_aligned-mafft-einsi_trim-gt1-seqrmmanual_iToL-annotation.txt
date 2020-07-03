@@ -42,7 +42,7 @@ COLOR_SCHEME,clustal
 
 #start and stop residue of the alignment to display; note that the complete length should be below ~4000 residues
 START_POSITION,1
-END_POSITION,100
+END_POSITION,1000
 
 #display repeating identical residues in each column as dots, instead of letters. Only the first letter in each repeat block will be displayed.
 DOTTED_DISPLAY,0
