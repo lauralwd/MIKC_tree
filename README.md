@@ -44,6 +44,13 @@ In `MIKC_tree_workflow-basalclades-v1.ipynb`
 [iToL](https://itol.embl.de/tree/9421021579288351592221930))
 we attempt to improve the phylogenetic signal by sampling less sequences in more recent branches; about a third compared to the previous workflow.
 
+In `MIKC_tree_workflow-basalclades-v2.ipynb`
+([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v2.ipynb)
+[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v2.ipynb)
+[iToL_gt4](https://itol.embl.de/tree/13121158204159901593010248))
+I add _Salivinia cuculata_ sequences from [fernbase](fernbase.org) and remove some sequences that were behaving oddly due too large horizontal gaps in the alignment.
+Finally the _Chara globularis_ MADS1 sequence was added, like in the 1kP capstone paper to serve as an outgroup.
+
 In `algal sequences.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/algal%20sequences.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/algal_sequences.html)
@@ -52,19 +59,14 @@ I extract and align all sequences from the MIKC orthogroup from the 1kP project 
 We found that in this orthogroup sequences almost always have the highly conserved M domain, but often lack the IKC domains or part thereof.
 Based on these results, we proceed only with algal sequences that contain all four domains.
 
-In `MIKC_tree_workflow-basalclades-v2.ipynb`
-([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v2.ipynb)
-[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v2.ipynb)
-[iToL_gt4](https://itol.embl.de/tree/13121158204159901593010248))
-I add _Salivinia cuculata_ sequences from [fernbase](fernbase.org) and remove some sequences that were behaving oddly due too large horizontal gaps in the alignment.
-Finally the _Chara globularis_ MADS1 sequence was added, like in the 1kP capstone paper to serve as an outgroup.
-
 In `MIKC_tree_workflow-basalclades-v3.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v3.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v3.ipynb)
 [iToL](https://itol.embl.de/tree/13121159166346421593419936))
-
-
+I aim to identify MIKC* sequences (characterised by a longer C domain) and remove these from the analyses;
+hence I'm making a phylogeny of only MIKCc genes.
+In a separate notebook, I already did so for all algal sequences in the 1kP MIKC orthogroup.
+These should confirm the placing of the CgMADS1 sequence and provide a solid root to the tree.
 
 In `MIKC_tree_workflow-basalclades-v4.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v4.ipynb)
