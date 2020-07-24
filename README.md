@@ -4,6 +4,7 @@ Many results made publicly available here, are intermediate results and should b
 For the final results, please refer to the quick links listed below
 
 manuscript doi:
+
 repository doi:
 
 ## Quick links
@@ -18,7 +19,7 @@ Final input, output and intermediate files:
 
 ## Guide through files and directories
 
-### directories
+### Directories
 
 ### JuPy notebooks
 This repository contains many JuPy notebooks in which we stepwise tried to get a better phylogenetic signal of MIKC evolution and interpretation of the placement of fern sequences.
@@ -80,11 +81,13 @@ In `MIKC_tree_workflow-basalclades-v6.ipynb`
 
 ## Data sources
 1kP
+
 Zhang et al.
+
 more?
 
 ## Other links
-lab page
-other github pages
-people involved
-blank workflow
+ * lab page
+ * other github pages
+ * people involved
+ * blank workflow
