@@ -28,20 +28,20 @@ Here I list very briefly the main conclusion or improvement for each of these fi
 In `MIKC_tree_workflow-v1.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-v1.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-v1.html)
-)
+[iToL](https://itol.embl.de/tree/9421021579373181591777160))
 we make a first version of a MIKC tree.
 We sample MIKC(-like) genes from specific species across all major groups of plants as described in the 1kP project.
 
 In `MIKC_tree_workflow-v2.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-v2.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-v2.html)
-)
+[iToL](https://itol.embl.de/tree/9421021579263431592334615))
 we replace some species with others, add bryophytes and lycophytes, and attempt to introduce an outgroup of non-plant sequences.
 
 In `MIKC_tree_workflow-basalclades-v1.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v1.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v1.html)
-)
+[iToL](https://itol.embl.de/tree/9421021579288351592221930))
 we attempt to improve the phylogenetic signal by sampling less sequences in more recent branches; about a third compared to the previous workflow.
 
 In `algal sequences.ipynb`
@@ -55,27 +55,27 @@ Based on these results, we proceed only with algal sequences that contain all fo
 In `MIKC_tree_workflow-basalclades-v2.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v2.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v2.ipynb)
-)
+[iToL_gt4](https://itol.embl.de/tree/13121158204159901593010248))
 
 In `MIKC_tree_workflow-basalclades-v3.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v3.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v3.ipynb)
-)
+[iToL](https://itol.embl.de/tree/13121159166346421593419936))
 
 In `MIKC_tree_workflow-basalclades-v4.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v4.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v4.ipynb)
-)
+[iToL](https://itol.embl.de/tree/9421021579173651593446746))
 
 In `MIKC_tree_workflow-basalclades-v5.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v5.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v5.ipynb)
-)
+[iToL](https://itol.embl.de/tree/9421021579163171593685733))
 
 In `MIKC_tree_workflow-basalclades-v6.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v6.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v6.ipynb)
-)
+[iToL](https://itol.embl.de/tree/942102157910201593716454))
 
 
 
