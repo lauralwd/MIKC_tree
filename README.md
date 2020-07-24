@@ -46,15 +46,16 @@ we attempt to improve the phylogenetic signal by sampling less sequences in more
 In `algal sequences.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/algal%20sequences.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/algal_sequences.html)
-) I extract and align all sequences from the MIKC orthogroup from the 1kP project in an effort to identify those algal sequences which truely have all four domains: M, I, K and C.
-We found that in this orthogroup sequences almost always have the highly conserved M domain, but often lack the IKC domains or part thereoff.
+)
+I extract and align all sequences from the MIKC orthogroup from the 1kP project in an effort to identify those algal sequences which truly have all four domains: M, I, K and C.
+We found that in this orthogroup sequences almost always have the highly conserved M domain, but often lack the IKC domains or part thereof.
 Based on these results, we proceed only with algal sequences that contain all four domains.
 
-MIKC_tree_workflow-basalclades-v2.ipynb
-MIKC_tree_workflow-basalclades-v3.ipynb
-MIKC_tree_workflow-basalclades-v4.ipynb
-MIKC_tree_workflow-basalclades-v5.ipynb
-MIKC_tree_workflow-basalclades-v6.ipynb
+In `MIKC_tree_workflow-basalclades-v2.ipynb`
+In `MIKC_tree_workflow-basalclades-v3.ipynb`
+In `MIKC_tree_workflow-basalclades-v4.ipynb`
+In `MIKC_tree_workflow-basalclades-v5.ipynb`
+In `MIKC_tree_workflow-basalclades-v6.ipynb`
 
 
 
