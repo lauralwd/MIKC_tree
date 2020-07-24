@@ -24,11 +24,25 @@ Final input, output and intermediate files:
 This repository contains many JuPy notebooks in which we stepwise tried to get a better phylogenetic signal of MIKC evolution and interpretation of the placement of fern sequences.
 Here I list very briefly the main conclusion or improvement for each of these files in their chronological order
 
-In `algal sequences.ipynb` 
+In `MIKC_tree_workflow-v1.ipynb`
+([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-v1.ipynb)
+[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-v1.html)
+)
+we make a first version of a MIKC tree.
+We sample MIKC(-like) genes from specific species across all major groups of plants as described in the 1kP project.
+
+In `MIKC_tree_workflow-v2.ipynb`
+([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-v2.ipynb)
+[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-v2.html)
+)
+we replace some species with others, add bryophytes and lycophytes, and attempt to introduce an outgroup of non-plant sequences.
+
+
+In `algal sequences.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/algal%20sequences.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/algal_sequences.html)
 ) I extract and align all sequences from the MIKC orthogroup from the 1kP project in an effort to identify those algal sequences which truely have all four domains: M, I, K and C.
-We found that in this orthogroup sequences almost always have the highly conserved M domain, but often lack the IKC domains or part thereoff. 
+We found that in this orthogroup sequences almost always have the highly conserved M domain, but often lack the IKC domains or part thereoff.
 Based on these results, we proceed only with algal sequences that contain all four domains.
 
 MIKC_tree_workflow-basalclades-v1.ipynb
@@ -37,9 +51,9 @@ MIKC_tree_workflow-basalclades-v3.ipynb
 MIKC_tree_workflow-basalclades-v4.ipynb
 MIKC_tree_workflow-basalclades-v5.ipynb
 MIKC_tree_workflow-basalclades-v6.ipynb
-MIKC_tree_workflow-v1.ipynb
-MIKC_tree_workflow-v2.ipynb
-MIKC_tree_workflow-v2-non-seed.ipynb
+
+
+
 
 
 
@@ -52,3 +66,4 @@ more?
 lab page
 other github pages
 people involved
+blank workflow
