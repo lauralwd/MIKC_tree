@@ -24,6 +24,25 @@ Final input, output and intermediate files:
 This repository contains many JuPy notebooks in which we stepwise tried to get a better phylogenetic signal of MIKC evolution and interpretation of the placement of fern sequences.
 Here I list very briefly the main conclusion or improvement for each of these files in their chronological order
 
+In `algal sequences.ipynb` 
+([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/algal%20sequences.ipynb)
+[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/algal_sequences.html)
+) I extract and align all sequences from the MIKC orthogroup from the 1kP project in an effort to identify those algal sequences which truely have all four domains: M, I, K and C.
+We found that in this orthogroup sequences almost always have the highly conserved M domain, but often lack the IKC domains or part thereoff. 
+Based on these results, we proceed only with algal sequences that contain all four domains.
+
+MIKC_tree_workflow-basalclades-v1.ipynb
+MIKC_tree_workflow-basalclades-v2.ipynb
+MIKC_tree_workflow-basalclades-v3.ipynb
+MIKC_tree_workflow-basalclades-v4.ipynb
+MIKC_tree_workflow-basalclades-v5.ipynb
+MIKC_tree_workflow-basalclades-v6.ipynb
+MIKC_tree_workflow-v1.ipynb
+MIKC_tree_workflow-v2.ipynb
+MIKC_tree_workflow-v2-non-seed.ipynb
+
+
+
 ## Data sources
 1kP
 Zhang et al.
