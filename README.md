@@ -72,11 +72,14 @@ In `MIKC_tree_workflow-basalclades-v4.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v4.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v4.ipynb)
 [iToL](https://itol.embl.de/tree/9421021579173651593446746))
+I remove some sequences and run the tree with non-parametric bootstraps instead.
 
 In `MIKC_tree_workflow-basalclades-v5.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v5.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v5.ipynb)
 [iToL](https://itol.embl.de/tree/9421021579163171593685733))
+I added gymnosperms and _Azolla_ sequences.
+Since the algal outgroup has proven to be stable but also very big, it's size is trimmed down.
 
 In `MIKC_tree_workflow-basalclades-v6.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v6.ipynb)
