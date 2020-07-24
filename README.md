@@ -63,8 +63,8 @@ In `MIKC_tree_workflow-basalclades-v3.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v3.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v3.ipynb)
 [iToL](https://itol.embl.de/tree/13121159166346421593419936))
-I aim to identify MIKC* sequences (characterised by a longer C domain) and remove these from the analyses;
-hence I'm making a phylogeny of only MIKCc genes.
+I aim to identify non MIKC sequences and remove these from the analyses;
+hence I'm making a phylogeny of only MIKC genes and not sequences which only have an M domain.
 In a separate notebook, I already did so for all algal sequences in the 1kP MIKC orthogroup.
 These should confirm the placing of the CgMADS1 sequence and provide a solid root to the tree.
 
@@ -85,7 +85,8 @@ In `MIKC_tree_workflow-basalclades-v6.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v6.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v6.ipynb)
 [iToL](https://itol.embl.de/tree/942102157910201593716454))
-
+some _Azolla_ sequences were removed again and a big clade of MIKC* sequences was removed.
+MIKC* sequences are characterised by a longer C domain.
 
 
 ## Data sources
