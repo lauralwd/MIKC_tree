@@ -37,6 +37,11 @@ In `MIKC_tree_workflow-v2.ipynb`
 )
 we replace some species with others, add bryophytes and lycophytes, and attempt to introduce an outgroup of non-plant sequences.
 
+In `MIKC_tree_workflow-basalclades-v1.ipynb`
+([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v1.ipynb)
+[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v1.html)
+)
+we attempt to improve the phylogenetic signal by sampling less sequences in more recent branches; about a third compared to the previous workflow.
 
 In `algal sequences.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/algal%20sequences.ipynb)
@@ -45,7 +50,6 @@ In `algal sequences.ipynb`
 We found that in this orthogroup sequences almost always have the highly conserved M domain, but often lack the IKC domains or part thereoff.
 Based on these results, we proceed only with algal sequences that contain all four domains.
 
-MIKC_tree_workflow-basalclades-v1.ipynb
 MIKC_tree_workflow-basalclades-v2.ipynb
 MIKC_tree_workflow-basalclades-v3.ipynb
 MIKC_tree_workflow-basalclades-v4.ipynb
