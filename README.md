@@ -84,7 +84,8 @@ Since the algal outgroup has proven to be stable but also very big, it's size is
 In `MIKC_tree_workflow-basalclades-v6.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v6.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v6.ipynb)
-[iToL](https://itol.embl.de/tree/942102157910201593716454))
+[iToL-UFbootstrap](https://itol.embl.de/tree/942102157910201593716454))
+[iToL-nonparametric](https://itol.embl.de/tree/1312115964226201597403301#))
 some _Azolla_ sequences were removed again and a big clade of MIKC* sequences was removed.
 MIKC* sequences are characterised by a longer C domain.
 
