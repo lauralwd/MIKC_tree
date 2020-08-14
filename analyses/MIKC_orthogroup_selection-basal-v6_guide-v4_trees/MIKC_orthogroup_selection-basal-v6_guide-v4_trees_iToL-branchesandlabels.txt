@@ -173,7 +173,7 @@ Sacu_v1.1_s0115.g020974_MADS-box_transcription_factor__0.179_	branch	#00b456	nor
 QMWB-2056566-Anomodon_attenuatus	branch	#EC7505	normal	1
 JZVE-2032691-Parasitaxus_usta	branch	#ff0000	normal	1
 UPMJ-2002417-Pseudolycopodiella_caroliniana	branch	#00b4f1	normal	1
-JZVE-2036946-Parasitaxus_usta	branch	#3a58d6	normal	1
+JZVE-2036946-Parasitaxus_usta	branch	#ff0000	normal	1
 JVSZ-2004872-Equisetum_hymale	branch	#00b456	normal	1
 AGL15	branch	#3a58d6	normal	1
 JVSZ-2127794-Equisetum_hymale	branch	#00b456	normal	1
