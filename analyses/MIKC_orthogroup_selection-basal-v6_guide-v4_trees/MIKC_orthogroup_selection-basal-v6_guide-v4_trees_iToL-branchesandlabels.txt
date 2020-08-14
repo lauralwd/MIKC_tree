@@ -1,6 +1,31 @@
 TREE_COLORS
 SEPARATOR TAB
 DATA
+
+## clades
+TPHT-2010795-Spirotaenia_sp.|MNNM-2042156-Cosmarium_granatum	clade	#9400d3	normal	1
+MpMADS2|RDOO-2000811-Racomitrium_varium	clade	#EC7505	normal	1
+UPMJ-2014960-Pseudolycopodiella_caroliniana|UPMJ-2002417-Pseudolycopodiella_caroliniana	clade	#00b4f1	normal	1
+PIVW-2002392-Ceratopteris_thalictroides|CMADS2_AAC24493	clade	#00b456	normal	1
+JVSZ-2127811-Equisetum_hymale|PIVW-2004035-Ceratopteris_thalictroides	clade	#00b456	normal	1
+JVSZ-2014398-Equisetum_hymale|CVEG-2123825-Azolla_cf._caroliniana	clade	#00b456	normal	1
+CMADS6_AAC24325|CRM3_CAA69407	clade	#00b456	normal	1
+Azfi_s0009.g011792_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1|Azfi_s0009.g011725_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1	clade	#00b456	normal	1
+JZVE-2035359-Parasitaxus_usta|XMGP-2003328-Juniperus_scopulorum	clade	#ff0000	normal	1
+XMGP-2007459-Juniperus_scopulorum|JZVE-2007246-Parasitaxus_usta	clade	#ff0000	normal	1
+JZVE-2036348-Parasitaxus_usta|XMGP-2014150-Juniperus_scopulorum	clade	#ff0000	normal	1
+XMGP-2012223-Juniperus_scopulorum|JZVE-2004735-Parasitaxus_usta	clade	#ff0000	normal	1
+JZVE-2004736-Parasitaxus_usta|JZVE-2007309-Parasitaxus_usta	clade	#ff0000	normal	1
+JZVE-2034291-Parasitaxus_usta|JZVE-2036124-Parasitaxus_usta	clade	#ff0000	normal	1
+
+AGL22_SVP|OsMADS55	clade	#3a58d6	normal	1
+AP3|OsMADS16	clade	#3a58d6	normal	1
+AGL12|OsMADS3	clade	#3a58d6	normal	1
+AGL8_FUL|OsMADS14_Homeotic_A	clade	#3a58d6	normal	1
+AGL2_SEP1|OsMADS8	clade	#3a58d6	normal	1
+
+
+## branches
 PIVW-2003992-Ceratopteris_thalictroides	branch	#00b456	normal	1
 PIVW-2001493-Ceratopteris_thalictroides	branch	#00b456	normal	1
 CBAE-2009937-Huperzia_myrisinites	branch	#00b4f1	normal	1
@@ -172,6 +197,9 @@ Sacu_v1.1_s0033.g011014_MADS-box_transcription_factor__0.179_	branch	#00b456	nor
 ENQF-2007944-Lycopodium_annotinum	branch	#00b4f1	normal	1
 JZVE-2007246-Parasitaxus_usta	branch	#ff0000	normal	1
 JVSZ-2014659-Equisetum_hymale	branch	#00b456	normal	1
+
+
+## labels
 AP3	label	#000010	bold	3
 Azfi_s0028.g024032_manually_reannotated	label	#000000	bold	4
 Azfi_s0016.g014286_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1	label	#000010	bold	3
