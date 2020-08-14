@@ -41,8 +41,8 @@ SIZE_FACTOR,1
 COLOR_SCHEME,MY_SCHEME_1
 
 #start and stop residue of the alignment to display; note that the complete length should be below ~4000 residues
-START_POSITION,1
-END_POSITION,1000
+START_POSITION,40
+END_POSITION,337
 
 #display repeating identical residues in each column as dots, instead of letters. Only the first letter in each repeat block will be displayed.
 DOTTED_DISPLAY,0
@@ -51,10 +51,10 @@ DOTTED_DISPLAY,0
 COLORED_DOTS,1
 
 #display the consensus sequence blow the alignment
-DISPLAY_CONSENSUS,1
+DISPLAY_CONSENSUS,0
 
 #display the residue conservation graph below the alignment
-DISPLAY_CONSERVATION,1
+DISPLAY_CONSERVATION,0
 
 #=================================================================#
 #       Put the actual alignment below the "DATA" keyword         #
