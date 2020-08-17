@@ -1,0 +1,830 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    LauraDesktop (AVX2, FMA3, 23 GB RAM)
+Command: iqtree -s data/alignments_trimmed/MIKC_orthogroup_selection-basal-v7_guide-v4_aligned-mafft-einsi_trim-gt3.fasta -m MFP -bb 2000 -alrt 2000 -nt AUTO -ntmax 4 -pre analyses/MIKC_orthogroup_selection-basal-v7_guide-v4_trees/aligned-mafft-einsi_trim-gt3/MIKC_orthogroup_selection-basal-v7_guide-v4_aligned-mafft-einsi_trim-gt3_iqtree-bb2000-alrt2000
+Seed:    709749 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug 14 18:14:45 2020
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file data/alignments_trimmed/MIKC_orthogroup_selection-basal-v7_guide-v4_aligned-mafft-einsi_trim-gt3.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 165 sequences with 208 columns, 208 distinct patterns
+201 parsimony-informative, 6 singleton sites, 1 constant sites
+WARNING: Some sequence names are changed as follows:
+Sacu_v1.1_s0003.g001705_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0003.g001705_MADS-box_transcription_factor__0.179_
+Sacu_v1.1_s0004.g002164_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0004.g002164_MADS-box_transcription_factor__0.179_
+Sacu_v1.1_s0004.g002217_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0004.g002217_MADS-box_transcription_factor__0.179_
+Sacu_v1.1_s0006.g003070_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0006.g003070_MADS-box_transcription_factor__0.179_
+Sacu_v1.1_s0006.g003425_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0006.g003425_MADS-box_transcription_factor__0.179_
+Sacu_v1.1_s0006.g003429_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0006.g003429_MADS-box_transcription_factor__0.179_
+Sacu_v1.1_s0027.g009704_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0027.g009704_MADS-box_transcription_factor__0.179_
+Sacu_v1.1_s0033.g011014_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0033.g011014_MADS-box_transcription_factor__0.179_
+Sacu_v1.1_s0043.g012907_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0043.g012907_MADS-box_transcription_factor__0.179_
+Sacu_v1.1_s0043.g012908_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0043.g012908_MADS-box_transcription_factor__0.179_
+Sacu_v1.1_s0050.g013783_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0050.g013783_MADS-box_transcription_factor__0.179_
+Sacu_v1.1_s0087.g018504_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0087.g018504_MADS-box_transcription_factor__0.179_
+Sacu_v1.1_s0115.g020974_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0115.g020974_MADS-box_transcription_factor__0.179_
+Sacu_v1.1_s0129.g021995_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0129.g021995_MADS-box_transcription_factor__0.179_
+Sacu_v1.1_s0239.g026597_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0239.g026597_MADS-box_transcription_factor__0.179_
+Sacu_v1.1_s0271.g027022_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0271.g027022_MADS-box_transcription_factor__0.179_
+Sacu_v1.1_s0932.g027847_MADS-box_transcription_factor_[0.179] -> Sacu_v1.1_s0932.g027847_MADS-box_transcription_factor__0.179_
+
+                                                                                Gap/Ambiguity  Composition  p-value
+   1  cgMADS1_BAD88436                                                                 19.23%    passed     86.66%
+   2  CRM1_CAA69276                                                                     7.69%    passed     70.83%
+   3  CRM2_CAA69277                                                                    25.48%    passed     65.56%
+   4  CRM3_CAA69407                                                                     1.92%    passed     10.35%
+   5  CRM4_CAA69408                                                                    17.79%    passed     69.26%
+   6  CRM5_CAA69409                                                                    17.79%    passed      7.20%
+   7  CRM6_CAA69410                                                                    12.98%    passed     78.06%
+   8  CRM7_CAA69411                                                                    18.27%    passed     55.73%
+   9  OPM1_CAA69412                                                                    14.90%    passed     95.89%
+  10  CMADS1_AAC24492                                                                   0.48%    passed     67.53%
+  11  CMADS2_AAC24493                                                                   7.69%    passed     77.10%
+  12  CMADS3_AAC24319                                                                   7.69%    passed     72.57%
+  13  CMADS4_AAC24320                                                                   6.25%    passed     96.02%
+  14  CMADS6_AAC24325                                                                  21.63%    passed      7.52%
+  15  SmMADS6                                                                           5.29%    passed     66.28%
+  16  SmMADS3                                                                           2.88%    passed     27.09%
+  17  SmMADS1                                                                           7.69%    passed     83.13%
+  18  PPM1_Pp012G078200                                                                 6.25%    passed     86.76%
+  19  PPM2_Pp003G125000                                                                 5.29%    passed     98.25%
+  20  PpMADS1_Pp004G002000                                                              4.33%    passed     78.00%
+  21  PpMADS_S                                                                          5.77%    passed     90.40%
+  22  PPMC5_Pp017G019900                                                                4.33%    passed     64.04%
+  23  PPMC6_Pp014G056100                                                                4.33%    passed     70.94%
+  24  PI                                                                               13.94%    passed     47.05%
+  25  AP3                                                                               3.37%    passed     19.28%
+  26  AGL2_SEP1                                                                         1.92%    passed     41.60%
+  27  AGL6                                                                              1.92%    passed     73.42%
+  28  AGL8_FUL                                                                          6.73%    passed     78.22%
+  29  AGL25_FLC                                                                        10.10%    passed     19.71%
+  30  AG                                                                                3.85%    passed     13.06%
+  31  AGL12                                                                             9.62%    passed     46.67%
+  32  AGL15                                                                            10.10%    passed     90.03%
+  33  AGL17                                                                             3.37%    passed     99.31%
+  34  AGL20_SOC1                                                                        2.88%    passed     52.84%
+  35  AGL22_SVP                                                                         2.88%    passed     86.41%
+  36  AGL32_ABS                                                                         1.44%    failed      1.65%
+  37  AGL33                                                                            56.25%    passed     25.89%
+  38  OsMADS2                                                                          10.10%    passed     63.80%
+  39  OsMADS16                                                                          7.69%    passed     18.79%
+  40  OsMADS55                                                                         12.50%    passed     90.47%
+  41  OsMADS30                                                                          6.73%    passed     39.94%
+  42  OsMADS6                                                                           2.40%    passed     51.25%
+  43  OsMADS8                                                                           1.92%    passed     83.14%
+  44  OsMADS15                                                                          0.96%    passed     35.79%
+  45  OsMADS23                                                                         25.48%    passed     97.23%
+  46  OsMADS26                                                                          7.69%    passed     21.36%
+  47  OsMADS3                                                                           3.37%    passed      5.20%
+  48  OsMADS50                                                                         48.08%    passed     44.51%
+  49  AtSTK_Homeotic_D                                                                  7.21%    passed      7.11%
+  50  AtAP1_Homeotic_A                                                                  1.92%    passed     21.53%
+  51  OsMADS14_Homeotic_A                                                               6.25%    passed     45.19%
+  52  MpMADS2                                                                           4.81%    passed     94.09%
+  53  Azfi_s0028.g024032_manually_reannotated                                          11.06%    passed     43.28%
+  54  Azfi_s0062.g035272_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1    5.29%    passed     68.93%
+  55  Azfi_s0028.g024032_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1   70.67%    passed     49.34%
+  56  Azfi_s0003.g007710_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1    2.88%    passed     48.86%
+  57  Azfi_s0003.g007732_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1   18.75%    passed     90.61%
+  58  Azfi_s0704.g082655_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1    1.92%    passed     13.69%
+  59  Azfi_s0242.g059800_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1    0.96%    passed     97.72%
+  60  Azfi_s0078.g038112_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1   11.06%    passed     87.55%
+  61  Azfi_s0038.g026346_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1   70.67%    passed     88.17%
+  62  Azfi_s0016.g014286_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1    6.25%    passed     74.26%
+  63  Azfi_s0001.g000595_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1   70.19%    passed     98.39%
+  64  Azfi_s0034.g025354_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1   70.67%    passed     46.80%
+  65  Azfi_s0009.g011788_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1   58.17%    passed      5.33%
+  66  Azfi_s0009.g011751_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1   48.08%    passed     54.04%
+  67  Azfi_s0009.g011735_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1   40.87%    failed      0.01%
+  68  Azfi_s0009.g011792_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1    5.29%    passed     46.54%
+  69  Azfi_s0009.g011725_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1   39.90%    passed     48.31%
+  70  Azfi_s0009.g011722_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1   54.81%    passed     71.12%
+  71  Azfi_s0038.g026344_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1   31.73%    passed     58.12%
+  72  Azfi_s0016.g014288_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1    7.21%    passed     84.41%
+  73  Sacu_v1.1_s0003.g001705_MADS-box_transcription_factor__0.179_                    67.79%    passed      8.94%
+  74  Sacu_v1.1_s0004.g002164_MADS-box_transcription_factor__0.179_                    23.56%    passed     50.07%
+  75  Sacu_v1.1_s0004.g002217_MADS-box_transcription_factor__0.179_                    55.29%    passed     71.01%
+  76  Sacu_v1.1_s0006.g003070_MADS-box_transcription_factor__0.179_                    66.35%    passed     24.57%
+  77  Sacu_v1.1_s0006.g003425_MADS-box_transcription_factor__0.179_                     5.77%    passed     71.01%
+  78  Sacu_v1.1_s0006.g003429_MADS-box_transcription_factor__0.179_                    61.54%    passed     20.36%
+  79  Sacu_v1.1_s0027.g009704_MADS-box_transcription_factor__0.179_                    70.67%    passed     40.59%
+  80  Sacu_v1.1_s0033.g011014_MADS-box_transcription_factor__0.179_                     5.29%    passed     87.39%
+  81  Sacu_v1.1_s0043.g012907_MADS-box_transcription_factor__0.179_                     7.21%    passed     74.99%
+  82  Sacu_v1.1_s0043.g012908_MADS-box_transcription_factor__0.179_                     7.69%    passed     52.73%
+  83  Sacu_v1.1_s0050.g013783_MADS-box_transcription_factor__0.179_                     5.77%    passed     71.42%
+  84  Sacu_v1.1_s0087.g018504_MADS-box_transcription_factor__0.179_                    64.42%    passed     38.99%
+  85  Sacu_v1.1_s0115.g020974_MADS-box_transcription_factor__0.179_                    35.10%    passed     48.82%
+  86  Sacu_v1.1_s0129.g021995_MADS-box_transcription_factor__0.179_                    66.83%    failed      2.17%
+  87  Sacu_v1.1_s0239.g026597_MADS-box_transcription_factor__0.179_                    65.87%    passed     54.61%
+  88  Sacu_v1.1_s0271.g027022_MADS-box_transcription_factor__0.179_                     0.48%    passed     95.06%
+  89  Sacu_v1.1_s0932.g027847_MADS-box_transcription_factor__0.179_                     0.00%    passed     80.31%
+  90  PIVW-2001489-Ceratopteris_thalictroides                                          25.48%    passed     72.40%
+  91  IRBN-2000158-Scapania_nemorosa                                                   30.77%    passed     92.73%
+  92  ENQF-2084602-Lycopodium_annotinum                                                 4.81%    passed     78.94%
+  93  PIVW-2016418-Ceratopteris_thalictroides                                          14.90%    passed     59.19%
+  94  FFPD-2013099-Ceratodon_purpureus                                                  5.29%    passed     87.30%
+  95  CVEG-2124355-Azolla_cf._caroliniana                                              25.00%    passed     96.77%
+  96  PIVW-2002304-Ceratopteris_thalictroides                                          37.50%    passed     73.29%
+  97  PIVW-2019843-Ceratopteris_thalictroides                                          18.75%    passed     91.69%
+  98  RDOO-2000812-Racomitrium_varium                                                  14.90%    passed     76.22%
+  99  PIVW-2004036-Ceratopteris_thalictroides                                          17.31%    passed     80.42%
+ 100  ENQF-2007944-Lycopodium_annotinum                                                 6.73%    passed     65.32%
+ 101  PIVW-2020998-Ceratopteris_thalictroides                                          19.71%    passed     92.72%
+ 102  UPMJ-2005050-Pseudolycopodiella_caroliniana                                      17.31%    passed     97.65%
+ 103  PIVW-2004304-Ceratopteris_thalictroides                                          37.02%    passed     97.83%
+ 104  PIVW-2000174-Ceratopteris_thalictroides                                          29.81%    passed     84.84%
+ 105  ENQF-2004632-Lycopodium_annotinum                                                17.79%    passed     69.39%
+ 106  PIVW-2000450-Ceratopteris_thalictroides                                          17.31%    passed     61.74%
+ 107  QMWB-2056566-Anomodon_attenuatus                                                 39.42%    passed     97.02%
+ 108  RDOO-2000811-Racomitrium_varium                                                  14.42%    passed     75.73%
+ 109  CBAE-2013716-Huperzia_myrisinites                                                 8.17%    passed     62.16%
+ 110  UPMJ-2005049-Pseudolycopodiella_caroliniana                                      17.31%    passed     97.65%
+ 111  CBAE-2013582-Huperzia_myrisinites                                                11.06%    passed     99.13%
+ 112  PIVW-2008000-Ceratopteris_thalictroides                                          19.23%    passed     15.00%
+ 113  UPMJ-2014960-Pseudolycopodiella_caroliniana                                       8.65%    passed     95.40%
+ 114  PIVW-2004305-Ceratopteris_thalictroides                                          26.44%    passed     97.01%
+ 115  LGOW-2012213-Schistochila_sp.                                                    25.00%    passed     91.20%
+ 116  PIVW-2004303-Ceratopteris_thalictroides                                          34.62%    passed     96.52%
+ 117  PIVW-2001491-Ceratopteris_thalictroides                                          27.88%    passed     79.02%
+ 118  ENQF-2004631-Lycopodium_annotinum                                                30.77%    passed     34.95%
+ 119  PIVW-2001490-Ceratopteris_thalictroides                                          27.88%    passed     73.78%
+ 120  FFPD-2013100-Ceratodon_purpureus                                                  5.29%    passed     80.76%
+ 121  UPMJ-2002417-Pseudolycopodiella_caroliniana                                      32.21%    passed     21.04%
+ 122  PIVW-2002392-Ceratopteris_thalictroides                                          19.71%    passed      5.19%
+ 123  CBAE-2009937-Huperzia_myrisinites                                                12.02%    passed     20.36%
+ 124  PIVW-2019502-Ceratopteris_thalictroides                                          15.38%    passed     68.89%
+ 125  FFPD-2057947-Ceratodon_purpureus                                                  5.77%    passed     89.11%
+ 126  CVEG-2033633-Azolla_cf._caroliniana                                              16.83%    passed     90.44%
+ 127  ENQF-2015023-Lycopodium_annotinum                                                11.06%    passed     96.30%
+ 128  PIVW-2004035-Ceratopteris_thalictroides                                          17.31%    passed     80.42%
+ 129  UPMJ-2008884-Pseudolycopodiella_caroliniana                                      26.44%    passed     99.66%
+ 130  PIVW-2003993-Ceratopteris_thalictroides                                          17.31%    passed     74.88%
+ 131  PIVW-2003992-Ceratopteris_thalictroides                                          17.31%    passed     74.88%
+ 132  PIVW-2009413-Ceratopteris_thalictroides                                          26.92%    passed     84.66%
+ 133  CBAE-2012867-Huperzia_myrisinites                                                18.27%    passed     98.17%
+ 134  PIVW-2000173-Ceratopteris_thalictroides                                           1.92%    passed     28.72%
+ 135  UPMJ-2017788-Pseudolycopodiella_caroliniana                                       5.29%    passed     85.36%
+ 136  PIVW-2004302-Ceratopteris_thalictroides                                          37.02%    passed     96.02%
+ 137  PIVW-2009414-Ceratopteris_thalictroides                                          26.92%    passed     84.66%
+ 138  PIVW-2007999-Ceratopteris_thalictroides                                          19.23%    passed     15.00%
+ 139  NRWZ-2014421-Metzgeria_crassipilis                                                4.81%    passed     91.16%
+ 140  PIVW-2001493-Ceratopteris_thalictroides                                          25.48%    passed     72.40%
+ 141  RDOO-2015055-Racomitrium_varium                                                  21.15%    passed     84.59%
+ 142  CVEG-2123825-Azolla_cf._caroliniana                                              27.88%    passed     91.53%
+ 143  CVEG-2010487-Azolla_cf._caroliniana                                              25.00%    passed     97.55%
+ 144  XMGP-2014150-Juniperus_scopulorum                                                19.23%    passed     85.22%
+ 145  JZVE-2034291-Parasitaxus_usta                                                    20.67%    passed     84.74%
+ 146  XMGP-2012223-Juniperus_scopulorum                                                22.60%    passed     80.16%
+ 147  XMGP-2002769-Juniperus_scopulorum                                                26.92%    passed     82.26%
+ 148  JZVE-2035359-Parasitaxus_usta                                                    27.40%    passed     15.76%
+ 149  JZVE-2036348-Parasitaxus_usta                                                     7.21%    passed     96.59%
+ 150  XMGP-2007460-Juniperus_scopulorum                                                30.29%    failed      0.02%
+ 151  JZVE-2036124-Parasitaxus_usta                                                     6.73%    passed     68.94%
+ 152  JZVE-2032691-Parasitaxus_usta                                                    26.44%    passed     53.15%
+ 153  JZVE-2006929-Parasitaxus_usta                                                    13.46%    passed     96.42%
+ 154  XMGP-2005352-Juniperus_scopulorum                                                33.17%    passed     38.05%
+ 155  JZVE-2007309-Parasitaxus_usta                                                    31.73%    passed     84.67%
+ 156  JZVE-2003013-Parasitaxus_usta                                                    25.96%    passed     95.76%
+ 157  XMGP-2009071-Juniperus_scopulorum                                                26.92%    passed     97.04%
+ 158  XMGP-2003328-Juniperus_scopulorum                                                18.27%    passed     40.92%
+ 159  JZVE-2003919-Parasitaxus_usta                                                    23.08%    passed     71.15%
+ 160  JZVE-2004736-Parasitaxus_usta                                                    16.35%    passed     67.69%
+ 161  XMGP-2007459-Juniperus_scopulorum                                                 4.33%    passed     15.95%
+ 162  XMGP-2058097-Juniperus_scopulorum                                                 6.73%    passed     73.41%
+ 163  JZVE-2004735-Parasitaxus_usta                                                    22.12%    passed     91.33%
+ 164  JZVE-2036946-Parasitaxus_usta                                                     5.29%    passed     98.49%
+ 165  JZVE-2007246-Parasitaxus_usta                                                     2.40%    passed     33.07%
+WARNING: 15 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                            19.53%  4 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: PIVW-2001493-Ceratopteris_thalictroides is identical to PIVW-2001489-Ceratopteris_thalictroides but kept for subsequent analysis
+NOTE: PIVW-2004035-Ceratopteris_thalictroides is identical to PIVW-2004036-Ceratopteris_thalictroides but kept for subsequent analysis
+NOTE: UPMJ-2005049-Pseudolycopodiella_caroliniana is identical to UPMJ-2005050-Pseudolycopodiella_caroliniana but kept for subsequent analysis
+NOTE: PIVW-2007999-Ceratopteris_thalictroides is identical to PIVW-2008000-Ceratopteris_thalictroides but kept for subsequent analysis
+NOTE: PIVW-2003992-Ceratopteris_thalictroides is identical to PIVW-2003993-Ceratopteris_thalictroides but kept for subsequent analysis
+NOTE: PIVW-2009414-Ceratopteris_thalictroides is identical to PIVW-2009413-Ceratopteris_thalictroides but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.057 seconds
+NOTE: ModelFinder requires 59 MB RAM!
+ModelFinder will test 546 protein models (sample size: 208) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Measuring multi-threading efficiency up to 4 CPU cores
+Increase to 10 rounds for branch lengths
+23 trees examined
+Threads: 1 / Time: 4.001 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -50999
+Threads: 2 / Time: 2.610 sec / Speedup: 1.533 / Efficiency: 77% / LogL: -50999
+Threads: 3 / Time: 2.134 sec / Speedup: 1.875 / Efficiency: 62% / LogL: -50999
+Threads: 4 / Time: 2.011 sec / Speedup: 1.990 / Efficiency: 50% / LogL: -50999
+BEST NUMBER OF THREADS: 3
+
+  1  Dayhoff       36102.695    327 72859.390    287371.390   73950.765
+  2  Dayhoff+I     36069.987    328 72795.974    288619.974   73890.687
+  3  Dayhoff+G4    34172.858    328 69001.716    284825.716   70096.428
+  4  Dayhoff+I+G4  34171.736    329 69001.473    286141.473   70099.523
+  5  Dayhoff+R2    34566.022    329 69790.044    286930.044   70888.094
+  6  Dayhoff+R3    34307.221    331 69276.443    289060.443   70381.168
+  7  Dayhoff+R4    34153.777    333 68973.554    291417.554   70084.954
+  8  Dayhoff+R5    34110.891    335 68891.782    294011.782   70009.857
+  9  Dayhoff+R6    34103.564    337 68881.127    296693.127   70005.877
+ 10  Dayhoff+R7    34097.475    339 68872.949    299392.949   70004.375
+ 11  Dayhoff+R8    34094.166    341 68870.332    302114.332   70008.432
+ 14  Dayhoff+F     36081.373    346 72854.745    312978.745   74009.533
+ 15  Dayhoff+F+I   36035.634    347 72765.267    314277.267   73923.393
+ 16  Dayhoff+F+G4  34095.099    347 68884.199    310396.199   70042.325
+ 17  Dayhoff+F+I+G4 34091.789    348 68879.579    311783.579   70041.042
+ 18  Dayhoff+F+R2  34532.483    348 69760.966    312664.966   70922.430
+ 19  Dayhoff+F+R3  34226.979    350 69153.958    314853.958   70322.096
+ 20  Dayhoff+F+R4  34086.966    352 68877.932    317389.932   70052.746
+ 21  Dayhoff+F+R5  34045.389    354 68798.778    320138.778   69980.266
+ 22  Dayhoff+F+R6  34030.592    356 68773.184    322957.184   69961.348
+ 23  Dayhoff+F+R7  34022.463    358 68760.926    325804.926   69955.765
+ 24  Dayhoff+F+R8  34016.550    360 68753.100    328673.100   69954.614
+ 25  Dayhoff+F+R9  34014.633    362 68753.265    331565.265   69961.454
+ 27  mtMAM         39288.429    327 79230.858    293742.858   80322.233
+ 28  mtMAM+I       39257.021    328 79170.042    294994.042   80264.754
+ 29  mtMAM+G4      35769.087    328 72194.173    288018.173   73288.886
+ 30  mtMAM+I+G4    35769.087    329 72196.174    289336.174   73294.225
+ 31  mtMAM+R2      36391.153    329 73440.306    290580.306   74538.356
+ 32  mtMAM+R3      35930.339    331 72522.677    292306.677   73627.402
+ 33  mtMAM+R4      35801.901    333 72269.802    294713.802   73381.202
+ 34  mtMAM+R5      35724.589    335 72119.178    297239.178   73237.253
+ 35  mtMAM+R6      35697.331    337 72068.663    299880.663   73193.413
+ 36  mtMAM+R7      35671.932    339 72021.864    302541.864   73153.290
+ 37  mtMAM+R8      35655.205    341 71992.410    305236.410   73130.511
+ 38  mtMAM+R9      35642.253    343 71970.506    307954.506   73115.281
+ 39  mtMAM+R10     35630.145    345 71950.291    310690.291   73101.741
+ 40  mtMAM+F       37301.201    346 75294.402    315418.402   76449.191
+ 41  mtMAM+F+I     37255.253    347 75204.505    316716.505   76362.631
+ 42  mtMAM+F+G4    34682.983    347 70059.966    311571.966   71218.092
+ 43  mtMAM+F+I+G4  34679.706    348 70055.412    312959.412   71216.875
+ 44  mtMAM+F+R2    35184.683    348 71065.366    313969.366   72226.829
+ 45  mtMAM+F+R3    34786.356    350 70272.711    315972.711   71440.849
+ 46  mtMAM+F+R4    34687.470    352 70078.941    318590.941   71253.754
+ 47  mtMAM+F+R5    34629.725    354 69967.449    321307.449   71148.938
+ 48  mtMAM+F+R6    34610.138    356 69932.276    324116.276   71120.440
+ 49  mtMAM+F+R7    34596.987    358 69909.975    326953.975   71104.813
+ 50  mtMAM+F+R8    34578.700    360 69877.400    329797.400   71078.914
+ 51  mtMAM+F+R9    34572.928    362 69869.855    332681.855   71078.044
+ 52  mtMAM+F+R10   34567.388    364 69862.776    335582.776   71077.640
+ 53  JTT           35722.393    327 72098.787    286610.787   73190.162
+ 54  JTT+I         35680.262    328 72016.524    287840.524   73111.236
+ 55  JTT+G4        33747.506    328 68151.012    283975.012   69245.725
+ 56  JTT+I+G4      33743.021    329 68144.042    285284.042   69242.092
+ 57  JTT+R2        34115.134    329 68888.268    286028.268   69986.318
+ 58  JTT+R3        33823.194    331 68308.388    288092.388   69413.113
+ 59  JTT+R4        33718.192    333 68102.383    290546.383   69213.783
+ 60  JTT+R5        33673.567    335 68017.135    293137.135   69135.210
+ 61  JTT+R6        33659.335    337 67992.671    295804.671   69117.421
+ 62  JTT+R7        33649.511    339 67977.023    298497.023   69108.448
+ 63  JTT+R8        33644.972    341 67971.945    301215.945   69110.045
+ 66  JTT+F         35779.664    346 72251.328    312375.328   73406.116
+ 67  JTT+F+I       35723.825    347 72141.651    313653.651   73299.776
+ 68  JTT+F+G4      33741.982    347 68177.964    309689.964   69336.090
+ 69  JTT+F+I+G4    33734.877    348 68165.753    311069.753   69327.216
+ 70  JTT+F+R2      34154.585    348 69005.170    311909.170   70166.634
+ 71  JTT+F+R3      33837.422    350 68374.843    314074.843   69542.981
+ 72  JTT+F+R4      33721.558    352 68147.115    316659.115   69321.929
+ 73  JTT+F+R5      33681.070    354 68070.139    319410.139   69251.628
+ 74  JTT+F+R6      33668.214    356 68048.428    322232.428   69236.592
+ 75  JTT+F+R7      33655.551    358 68027.102    325071.102   69221.941
+ 76  JTT+F+R8      33649.407    360 68018.814    327938.814   69220.328
+ 77  JTT+F+R9      33645.724    362 68015.449    330827.449   69223.638
+ 79  WAG           35802.145    327 72258.289    286770.289   73349.664
+ 80  WAG+I         35752.666    328 72161.331    287985.331   73256.044
+ 81  WAG+G4        33963.604    328 68583.209    284407.209   69677.921
+ 82  WAG+I+G4      33957.465    329 68572.930    285712.930   69670.980
+ 83  WAG+R2        34369.925    329 69397.851    286537.851   70495.901
+ 84  WAG+R3        34064.036    331 68790.073    288574.073   69894.798
+ 85  WAG+R4        33941.689    333 68549.378    290993.378   69660.778
+ 86  WAG+R5        33910.032    335 68490.063    293610.063   69608.138
+ 87  WAG+R6        33898.345    337 68470.690    296282.690   69595.441
+ 88  WAG+R7        33890.297    339 68458.594    298978.594   69590.020
+ 89  WAG+R8        33885.821    341 68453.643    301697.643   69591.743
+ 92  WAG+F         36070.912    346 72833.824    312957.824   73988.612
+ 93  WAG+F+I       36008.015    347 72710.030    314222.030   73868.155
+ 94  WAG+F+G4      34107.885    347 68909.770    310421.770   70067.896
+ 95  WAG+F+I+G4    34099.821    348 68895.642    311799.642   70057.105
+ 96  WAG+F+R2      34574.666    348 69845.333    312749.333   71006.796
+ 97  WAG+F+R3      34226.159    350 69152.319    314852.319   70320.457
+ 98  WAG+F+R4      34094.759    352 68893.519    317405.519   70068.332
+ 99  WAG+F+R5      34065.473    354 68838.946    320178.946   70020.434
+100  WAG+F+R6      34053.517    356 68819.033    323003.033   70007.197
+101  WAG+F+R7      34041.684    358 68799.368    325843.368   69994.206
+102  WAG+F+R8      34037.101    360 68794.202    328714.202   69995.716
+105  cpREV         36180.811    327 73015.622    287527.622   74106.997
+106  cpREV+I       36103.703    328 72863.406    288687.406   73958.119
+107  cpREV+G4      34100.665    328 68857.329    284681.329   69952.042
+108  cpREV+I+G4    34089.542    329 68837.085    285977.085   69935.135
+109  cpREV+R2      34562.134    329 69782.267    286922.267   70880.317
+110  cpREV+R3      34214.236    331 69090.472    288874.472   70195.197
+111  cpREV+R4      34084.444    333 68834.887    291278.887   69946.287
+112  cpREV+R5      34053.342    335 68776.685    293896.685   69894.760
+113  cpREV+R6      34047.659    337 68769.318    296581.318   69894.068
+114  cpREV+R7      34032.979    339 68743.958    299263.958   69875.384
+115  cpREV+R8      34018.815    341 68719.630    301963.630   69857.730
+116  cpREV+R9      34012.841    343 68711.683    304695.683   69856.458
+117  cpREV+R10     34005.552    345 68701.103    307441.103   69852.554
+118  cpREV+F       36709.652    346 74111.305    314235.305   75266.093
+119  cpREV+F+I     36619.709    347 73933.419    315445.419   75091.544
+120  cpREV+F+G4    34409.293    347 69512.585    311024.585   70670.711
+121  cpREV+F+I+G4  34398.511    348 69493.022    312397.022   70654.485
+122  cpREV+F+R2    34993.362    348 70682.725    313586.725   71844.188
+123  cpREV+F+R3    34587.105    350 69874.211    315574.211   71042.349
+124  cpREV+F+R4    34427.069    352 69558.138    318070.138   70732.952
+125  cpREV+F+R5    34388.891    354 69485.782    320825.782   70667.270
+126  cpREV+F+R6    34369.744    356 69451.488    323635.488   70639.652
+127  cpREV+F+R7    34355.968    358 69427.936    326471.936   70622.774
+128  cpREV+F+R8    34346.943    360 69413.886    329333.886   70615.400
+129  cpREV+F+R9    34344.343    362 69412.686    332224.686   70620.875
+131  mtREV         37943.788    327 76541.576    291053.576   77632.951
+132  mtREV+I       37897.064    328 76450.127    292274.127   77544.840
+133  mtREV+G4      35403.128    328 71462.256    287286.256   72556.968
+134  mtREV+I+G4    35397.806    329 71453.612    288593.612   72551.662
+135  mtREV+R2      35782.271    329 72222.542    289362.542   73320.592
+136  mtREV+R3      35490.840    331 71643.679    291427.679   72748.404
+137  mtREV+R4      35377.410    333 71420.821    293864.821   72532.221
+138  mtREV+R5      35344.238    335 71358.476    296478.476   72476.551
+139  mtREV+R6      35332.172    337 71338.343    299150.343   72463.094
+140  mtREV+R7      35325.872    339 71329.743    301849.743   72461.169
+141  mtREV+R8      35310.378    341 71302.756    304546.756   72440.856
+142  mtREV+R9      35303.438    343 71292.877    307276.877   72437.652
+143  mtREV+R10     35284.586    345 71259.171    309999.171   72410.622
+144  mtREV+F       36490.938    346 73673.876    313797.876   74828.664
+145  mtREV+F+I     36427.177    347 73548.354    315060.354   74706.480
+146  mtREV+F+G4    34372.281    347 69438.562    310950.562   70596.688
+147  mtREV+F+I+G4  34363.505    348 69423.011    312327.011   70584.474
+148  mtREV+F+R2    34829.046    348 70354.092    313258.092   71515.555
+149  mtREV+F+R3    34463.625    350 69627.251    315327.251   70795.389
+150  mtREV+F+R4    34364.018    352 69432.035    317944.035   70606.849
+151  mtREV+F+R5    34347.956    354 69403.913    320743.913   70585.401
+152  mtREV+F+R6    34325.903    356 69363.806    323547.806   70551.969
+153  mtREV+F+R7    34312.980    358 69341.961    326385.961   70536.799
+154  mtREV+F+R8    34297.449    360 69314.897    329234.897   70516.411
+155  mtREV+F+R9    34292.217    362 69308.434    332120.434   70516.623
+157  rtREV         36105.810    327 72865.620    287377.620   73956.995
+158  rtREV+I       36062.924    328 72781.849    288605.849   73876.561
+159  rtREV+G4      34144.753    328 68945.506    284769.506   70040.218
+160  rtREV+I+G4    34139.141    329 68936.282    286076.282   70034.332
+161  rtREV+R2      34512.254    329 69682.509    286822.509   70780.559
+162  rtREV+R3      34215.351    331 69092.701    288876.701   70197.426
+163  rtREV+R4      34118.726    333 68903.452    291347.452   70014.852
+164  rtREV+R5      34086.365    335 68842.730    293962.730   69960.806
+165  rtREV+R6      34075.312    337 68824.625    296636.625   69949.375
+166  rtREV+R7      34064.009    339 68806.017    299326.017   69937.443
+167  rtREV+R8      34050.741    341 68783.483    302027.483   69921.583
+168  rtREV+R9      34047.047    343 68780.094    304764.094   69924.869
+170  rtREV+F       36112.561    346 72917.123    313041.123   74071.911
+171  rtREV+F+I     36057.358    347 72808.716    314320.716   73966.841
+172  rtREV+F+G4    34081.362    347 68856.723    310368.723   70014.849
+173  rtREV+F+I+G4  34073.898    348 68843.796    311747.796   70005.260
+174  rtREV+F+R2    34503.912    348 69703.823    312607.823   70865.287
+175  rtREV+F+R3    34183.174    350 69066.348    314766.348   70234.487
+176  rtREV+F+R4    34063.337    352 68830.675    317342.675   70005.488
+177  rtREV+F+R5    34043.134    354 68794.268    320134.268   69975.757
+178  rtREV+F+R6    34021.063    356 68754.127    322938.127   69942.290
+179  rtREV+F+R7    34009.698    358 68735.396    325779.396   69930.235
+180  rtREV+F+R8    34000.120    360 68720.240    328640.240   69921.754
+181  rtREV+F+R9    33994.325    362 68712.650    331524.650   69920.839
+182  rtREV+F+R10   33985.184    364 68698.368    334418.368   69913.232
+183  mtART         39077.627    327 78809.254    293321.254   79900.629
+184  mtART+I       39038.884    328 78733.768    294557.768   79828.480
+185  mtART+G4      35653.927    328 71963.854    287787.854   73058.567
+186  mtART+I+G4    35653.431    329 71964.861    289104.861   73062.912
+187  mtART+R2      36223.931    329 73105.861    290245.861   74203.911
+188  mtART+R3      35797.580    331 72257.160    292041.160   73361.885
+189  mtART+R4      35690.690    333 72047.379    294491.379   73158.779
+190  mtART+R5      35620.401    335 71910.803    297030.803   73028.878
+191  mtART+R6      35581.404    337 71836.809    299648.809   72961.559
+192  mtART+R7      35565.328    339 71808.656    302328.656   72940.081
+193  mtART+R8      35547.916    341 71777.832    305021.832   72915.933
+194  mtART+R9      35544.498    343 71774.996    307758.996   72919.771
+196  mtART+F       37234.185    346 75160.370    315284.370   76315.159
+197  mtART+F+I     37181.749    347 75057.499    316569.499   76215.624
+198  mtART+F+G4    34507.166    347 69708.332    311220.332   70866.458
+199  mtART+F+I+G4  34502.254    348 69700.509    312604.509   70861.972
+200  mtART+F+R2    35042.864    348 70781.727    313685.727   71943.191
+201  mtART+F+R3    34695.410    350 70090.819    315790.819   71258.958
+202  mtART+F+R4    34536.529    352 69777.057    318289.057   70951.871
+203  mtART+F+R5    34500.631    354 69709.262    321049.262   70890.750
+204  mtART+F+R6    34480.237    356 69672.475    323856.475   70860.638
+205  mtART+F+R7    34469.495    358 69654.990    326698.990   70849.829
+206  mtART+F+R8    34454.685    360 69629.371    329549.371   70830.885
+207  mtART+F+R9    34452.525    362 69629.050    332441.050   70837.238
+209  mtZOA         37798.772    327 76251.544    290763.544   77342.919
+210  mtZOA+I       37766.346    328 76188.692    292012.692   77283.404
+211  mtZOA+G4      34868.009    328 70392.017    286216.017   71486.730
+212  mtZOA+I+G4    34867.667    329 70393.335    287533.335   71491.385
+213  mtZOA+R2      35243.812    329 71145.623    288285.623   72243.674
+214  mtZOA+R3      34972.439    331 70606.877    290390.877   71711.603
+215  mtZOA+R4      34861.500    333 70389.001    292833.001   71500.401
+216  mtZOA+R5      34804.138    335 70278.276    295398.276   71396.351
+217  mtZOA+R6      34780.806    337 70235.611    298047.611   71360.362
+218  mtZOA+R7      34771.840    339 70221.680    300741.680   71353.105
+219  mtZOA+R8      34763.740    341 70209.480    303453.480   71347.580
+220  mtZOA+R9      34761.073    343 70208.146    306192.146   71352.921
+222  mtZOA+F       36599.662    346 73891.324    314015.324   75046.112
+223  mtZOA+F+I     36547.216    347 73788.431    315300.431   74946.557
+224  mtZOA+F+G4    34196.517    347 69087.034    310599.034   70245.159
+225  mtZOA+F+I+G4  34190.516    348 69077.031    311981.031   70238.495
+226  mtZOA+F+R2    34688.944    348 70073.889    312977.889   71235.352
+227  mtZOA+F+R3    34339.079    350 69378.159    315078.159   70546.297
+228  mtZOA+F+R4    34201.138    352 69106.276    317618.276   70281.089
+229  mtZOA+F+R5    34179.185    354 69066.369    320406.369   70247.858
+230  mtZOA+F+R6    34169.754    356 69051.508    323235.508   70239.671
+231  mtZOA+F+R7    34160.111    358 69036.222    326080.222   70231.061
+232  mtZOA+F+R8    34142.260    360 69004.519    328924.519   70206.033
+233  mtZOA+F+R9    34138.214    362 69000.428    331812.428   70208.617
+235  VT            35755.053    327 72164.106    286676.106   73255.481
+236  VT+I          35707.265    328 72070.529    287894.529   73165.242
+237  VT+G4         33964.103    328 68584.205    284408.205   69678.918
+238  VT+I+G4       33957.447    329 68572.894    285712.894   69670.944
+239  VT+R2         34322.765    329 69303.530    286443.530   70401.580
+240  VT+R3         34033.950    331 68729.900    288513.900   69834.625
+241  VT+R4         33932.655    333 68531.311    290975.311   69642.711
+242  VT+R5         33896.420    335 68462.840    293582.840   69580.915
+243  VT+R6         33885.970    337 68445.939    296257.939   69570.690
+244  VT+R7         33882.787    339 68443.573    298963.573   69574.999
+248  VT+F          35919.763    346 72531.527    312655.527   73686.315
+249  VT+F+I        35862.743    347 72419.486    313931.486   73577.612
+250  VT+F+G4       34068.409    347 68830.818    310342.818   69988.944
+251  VT+F+I+G4     34060.502    348 68817.004    311721.004   69978.468
+252  VT+F+R2       34468.175    348 69632.349    312536.349   70793.813
+253  VT+F+R3       34156.916    350 69013.832    314713.832   70181.971
+254  VT+F+R4       34042.717    352 68789.434    317301.434   69964.247
+255  VT+F+R5       34006.525    354 68721.051    320061.051   69902.539
+256  VT+F+R6       33999.970    356 68711.941    322895.941   69900.105
+257  VT+F+R7       33996.357    358 68708.713    325752.713   69903.552
+261  LG            35781.354    327 72216.708    286728.708   73308.083
+262  LG+I          35735.017    328 72126.034    287950.034   73220.746
+263  LG+G4         33756.461    328 68168.922    283992.922   69263.634
+264  LG+I+G4       33750.166    329 68158.332    285298.332   69256.382
+265  LG+R2         34143.645    329 68945.291    286085.291   70043.341
+266  LG+R3         33830.900    331 68323.799    288107.799   69428.525
+267  LG+R4         33733.479    333 68132.958    290576.958   69244.358
+268  LG+R5         33697.011    335 68064.023    293184.023   69182.098
+269  LG+R6         33691.192    337 68056.384    295868.384   69181.134
+270  LG+R7         33687.013    339 68052.026    298572.026   69183.451
+274  LG+F          35989.493    346 72670.986    312794.986   73825.774
+275  LG+F+I        35931.823    347 72557.646    314069.646   73715.772
+276  LG+F+G4       33896.797    347 68487.595    309999.595   69645.721
+277  LG+F+I+G4     33889.467    348 68474.933    311378.933   69636.397
+278  LG+F+R2       34335.639    348 69367.279    312271.279   70528.742
+279  LG+F+R3       34004.431    350 68708.863    314408.863   69877.001
+280  LG+F+R4       33881.429    352 68466.858    316978.858   69641.672
+281  LG+F+R5       33850.882    354 68409.765    319749.765   69591.253
+282  LG+F+R6       33843.899    356 68399.798    322583.798   69587.962
+283  LG+F+R7       33839.056    358 68394.111    325438.111   69588.950
+287  DCMut         36101.222    327 72856.444    287368.444   73947.819
+288  DCMut+I       36068.473    328 72792.946    288616.946   73887.659
+289  DCMut+G4      34174.799    328 69005.598    284829.598   70100.310
+290  DCMut+I+G4    34173.632    329 69005.264    286145.264   70103.314
+291  DCMut+R2      34566.970    329 69791.939    286931.939   70889.989
+292  DCMut+R3      34306.482    331 69274.964    289058.964   70379.689
+293  DCMut+R4      34153.004    333 68972.007    291416.007   70083.408
+294  DCMut+R5      34111.021    335 68892.041    294012.041   70010.117
+295  DCMut+R6      34106.479    337 68886.959    296698.959   70011.709
+300  DCMut+F       36079.088    346 72850.176    312974.176   74004.964
+301  DCMut+F+I     36033.346    347 72760.693    314272.693   73918.819
+302  DCMut+F+G4    34096.370    347 68886.739    310398.739   70044.865
+303  DCMut+F+I+G4  34093.012    348 68882.023    311786.023   70043.487
+304  DCMut+F+R2    34532.789    348 69761.578    312665.578   70923.041
+305  DCMut+F+R3    34227.053    350 69154.107    314854.107   70322.245
+306  DCMut+F+R4    34085.083    352 68874.165    317386.165   70048.979
+307  DCMut+F+R5    34045.589    354 68799.178    320139.178   69980.666
+308  DCMut+F+R6    34040.062    356 68792.125    322976.125   69980.288
+309  DCMut+F+R7    34035.239    358 68786.479    325830.479   69981.317
+313  PMB           36094.564    327 72843.128    287355.128   73934.503
+314  PMB+I         36046.468    328 72748.936    288572.936   73843.648
+315  PMB+G4        34305.275    328 69266.551    285090.551   70361.263
+316  PMB+I+G4      34297.837    329 69253.673    286393.673   70351.723
+317  PMB+R2        34651.792    329 69961.583    287101.583   71059.633
+318  PMB+R3        34370.824    331 69403.648    289187.648   70508.373
+319  PMB+R4        34271.946    333 69209.892    291653.892   70321.292
+320  PMB+R5        34232.388    335 69134.776    294254.776   70252.851
+321  PMB+R6        34228.302    337 69130.604    296942.604   70255.354
+326  PMB+F         36344.594    346 73381.189    313505.189   74535.977
+327  PMB+F+I       36288.054    347 73270.108    314782.108   74428.233
+328  PMB+F+G4      34472.244    347 69638.488    311150.488   70796.614
+329  PMB+F+I+G4    34464.220    348 69624.441    312528.441   70785.904
+330  PMB+F+R2      34878.494    348 70452.988    313356.988   71614.451
+331  PMB+F+R3      34573.793    350 69847.587    315547.587   71015.725
+332  PMB+F+R4      34450.234    352 69604.469    318116.469   70779.282
+333  PMB+F+R5      34409.727    354 69527.454    320867.454   70708.942
+334  PMB+F+R6      34408.408    356 69528.816    323712.816   70716.980
+339  HIVb          36827.723    327 74309.446    288821.446   75400.821
+340  HIVb+I        36751.250    328 74158.500    289982.500   75253.212
+341  HIVb+G4       34253.403    328 69162.806    284986.806   70257.519
+342  HIVb+I+G4     34246.255    329 69150.510    286290.510   70248.560
+343  HIVb+R2       34721.905    329 70101.810    287241.810   71199.860
+344  HIVb+R3       34349.345    331 69360.689    289144.689   70465.414
+345  HIVb+R4       34248.208    333 69162.415    291606.415   70273.815
+346  HIVb+R5       34188.228    335 69046.456    294166.456   70164.531
+347  HIVb+R6       34177.238    337 69028.475    296840.475   70153.225
+348  HIVb+R7       34177.144    339 69032.288    299552.288   70163.714
+352  HIVb+F        36875.010    346 74442.020    314566.020   75596.808
+353  HIVb+F+I      36791.020    347 74276.041    315788.041   75434.167
+354  HIVb+F+G4     34199.128    347 69092.256    310604.256   70250.381
+355  HIVb+F+I+G4   34192.063    348 69080.127    311984.127   70241.590
+356  HIVb+F+R2     34700.124    348 70096.248    313000.248   71257.711
+357  HIVb+F+R3     34308.951    350 69317.902    315017.902   70486.040
+358  HIVb+F+R4     34206.858    352 69117.717    317629.717   70292.530
+359  HIVb+F+R5     34129.113    354 68966.227    320306.227   70147.715
+360  HIVb+F+R6     34122.660    356 68957.320    323141.320   70145.484
+361  HIVb+F+R7     34122.656    358 68961.312    326005.312   70156.151
+365  HIVw          38334.644    327 77323.288    291835.288   78414.663
+366  HIVw+I        38249.458    328 77154.917    292978.917   78249.629
+367  HIVw+G4       35696.757    328 72049.513    287873.513   73144.226
+368  HIVw+I+G4     35687.351    329 72032.701    289172.701   73130.751
+369  HIVw+R2       36249.715    329 73157.431    290297.431   74255.481
+370  HIVw+R3       35819.663    331 72301.326    292085.326   73406.051
+371  HIVw+R4       35695.162    333 72056.324    294500.324   73167.724
+372  HIVw+R5       35624.385    335 71918.771    297038.771   73036.846
+373  HIVw+R6       35619.563    337 71913.125    299725.125   73037.876
+378  HIVw+F        38010.812    346 76713.624    316837.624   77868.412
+379  HIVw+F+I      37909.758    347 76513.515    318025.515   77671.641
+380  HIVw+F+G4     35233.658    347 71161.315    312673.315   72319.441
+381  HIVw+F+I+G4   35218.074    348 71132.148    314036.148   72293.612
+382  HIVw+F+R2     35811.463    348 72318.926    315222.926   73480.390
+383  HIVw+F+R3     35373.245    350 71446.490    317146.490   72614.628
+384  HIVw+F+R4     35234.594    352 71173.188    319685.188   72348.001
+385  HIVw+F+R5     35165.808    354 71039.616    322379.616   72221.104
+386  HIVw+F+R6     35160.744    356 71033.488    325217.488   72221.651
+391  JTTDCMut      35723.979    327 72101.957    286613.957   73193.332
+392  JTTDCMut+I    35682.210    328 72020.420    287844.420   73115.133
+393  JTTDCMut+G4   33754.294    328 68164.588    283988.588   69259.300
+394  JTTDCMut+I+G4 33749.960    329 68157.919    285297.919   69255.969
+395  JTTDCMut+R2   34121.416    329 68900.831    286040.831   69998.881
+396  JTTDCMut+R3   33831.287    331 68324.573    288108.573   69429.298
+397  JTTDCMut+R4   33726.482    333 68118.965    290562.965   69230.365
+398  JTTDCMut+R5   33675.106    335 68020.212    293140.212   69138.287
+399  JTTDCMut+R6   33671.619    337 68017.238    295829.238   69141.988
+404  JTTDCMut+F    35786.969    346 72265.937    312389.937   73420.725
+405  JTTDCMut+F+I  35731.239    347 72156.479    313668.479   73314.604
+406  JTTDCMut+F+G4 33751.350    347 68196.701    309708.701   69354.826
+407  JTTDCMut+F+I+G4 33744.310    348 68184.620    311088.620   69346.083
+408  JTTDCMut+F+R2 34164.730    348 69025.460    311929.460   70186.923
+409  JTTDCMut+F+R3 33849.362    350 68398.724    314098.724   69566.862
+410  JTTDCMut+F+R4 33732.206    352 68168.413    316680.413   69343.226
+411  JTTDCMut+F+R5 33683.310    354 68074.620    319414.620   69256.108
+412  JTTDCMut+F+R6 33680.567    356 68073.133    322257.133   69261.297
+417  FLU           36892.485    327 74438.969    288950.969   75530.344
+418  FLU+I         36815.389    328 74286.778    290110.778   75381.491
+419  FLU+G4        34373.212    328 69402.423    285226.423   70497.136
+420  FLU+I+G4      34360.698    329 69379.395    286519.395   70477.445
+421  FLU+R2        34858.206    329 70374.411    287514.411   71472.461
+422  FLU+R3        34484.924    331 69631.849    289415.849   70736.574
+423  FLU+R4        34364.353    333 69394.706    291838.706   70506.107
+424  FLU+R5        34310.903    335 69291.806    294411.806   70409.881
+425  FLU+R6        34305.901    337 69285.802    297097.802   70410.552
+430  FLU+F         37208.558    346 75109.116    315233.116   76263.904
+431  FLU+F+I       37112.125    347 74918.250    316430.250   76076.376
+432  FLU+F+G4      34484.133    347 69662.265    311174.265   70820.391
+433  FLU+F+I+G4    34469.467    348 69634.934    312538.934   70796.397
+434  FLU+F+R2      35017.146    348 70730.292    313634.292   71891.755
+435  FLU+F+R3      34619.207    350 69938.413    315638.413   71106.552
+436  FLU+F+R4      34491.848    352 69687.697    318199.697   70862.510
+437  FLU+F+R5      34429.761    354 69567.522    320907.522   70749.010
+438  FLU+F+R6      34425.070    356 69562.139    323746.139   70750.303
+443  Blosum62      36079.030    327 72812.060    287324.060   73903.435
+444  Blosum62+I    36029.827    328 72715.653    288539.653   73810.366
+445  Blosum62+G4   34294.378    328 69244.756    285068.756   70339.468
+446  Blosum62+I+G4 34286.670    329 69231.341    286371.341   70329.391
+447  Blosum62+R2   34638.781    329 69935.561    287075.561   71033.611
+448  Blosum62+R3   34356.690    331 69375.380    289159.380   70480.105
+449  Blosum62+R4   34259.297    333 69184.593    291628.593   70295.993
+450  Blosum62+R5   34216.413    335 69102.825    294222.825   70220.901
+451  Blosum62+R6   34210.095    337 69094.189    296906.189   70218.940
+452  Blosum62+R7   34208.488    339 69094.977    299614.977   70226.402
+456  Blosum62+F    36400.491    346 73492.982    313616.982   74647.770
+457  Blosum62+F+I  36341.428    347 73376.856    314888.856   74534.982
+458  Blosum62+F+G4 34515.546    347 69725.092    311237.092   70883.217
+459  Blosum62+F+I+G4 34507.298    348 69710.596    312614.596   70872.059
+460  Blosum62+F+R2 34934.628    348 70565.255    313469.255   71726.718
+461  Blosum62+F+R3 34610.321    350 69920.643    315620.643   71088.781
+462  Blosum62+F+R4 34494.629    352 69693.259    318205.259   70868.072
+463  Blosum62+F+R5 34452.671    354 69613.341    320953.341   70794.830
+464  Blosum62+F+R6 34446.637    356 69605.275    323789.275   70793.438
+465  Blosum62+F+R7 34444.671    358 69605.342    326649.342   70800.181
+469  mtMet         37857.889    327 76369.778    290881.778   77461.153
+470  mtMet+I       37826.403    328 76308.806    292132.806   77403.518
+471  mtMet+G4      35157.006    328 70970.013    286794.013   72064.725
+472  mtMet+I+G4    35156.195    329 70970.391    288110.391   72068.441
+473  mtMet+R2      35605.293    329 71868.586    289008.586   72966.636
+474  mtMet+R3      35243.902    331 71149.803    290933.803   72254.528
+475  mtMet+R4      35139.557    333 70945.113    293389.113   72056.513
+476  mtMet+R5      35062.796    335 70795.591    295915.591   71913.666
+477  mtMet+R6      35061.430    337 70796.861    298608.861   71921.611
+482  mtMet+F       36270.636    346 73233.272    313357.272   74388.060
+483  mtMet+F+I     36227.863    347 73149.727    314661.727   74307.852
+484  mtMet+F+G4    34057.870    347 68809.739    310321.739   69967.865
+485  mtMet+F+I+G4  34054.802    348 68805.605    311709.605   69967.068
+486  mtMet+F+R2    34498.906    348 69693.812    312597.812   70855.275
+487  mtMet+F+R3    34165.117    350 69030.233    314730.233   70198.372
+488  mtMet+F+R4    34055.373    352 68814.746    317326.746   69989.560
+489  mtMet+F+R5    34007.029    354 68722.059    320062.059   69903.547
+490  mtMet+F+R6    34000.224    356 68712.449    322896.449   69900.612
+491  mtMet+F+R7    33997.992    358 68711.985    325755.985   69906.823
+495  mtVer         38330.697    327 77315.395    291827.395   78406.770
+496  mtVer+I       38305.114    328 77266.228    293090.228   78360.941
+497  mtVer+G4      35382.796    328 71421.591    287245.591   72516.304
+498  mtVer+I+G4    35382.813    329 71423.626    288563.626   72521.676
+499  mtVer+R2      35858.754    329 72375.508    289515.508   73473.558
+500  mtVer+R3      35500.076    331 71662.151    291446.151   72766.876
+501  mtVer+R4      35381.619    333 71429.239    293873.239   72540.639
+502  mtVer+R5      35299.133    335 71268.266    296388.266   72386.341
+503  mtVer+R6      35295.908    337 71265.815    299077.815   72390.566
+508  mtVer+F       36782.081    346 74256.162    314380.162   75410.950
+509  mtVer+F+I     36741.023    347 74176.046    315688.046   75334.172
+510  mtVer+F+G4    34411.694    347 69517.389    311029.389   70675.515
+511  mtVer+F+I+G4  34409.219    348 69514.439    312418.439   70675.902
+512  mtVer+F+R2    34893.108    348 70482.216    313386.216   71643.679
+513  mtVer+F+R3    34545.820    350 69791.641    315491.641   70959.779
+514  mtVer+F+R4    34422.744    352 69549.488    318061.488   70724.301
+515  mtVer+F+R5    34346.443    354 69400.885    320740.885   70582.374
+516  mtVer+F+R6    34344.041    356 69400.082    323584.082   70588.246
+521  mtInv         37908.172    327 76470.343    290982.343   77561.718
+522  mtInv+I       37873.700    328 76403.399    292227.399   77498.112
+523  mtInv+G4      35400.253    328 71456.505    287280.505   72551.218
+524  mtInv+I+G4    35397.334    329 71452.668    288592.668   72550.718
+525  mtInv+R2      35755.920    329 72169.840    289309.840   73267.890
+526  mtInv+R3      35476.914    331 71615.828    291399.828   72720.553
+527  mtInv+R4      35377.041    333 71420.081    293864.081   72531.481
+528  mtInv+R5      35301.186    335 71272.372    296392.372   72390.448
+529  mtInv+R6      35299.376    337 71272.752    299084.752   72397.502
+534  mtInv+F       36062.895    346 72817.790    312941.790   73972.578
+535  mtInv+F+I     36017.336    347 72728.671    314240.671   73886.797
+536  mtInv+F+G4    33958.676    347 68611.352    310123.352   69769.478
+537  mtInv+F+I+G4  33954.617    348 68605.234    311509.234   69766.697
+538  mtInv+F+R2    34386.128    348 69468.256    312372.256   70629.720
+539  mtInv+F+R3    34076.049    350 68852.098    314552.098   70020.236
+540  mtInv+F+R4    33953.622    352 68611.243    317123.243   69786.056
+541  mtInv+F+R5    33913.674    354 68535.348    319875.348   69716.836
+542  mtInv+F+R6    33906.060    356 68524.120    322708.120   69712.284
+543  mtInv+F+R7    33905.964    358 68527.929    325571.929   69722.768
+Akaike Information Criterion:           JTT+R8
+Corrected Akaike Information Criterion: JTT+G4
+Bayesian Information Criterion:         JTT+R7
+Best-fit model: JTT+R7 chosen according to BIC
+
+All model information printed to analyses/MIKC_orthogroup_selection-basal-v7_guide-v4_trees/aligned-mafft-einsi_trim-gt3/MIKC_orthogroup_selection-basal-v7_guide-v4_aligned-mafft-einsi_trim-gt3_iqtree-bb2000-alrt2000.model.gz
+CPU time for ModelFinder: 1417.992 seconds (0h:23m:37s)
+Wall-clock time for ModelFinder: 478.324 seconds (0h:7m:58s)
+Generating 2000 samples for ultrafast bootstrap (seed: 709749)...
+
+NOTE: 42 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+Increase to 10 rounds for branch lengths
+5 trees examined
+Threads: 1 / Time: 4.731 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -46283
+Threads: 2 / Time: 2.661 sec / Speedup: 1.778 / Efficiency: 89% / LogL: -46283
+Threads: 3 / Time: 1.997 sec / Speedup: 2.369 / Efficiency: 79% / LogL: -46283
+Threads: 4 / Time: 1.679 sec / Speedup: 2.819 / Efficiency: 70% / LogL: -46283
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -33662.455
+2. Current log-likelihood: -33649.187
+3. Current log-likelihood: -33648.113
+4. Current log-likelihood: -33647.910
+5. Current log-likelihood: -33647.769
+6. Current log-likelihood: -33647.669
+Optimal log-likelihood: -33647.543
+Site proportion and rates:  (0.121,0.070) (0.123,0.225) (0.112,0.424) (0.137,0.684) (0.193,1.095) (0.164,1.567) (0.149,2.372)
+Parameters optimization took 6 rounds (3.323 sec)
+Computing ML distances based on estimated model parameters... 10.057 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.012 seconds
+Log-likelihood of BIONJ tree: -33795.406
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 5.790 second
+Computing log-likelihood of 98 initial trees ... 7.980 seconds
+Current best score: -33571.653
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -33451.623
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -33440.144
+Iteration 10 / LogL: -33518.437 / Time: 0h:0m:48s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 19: -33415.966
+Iteration 20 / LogL: -33523.839 / Time: 0h:1m:4s
+Finish initializing candidate tree set (20)
+Current best tree score: -33415.966 / CPU time: 46.171
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -33413.024
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -33410.586
+Iteration 30 / LogL: -33412.759 / Time: 0h:1m:18s (0h:4m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -33409.839
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 34: -33409.061
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -33407.049
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -33406.840
+Iteration 40 / LogL: -33412.385 / Time: 0h:1m:34s (0h:4m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -33405.803
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -33405.735
+Iteration 50 / LogL: -33415.790 / Time: 0h:1m:46s (0h:3m:27s left)
+Log-likelihood cutoff on original alignment: -33520.302
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -33405.121
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -33404.994
+Iteration 60 / LogL: -33425.884 / Time: 0h:2m:0s (0h:3m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 64: -33404.466
+Iteration 70 / LogL: -33435.126 / Time: 0h:2m:12s (0h:3m:1s left)
+Iteration 80 / LogL: -33404.475 / Time: 0h:2m:24s (0h:2m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 81: -33404.141
+Iteration 90 / LogL: -33405.198 / Time: 0h:2m:38s (0h:2m:41s left)
+Iteration 100 / LogL: -33404.300 / Time: 0h:2m:50s (0h:2m:19s left)
+Log-likelihood cutoff on original alignment: -33520.302
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 110 / LogL: -33405.527 / Time: 0h:3m:3s (0h:2m:31s left)
+Iteration 120 / LogL: -33410.823 / Time: 0h:3m:15s (0h:2m:11s left)
+Iteration 130 / LogL: -33418.506 / Time: 0h:3m:26s (0h:1m:52s left)
+Iteration 140 / LogL: -33526.243 / Time: 0h:3m:37s (0h:1m:34s left)
+Iteration 150 / LogL: -33406.442 / Time: 0h:3m:48s (0h:1m:16s left)
+Log-likelihood cutoff on original alignment: -33520.302
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 154: -33403.160
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 156: -33401.555
+Iteration 160 / LogL: -33403.523 / Time: 0h:4m:3s (0h:2m:26s left)
+Iteration 170 / LogL: -33422.999 / Time: 0h:4m:15s (0h:2m:10s left)
+Iteration 180 / LogL: -33405.159 / Time: 0h:4m:28s (0h:1m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 187: -33401.162
+Iteration 190 / LogL: -33404.735 / Time: 0h:4m:40s (0h:2m:24s left)
+Iteration 200 / LogL: -33426.240 / Time: 0h:4m:53s (0h:2m:8s left)
+Log-likelihood cutoff on original alignment: -33520.302
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 210 / LogL: -33401.942 / Time: 0h:5m:7s (0h:2m:12s left)
+Iteration 220 / LogL: -33401.842 / Time: 0h:5m:20s (0h:1m:56s left)
+Iteration 230 / LogL: -33403.156 / Time: 0h:5m:32s (0h:1m:41s left)
+Iteration 240 / LogL: -33406.898 / Time: 0h:5m:46s (0h:1m:26s left)
+Iteration 250 / LogL: -33401.710 / Time: 0h:5m:59s (0h:1m:12s left)
+Log-likelihood cutoff on original alignment: -33520.302
+Iteration 260 / LogL: -33403.158 / Time: 0h:6m:13s (0h:0m:57s left)
+Iteration 270 / LogL: -33401.497 / Time: 0h:6m:27s (0h:0m:43s left)
+Iteration 280 / LogL: -33416.831 / Time: 0h:6m:40s (0h:0m:28s left)
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+TREE SEARCH COMPLETED AFTER 288 ITERATIONS / Time: 0h:6m:51s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -33401.162
+Optimal log-likelihood: -33401.161
+Site proportion and rates:  (0.115,0.067) (0.124,0.225) (0.110,0.413) (0.153,0.709) (0.176,1.108) (0.165,1.567) (0.157,2.272)
+Parameters optimization took 1 rounds (0.208 sec)
+BEST SCORE FOUND : -33401.161
+
+Testing tree branches by SH-like aLRT with 2000 replicates...
+0.463 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file analyses/MIKC_orthogroup_selection-basal-v7_guide-v4_trees/aligned-mafft-einsi_trim-gt3/MIKC_orthogroup_selection-basal-v7_guide-v4_aligned-mafft-einsi_trim-gt3_iqtree-bb2000-alrt2000.splits.nex
+Total tree length: 84.068
+
+Total number of iterations: 288
+CPU time used for tree search: 1488.568 sec (0h:24m:48s)
+Wall-clock time used for tree search: 393.175 sec (0h:6m:33s)
+Total CPU time used: 1541.274 sec (0h:25m:41s)
+Total wall-clock time used: 412.536 sec (0h:6m:52s)
+
+Computing bootstrap consensus tree...
+Reading input file analyses/MIKC_orthogroup_selection-basal-v7_guide-v4_trees/aligned-mafft-einsi_trim-gt3/MIKC_orthogroup_selection-basal-v7_guide-v4_aligned-mafft-einsi_trim-gt3_iqtree-bb2000-alrt2000.splits.nex...
+165 taxa and 1354 splits.
+Consensus tree written to analyses/MIKC_orthogroup_selection-basal-v7_guide-v4_trees/aligned-mafft-einsi_trim-gt3/MIKC_orthogroup_selection-basal-v7_guide-v4_aligned-mafft-einsi_trim-gt3_iqtree-bb2000-alrt2000.contree
+Reading input trees file analyses/MIKC_orthogroup_selection-basal-v7_guide-v4_trees/aligned-mafft-einsi_trim-gt3/MIKC_orthogroup_selection-basal-v7_guide-v4_aligned-mafft-einsi_trim-gt3_iqtree-bb2000-alrt2000.contree
+Log-likelihood of consensus tree: -33401.452
+
+Analysis results written to: 
+  IQ-TREE report:                analyses/MIKC_orthogroup_selection-basal-v7_guide-v4_trees/aligned-mafft-einsi_trim-gt3/MIKC_orthogroup_selection-basal-v7_guide-v4_aligned-mafft-einsi_trim-gt3_iqtree-bb2000-alrt2000.iqtree
+  Maximum-likelihood tree:       analyses/MIKC_orthogroup_selection-basal-v7_guide-v4_trees/aligned-mafft-einsi_trim-gt3/MIKC_orthogroup_selection-basal-v7_guide-v4_aligned-mafft-einsi_trim-gt3_iqtree-bb2000-alrt2000.treefile
+  Likelihood distances:          analyses/MIKC_orthogroup_selection-basal-v7_guide-v4_trees/aligned-mafft-einsi_trim-gt3/MIKC_orthogroup_selection-basal-v7_guide-v4_aligned-mafft-einsi_trim-gt3_iqtree-bb2000-alrt2000.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          analyses/MIKC_orthogroup_selection-basal-v7_guide-v4_trees/aligned-mafft-einsi_trim-gt3/MIKC_orthogroup_selection-basal-v7_guide-v4_aligned-mafft-einsi_trim-gt3_iqtree-bb2000-alrt2000.splits.nex
+  Consensus tree:                analyses/MIKC_orthogroup_selection-basal-v7_guide-v4_trees/aligned-mafft-einsi_trim-gt3/MIKC_orthogroup_selection-basal-v7_guide-v4_aligned-mafft-einsi_trim-gt3_iqtree-bb2000-alrt2000.contree
+  Screen log file:               analyses/MIKC_orthogroup_selection-basal-v7_guide-v4_trees/aligned-mafft-einsi_trim-gt3/MIKC_orthogroup_selection-basal-v7_guide-v4_aligned-mafft-einsi_trim-gt3_iqtree-bb2000-alrt2000.log
+
+Date and Time: Fri Aug 14 18:29:37 2020
