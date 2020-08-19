@@ -15,7 +15,7 @@ Final input, output and intermediate files:
 * JuPyter notebook detailing all code
 
 ## Final figure
-\[insert figure\]
+![preliminary figure](analyses/MIKC_orthogroup_selection-basal-v7_guide-v4_trees/aligned-mafft-einsi_trim-gt5/MIKC_orthogroup_selection-basal-v7_guide-v4_aligned-mafft-einsi_trim-gt5_iqtree-bb2000-alrt2000.png)
 
 ## Guide through files and directories
 
