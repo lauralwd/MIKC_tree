@@ -89,6 +89,22 @@ In `MIKC_tree_workflow-basalclades-v6.ipynb`
 some _Azolla_ sequences were removed again and a big clade of MIKC* sequences was removed.
 MIKC* sequences are characterised by a longer C domain.
 
+In `MIKC_tree_workflow-basalclades-v7.ipynb` 
+([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v7.ipynb)
+html
+several rogue taxa were removed; those taxa that were poorly supported and moved around the tree inbetween different inferences.
+Also, the algal outgroup was reduced in size and I experimented with different extents of column-content trimming.
+I varied the miniumum sequence content per column from 10% to 50% and made UFBootstrap tree inferences:
+iToL UFbootstrap 
+[gt .1](https://itol.embl.de/tree/131211596429601597651059)
+[gt .2](https://itol.embl.de/tree/131211596429631597651059)
+[gt .3](https://itol.embl.de/tree/131211596429651597651060)
+[gt .4](https://itol.embl.de/tree/131211596429721597651060)
+[gt .5](https://itol.embl.de/tree/131211596429741597651061)
+Based on the alignments and the trees, I choose the 50% sequence content alignment and made a nonparmetric tree:
+itol-nonparametric
+
+
 
 ## Data sources
 1kP
