@@ -16,7 +16,7 @@ AGL12|OsMADS26	clade	#3a58d6	normal	1
 AGL22_SVP|OsMADS55	clade	#3a58d6	normal	1
 XMGP-2012223-Juniperus_scopulorum|XMGP-2002769-Juniperus_scopulorum	clade	#ff0000	normal	1
 JZVE-2006929-Parasitaxus_usta|JZVE-2004735-Parasitaxus_usta	clade	#ff0000	normal	1
-AGL17|OsMADS23	clade	#ff0000	normal	1
+AGL17|OsMADS23	clade	#3a58d6	normal	1
 PIVW-2003993-Ceratopteris_thalictroides|PIVW-2008000-Ceratopteris_thalictroides	clade	#00b456	normal	1
 AGL25_FLC|AGL33	clade	#3a58d6	normal	1
 JZVE-2032691-Parasitaxus_usta|JZVE-2003919-Parasitaxus_usta	clade	#ff0000	normal	1
