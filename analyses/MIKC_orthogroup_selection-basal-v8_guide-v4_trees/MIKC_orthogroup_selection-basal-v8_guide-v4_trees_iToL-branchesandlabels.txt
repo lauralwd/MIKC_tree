@@ -175,3 +175,6 @@ SmMADS1	label	#000010	bold	3
 AGL15	label	#000010	bold	3
 SmMADS6	label	#000010	bold	3
 CVEG-2033633-Azolla_cf._caroliniana	label	#000010	normal	2
+
+tr_Q9FYZ8_Q9FYZ8_SPIAN_MADS-box_protein_LAMB1_OS_Spinulum_annotinum_OX_13840_GN_MB1_PE_2_SV_1	branch	#00b4f1	normal	1
+
