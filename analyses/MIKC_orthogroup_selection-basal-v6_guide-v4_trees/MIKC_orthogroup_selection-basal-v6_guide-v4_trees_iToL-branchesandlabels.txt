@@ -236,6 +236,7 @@ AGL8_FUL	label	#000010	bold	3
 Azfi_s0009.g011792_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1	label	#000010	bold	3
 AGL20_SOC1	label	#000010	bold	3
 Azfi_s0038.g026344_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1	label	#000010	bold	3
+Azfi_s0038.g026346_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1	label	#000010	bold	3
 PPMC5_Pp017G019900	label	#000010	bold	3
 PpMADS1_Pp004G002000	label	#000010	bold	3
 CVEG-2123825-Azolla_cf._caroliniana	label	#000010	normal	2
