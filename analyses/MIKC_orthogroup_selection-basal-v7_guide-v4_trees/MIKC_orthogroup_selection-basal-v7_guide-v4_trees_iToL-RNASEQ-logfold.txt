@@ -3,10 +3,10 @@ DATASET_SIMPLEBAR
 SEPARATOR COMMA
 
 #label is used in the legend table (can be changed later)
-DATASET_LABEL,RNASEQ_meanbase
+DATASET_LABEL,RNASEQ_logfoldchange
 
 #dataset color (can be changed later)
-COLOR,#000000
+COLOR,#0000ff
 
 #=================================================================#
 #                    OPTIONAL SETTINGS                            #
@@ -22,7 +22,7 @@ COLOR,#000000
 #or you can specify value, label, color, width, style and label size factor for each scale line (dash separated, format: VALUE-LABEL-COLOR-WIDTH-DASHED-LABEL_SCALE_FACTOR))
 #DATASET_SCALE,2000-2k line-#0000ff-5-1-1,10000-line at 10k-#ff0000-1-0-2,20000-3rd line-#00ff00-5-1-1
 
-DATASET_SCALE,0-0-#666666-5-1-5,2-2-#666666-5-1-5,,4-4-#666666-5-1-5,,6-6-#666666-5-1-5
+DATASET_SCALE,0-0-#666666-5-1-5,2-2-#666666-5-1-5,4-4-#666666-5-1-5,6-6-#666666-5-1-5,8-8-#666666-5-1-5
 
 #Each dataset can have a legend, which is defined using LEGEND_XXX fields below
 #For each row in the legend, there should be one shape, color and label.
@@ -73,7 +73,7 @@ WIDTH,200
 #BORDER_WIDTH,0
 
 #border color; used when BORDER_WIDTH is above 0
-#BORDER_COLOR,#0000ff
+#BORDER_COLOR,#00ff00
 
 #Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
 #=================================================================#
