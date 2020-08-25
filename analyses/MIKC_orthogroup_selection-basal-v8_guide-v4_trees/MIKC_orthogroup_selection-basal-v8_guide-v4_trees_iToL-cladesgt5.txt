@@ -1,0 +1,26 @@
+TREE_COLORS
+SEPARATOR TAB
+DATA
+
+## clades
+MNNM-2042156-Cosmarium_granatum|TPHT-2126301-Spirotaenia_sp.	clade	#7635A5	normal	1
+PIVW-2002392-Ceratopteris_thalictroides|PIVW-2001493-Ceratopteris_thalictroides	clade	#00b456	normal	1
+MpMADS2|RDOO-2000811-Racomitrium_varium	clade	#EC7505	normal	1
+UPMJ-2014960-Pseudolycopodiella_caroliniana|UPMJ-2017788-Pseudolycopodiella_caroliniana	clade	#00b4f1	normal	1
+PIVW-2019502-Ceratopteris_thalictroides|CVEG-2123825-Azolla_cf._caroliniana	clade	#00b456	normal	1
+AGL32_ABS|OsMADS30	clade	#3a58d6	normal	1
+XMGP-2058097-Juniperus_scopulorum|JZVE-2034291-Parasitaxus_usta	clade	#ff0000	normal	1
+PI|OsMADS16	clade	#3a58d6	normal	1
+CRM3_CAA69407|CMADS6_AAC24325	clade	#00b456	normal	1
+AGL12|OsMADS26	clade	#3a58d6	normal	1
+AGL22_SVP|OsMADS55	clade	#3a58d6	normal	1
+XMGP-2012223-Juniperus_scopulorum|XMGP-2002769-Juniperus_scopulorum	clade	#ff0000	normal	1
+JZVE-2006929-Parasitaxus_usta|JZVE-2004735-Parasitaxus_usta	clade	#ff0000	normal	1
+AGL17|OsMADS23	clade	#3a58d6	normal	1
+PIVW-2003993-Ceratopteris_thalictroides|PIVW-2008000-Ceratopteris_thalictroides	clade	#00b456	normal	1
+AGL25_FLC|AGL33	clade	#3a58d6	normal	1
+JZVE-2032691-Parasitaxus_usta|JZVE-2003919-Parasitaxus_usta	clade	#ff0000	normal	1
+AtSTK_Homeotic_D|OsMADS3	clade	#3a58d6	normal	1
+XMGP-2014150-Juniperus_scopulorum|JZVE-2036348-Parasitaxus_usta	clade	#ff0000	normal	1
+XMGP-2007459-Juniperus_scopulorum|JZVE-2007246-Parasitaxus_usta	clade	#ff0000	normal	1
+AGL6|OsMADS14_Homeotic_A	clade	#3a58d6	normal	1
