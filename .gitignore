@@ -5,3 +5,4 @@ analyses/*_fasttrees
 *.mldist
 *.gz
 *beast*trees
+*.bootstraptab
