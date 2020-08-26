@@ -1,0 +1,4 @@
+LG, Subset1 = 1-60
+LG, Subset2 = 61-85
+LG, Subset3 = 86-175
+LG, Subset4 = 176-182

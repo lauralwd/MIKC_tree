@@ -1,0 +1,53 @@
+INFO     | 2020-08-26 13:16:23,966 | config     | Loading configuration at './partition_finder.cfg'
+INFO     | 2020-08-26 13:16:23,969 | config     | Setting 'alignment' to 'MIKC_orthogroup_selection-basal-v8_guide-v4_aligned-mafft-einsi_trim-gt5.phy'
+INFO     | 2020-08-26 13:16:23,969 | config     | Setting 'branchlengths' to 'linked'
+INFO     | 2020-08-26 13:16:23,970 | parser     | You set 'models' to: all
+INFO     | 2020-08-26 13:16:23,993 | model_load | This analysis will use the following 112 models of molecular evolution
+INFO     | 2020-08-26 13:16:23,993 | model_load | LG, WAG, MTREV, DAYHOFF, DCMUT, JTT, VT, BLOSUM62, CPREV, RTREV, MTMAM, MTART, HIVB, HIVW, LG+F, WAG+F, MTREV+F, DAYHOFF+F, DCMUT+F, JTT+F, VT+F, BLOSUM62+F, CPREV+F, RTREV+F, MTMAM+F, MTART+F, HIVB+F, HIVW+F, LG+G, WAG+G, MTREV+G, DAYHOFF+G, DCMUT+G, JTT+G, VT+G, BLOSUM62+G, CPREV+G, RTREV+G, MTMAM+G, MTART+G, HIVB+G, HIVW+G, LG+G+F, WAG+G+F, MTREV+G+F, DAYHOFF+G+F, DCMUT+G+F, JTT+G+F, VT+G+F, BLOSUM62+G+F, CPREV+G+F, RTREV+G+F, MTMAM+G+F, MTART+G+F, HIVB+G+F, HIVW+G+F, LG+I, WAG+I, MTREV+I, DAYHOFF+I, DCMUT+I, JTT+I, VT+I, BLOSUM62+I, CPREV+I, RTREV+I, MTMAM+I, MTART+I, HIVB+I, HIVW+I, LG+I+F, WAG+I+F, MTREV+I+F, DAYHOFF+I+F, DCMUT+I+F, JTT+I+F, VT+I+F, BLOSUM62+I+F, CPREV+I+F, RTREV+I+F, MTMAM+I+F, MTART+I+F, HIVB+I+F, HIVW+I+F, LG+I+G, WAG+I+G, MTREV+I+G, DAYHOFF+I+G, DCMUT+I+G, JTT+I+G, VT+I+G, BLOSUM62+I+G, CPREV+I+G, RTREV+I+G, MTMAM+I+G, MTART+I+G, HIVB+I+G, HIVW+I+G, LG+I+G+F, WAG+I+G+F, MTREV+I+G+F, DAYHOFF+I+G+F, DCMUT+I+G+F, JTT+I+G+F, VT+I+G+F, BLOSUM62+I+G+F, CPREV+I+G+F, RTREV+I+G+F, MTMAM+I+G+F, MTART+I+G+F, HIVB+I+G+F, HIVW+I+G+F
+INFO     | 2020-08-26 13:16:23,993 | config     | Setting 'model_selection' to 'aicc'
+INFO     | 2020-08-26 13:16:23,995 | config     | Setting 'search' to 'all'
+INFO     | 2020-08-26 13:16:23,995 | config     | ------------------------ BEGINNING NEW RUN -------------------------------
+INFO     | 2020-08-26 13:16:23,995 | config     | Looking for alignment file './MIKC_orthogroup_selection-basal-v8_guide-v4_aligned-mafft-einsi_trim-gt5.phy'...
+INFO     | 2020-08-26 13:16:23,995 | threadpool | Using 12 cpus
+INFO     | 2020-08-26 13:16:23,996 | analysis   | Beginning Analysis
+INFO     | 2020-08-26 13:16:24,008 | alignment  | Reading alignment file './MIKC_orthogroup_selection-basal-v8_guide-v4_aligned-mafft-einsi_trim-gt5.phy'
+INFO     | 2020-08-26 13:16:24,012 | analysis   | Starting tree will be estimated from the data.
+INFO     | 2020-08-26 13:16:24,012 | raxml      | Estimating Maximum Likelihood tree with RAxML fast experimental tree search for ./analysis/start_tree/filtered_source.phy
+INFO     | 2020-08-26 13:16:24,012 | raxml      | Checking data
+INFO     | 2020-08-26 13:16:24,012 | raxml      | Running full ML tree
+INFO     | 2020-08-26 13:16:57,162 | raxml      | Estimating LG+G branch lengths on ML tree using all partitions
+INFO     | 2020-08-26 13:17:00,059 | raxml      | ML topology estimation finished
+INFO     | 2020-08-26 13:17:00,059 | analysis_m | Performing complete analysis
+INFO     | 2020-08-26 13:18:53,418 | progress   | Finished subset 1/15, 6.67 percent done
+INFO     | 2020-08-26 13:20:42,596 | progress   | Finished subset 2/15, 13.33 percent done
+INFO     | 2020-08-26 13:20:53,355 | progress   | Finished subset 3/15, 20.00 percent done
+INFO     | 2020-08-26 13:22:15,268 | progress   | Finished subset 4/15, 26.67 percent done
+INFO     | 2020-08-26 13:23:15,077 | progress   | Finished subset 5/15, 33.33 percent done
+INFO     | 2020-08-26 13:24:26,257 | progress   | Finished subset 6/15, 40.00 percent done
+INFO     | 2020-08-26 13:25:13,863 | progress   | Finished subset 7/15, 46.67 percent done
+INFO     | 2020-08-26 13:27:38,814 | progress   | Finished subset 8/15, 53.33 percent done
+INFO     | 2020-08-26 13:28:34,435 | progress   | Finished subset 9/15, 60.00 percent done
+INFO     | 2020-08-26 13:30:12,500 | progress   | Finished subset 10/15, 66.67 percent done
+INFO     | 2020-08-26 13:30:48,992 | progress   | Finished subset 11/15, 73.33 percent done
+INFO     | 2020-08-26 13:32:16,971 | progress   | Finished subset 12/15, 80.00 percent done
+INFO     | 2020-08-26 13:33:33,388 | progress   | Finished subset 13/15, 86.67 percent done
+INFO     | 2020-08-26 13:35:06,346 | progress   | Finished subset 14/15, 93.33 percent done
+INFO     | 2020-08-26 13:35:46,029 | progress   | Finished subset 15/15, 100.00 percent done
+INFO     | 2020-08-26 13:35:46,032 | model_util | Information on best scheme is here: ./analysis/best_scheme.txt
+INFO     | 2020-08-26 13:35:46,033 | model_util | 
+INFO     | 2020-08-26 13:35:46,033 | model_util | 
+INFO     | 2020-08-26 13:35:46,033 | model_util | *Citations for this analysis*
+INFO     | 2020-08-26 13:35:46,033 | model_util | -----------------------------
+INFO     | 2020-08-26 13:35:46,033 | model_util | 
+INFO     | 2020-08-26 13:35:46,033 | model_util | If you use this analysis in your published work, please cite the following papers on which your analysis relied.
+INFO     | 2020-08-26 13:35:46,033 | model_util | 
+INFO     | 2020-08-26 13:35:46,033 | model_util | For the version of PartitionFinder you used, please cite:
+INFO     | 2020-08-26 13:35:46,034 | model_util | Lanfear, R., Frandsen, P. B., Wright, A. M., Senfeld, T., Calcott, B. (2016) PartitionFinder 2: new methods for selecting partitioned models of evolution formolecular and morphological phylogenetic analyses. Molecular biology and evolution. DOI: dx.doi.org/10.1093/molbev/msw260
+INFO     | 2020-08-26 13:35:46,034 | model_util | 
+INFO     | 2020-08-26 13:35:46,034 | model_util | For the all algorithm you used, please cite:
+INFO     | 2020-08-26 13:35:46,034 | model_util | 
+INFO     | 2020-08-26 13:35:46,034 | model_util | Your analysis also used PhyML, so please cite:
+INFO     | 2020-08-26 13:35:46,034 | model_util | Guindon, S., Dufayard, J. F., Lefort, V., Anisimova, M., Hordijk, W., & Gascuel, O. (2010). New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0. Systematic biology, 59(3), 307-321.
+INFO     | 2020-08-26 13:35:46,034 | model_util | 
+INFO     | 2020-08-26 13:35:46,035 | main       | Total processing time: 0:19:23 (h:m:s)
+INFO     | 2020-08-26 13:35:46,036 | main       | Processing complete.
