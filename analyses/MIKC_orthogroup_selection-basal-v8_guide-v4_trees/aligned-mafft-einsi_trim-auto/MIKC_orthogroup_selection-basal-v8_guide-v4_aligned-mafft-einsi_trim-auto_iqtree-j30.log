@@ -1,0 +1,298 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    LauraDesktop (AVX2, FMA3, 23 GB RAM)
+Command: iqtree -s data/alignments_trimmed/MIKC_orthogroup_selection-basal-v8_guide-v4_aligned-mafft-einsi_trim-auto.fasta -m JTT+R7 -j 0.3 -nt AUTO -ntmax 4 -pre analyses/MIKC_orthogroup_selection-basal-v8_guide-v4_trees/aligned-mafft-einsi_trim-auto/MIKC_orthogroup_selection-basal-v8_guide-v4_aligned-mafft-einsi_trim-auto_iqtree-j30
+Seed:    776561 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 26 17:09:26 2020
+Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+
+Reading alignment file data/alignments_trimmed/MIKC_orthogroup_selection-basal-v8_guide-v4_aligned-mafft-einsi_trim-auto.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 135 sequences with 90 columns, 90 distinct patterns
+81 parsimony-informative, 5 singleton sites, 4 constant sites
+WARNING: Some sequence names are changed as follows:
+tr|Q5KU24|Q5KU24_COLSC_MADS-box_transcription_factor_CsMADS1_OS=Coleochaete_scutata_OX=3125_GN=csmads1_PE=2_SV=1 -> tr_Q5KU24_Q5KU24_COLSC_MADS-box_transcription_factor_CsMADS1_OS_Coleochaete_scutata_OX_3125_GN_csmads1_PE_2_SV_1
+tr|Q8LLC8|Q8LLC8_SPIAN_MADS-box_gene_2_protein_OS=Spinulum_annotinum_OX=13840_GN=LAMB2_PE=2_SV=1 -> tr_Q8LLC8_Q8LLC8_SPIAN_MADS-box_gene_2_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB2_PE_2_SV_1
+tr|Q8LLC6|Q8LLC6_SPIAN_MADS-box_gene_4_protein_OS=Spinulum_annotinum_OX=13840_GN=LAMB4_PE=2_SV=1 -> tr_Q8LLC6_Q8LLC6_SPIAN_MADS-box_gene_4_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB4_PE_2_SV_1
+tr|Q9FYZ8|Q9FYZ8_SPIAN_MADS-box_protein_LAMB1_OS=Spinulum_annotinum_OX=13840_GN=MB1_PE=2_SV=1 -> tr_Q9FYZ8_Q9FYZ8_SPIAN_MADS-box_protein_LAMB1_OS_Spinulum_annotinum_OX_13840_GN_MB1_PE_2_SV_1
+tr|Q8LLC4|Q8LLC4_SPIAN_MADS-box_gene_6_protein_OS=Spinulum_annotinum_OX=13840_GN=LAMB6_PE=2_SV=1 -> tr_Q8LLC4_Q8LLC4_SPIAN_MADS-box_gene_6_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB6_PE_2_SV_1
+tr|Q8LLC7|Q8LLC7_SPIAN_MADS-box_gene_3_protein_OS=Spinulum_annotinum_OX=13840_GN=LAMB3_PE=2_SV=1 -> tr_Q8LLC7_Q8LLC7_SPIAN_MADS-box_gene_3_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB3_PE_2_SV_1
+tr|Q8LLC5|Q8LLC5_SPIAN_MADS-box_gene_5_protein_(Fragment)_OS=Spinulum_annotinum_OX=13840_GN=LAMB5_PE=2_SV=1 -> tr_Q8LLC5_Q8LLC5_SPIAN_MADS-box_gene_5_protein__Fragment__OS_Spinulum_annotinum_OX_13840_GN_LAMB5_PE_2_SV_1
+
+                                                                                                                  Gap/Ambiguity  Composition  p-value
+   1  tr_Q5KU24_Q5KU24_COLSC_MADS-box_transcription_factor_CsMADS1_OS_Coleochaete_scutata_OX_3125_GN_csmads1_PE_2_SV_1    6.67%    passed     96.58%
+   2  MNNM-2042156-Cosmarium_granatum                                                                                     7.78%    passed     83.10%
+   3  TPHT-2126301-Spirotaenia_sp.                                                                                        6.67%    passed     86.51%
+   4  cgMADS1_BAD88436                                                                                                    6.67%    passed     93.28%
+   5  CRM1_CAA69276                                                                                                       6.67%    passed     88.62%
+   6  CRM2_CAA69277                                                                                                      22.22%    passed     12.15%
+   7  CRM3_CAA69407                                                                                                       4.44%    passed     67.94%
+   8  CRM4_CAA69408                                                                                                       6.67%    passed     73.15%
+   9  CRM5_CAA69409                                                                                                       6.67%    passed     46.35%
+  10  CRM6_CAA69410                                                                                                       6.67%    passed     95.09%
+  11  CRM7_CAA69411                                                                                                       6.67%    passed     99.43%
+  12  OPM1_CAA69412                                                                                                       5.56%    passed     99.26%
+  13  CMADS1_AAC24492                                                                                                     6.67%    passed     98.23%
+  14  CMADS2_AAC24493                                                                                                     6.67%    passed     94.08%
+  15  CMADS3_AAC24319                                                                                                     6.67%    passed     88.62%
+  16  CMADS4_AAC24320                                                                                                     6.67%    passed     39.16%
+  17  CMADS6_AAC24325                                                                                                    23.33%    passed     61.80%
+  18  SmMADS6                                                                                                             6.67%    passed     93.10%
+  19  SmMADS3                                                                                                             6.67%    passed     85.10%
+  20  SmMADS1                                                                                                             6.67%    passed     97.63%
+  21  PPM1_Pp012G078200                                                                                                   6.67%    passed     99.35%
+  22  PPM2_Pp003G125000                                                                                                   6.67%    passed     99.32%
+  23  PpMADS1_Pp004G002000                                                                                                6.67%    passed     99.44%
+  24  PpMADS_S                                                                                                            6.67%    passed     96.76%
+  25  PPMC5_Pp017G019900                                                                                                  6.67%    passed     98.87%
+  26  PPMC6_Pp014G056100                                                                                                  6.67%    passed     98.04%
+  27  PI                                                                                                                  6.67%    passed     39.44%
+  28  AP3                                                                                                                 6.67%    passed     28.01%
+  29  AGL2_SEP1                                                                                                           6.67%    passed     67.85%
+  30  AGL6                                                                                                                6.67%    passed     87.38%
+  31  AGL8_FUL                                                                                                            5.56%    passed     97.42%
+  32  AGL25_FLC                                                                                                           6.67%    passed     44.42%
+  33  AG                                                                                                                  6.67%    passed     67.68%
+  34  AGL12                                                                                                               6.67%    passed     11.74%
+  35  AGL15                                                                                                               6.67%    passed     91.60%
+  36  AGL17                                                                                                               6.67%    passed     96.32%
+  37  AGL20_SOC1                                                                                                          6.67%    passed     97.52%
+  38  AGL22_SVP                                                                                                           6.67%    passed     97.74%
+  39  AGL32_ABS                                                                                                           6.67%    passed     32.49%
+  40  AGL33                                                                                                              28.89%    passed     41.00%
+  41  OsMADS2                                                                                                             6.67%    passed     74.04%
+  42  OsMADS16                                                                                                            6.67%    passed     96.83%
+  43  OsMADS55                                                                                                           21.11%    passed     98.20%
+  44  OsMADS30                                                                                                            6.67%    passed     98.28%
+  45  OsMADS6                                                                                                             6.67%    passed     93.75%
+  46  OsMADS8                                                                                                             6.67%    passed     99.11%
+  47  OsMADS15                                                                                                            5.56%    passed     98.86%
+  48  OsMADS23                                                                                                            6.67%    passed     84.21%
+  49  OsMADS26                                                                                                            5.56%    failed      1.16%
+  50  OsMADS3                                                                                                             6.67%    passed     71.16%
+  51  AtSTK_Homeotic_D                                                                                                    6.67%    passed     72.21%
+  52  AtAP1_Homeotic_A                                                                                                    5.56%    passed     97.31%
+  53  OsMADS14_Homeotic_A                                                                                                 5.56%    passed     98.13%
+  54  MpMADS2                                                                                                             6.67%    passed     98.77%
+  55  Azfi_s0028.g024032_manually_reannotated                                                                             6.67%    passed     73.17%
+  56  PIVW-2001489-Ceratopteris_thalictroides                                                                            11.11%    passed     92.59%
+  57  IRBN-2000158-Scapania_nemorosa                                                                                      6.67%    passed     96.55%
+  58  ENQF-2084602-Lycopodium_annotinum                                                                                   6.67%    passed     99.21%
+  59  PIVW-2016418-Ceratopteris_thalictroides                                                                             6.67%    passed     99.43%
+  60  FFPD-2013099-Ceratodon_purpureus                                                                                    6.67%    passed     99.21%
+  61  CVEG-2124355-Azolla_cf._caroliniana                                                                                 6.67%    passed     94.19%
+  62  PIVW-2002304-Ceratopteris_thalictroides                                                                            12.22%    passed     51.74%
+  63  PIVW-2019843-Ceratopteris_thalictroides                                                                             6.67%    passed     98.82%
+  64  RDOO-2000812-Racomitrium_varium                                                                                     6.67%    passed     98.66%
+  65  PIVW-2004036-Ceratopteris_thalictroides                                                                             6.67%    passed     54.79%
+  66  ENQF-2007944-Lycopodium_annotinum                                                                                  11.11%    passed     97.93%
+  67  PIVW-2020998-Ceratopteris_thalictroides                                                                             6.67%    passed     98.86%
+  68  UPMJ-2005050-Pseudolycopodiella_caroliniana                                                                         6.67%    passed     99.84%
+  69  PIVW-2004304-Ceratopteris_thalictroides                                                                             6.67%    passed     37.80%
+  70  PIVW-2000174-Ceratopteris_thalictroides                                                                             6.67%    passed     56.95%
+  71  ENQF-2004632-Lycopodium_annotinum                                                                                   6.67%    passed     99.58%
+  72  PIVW-2000450-Ceratopteris_thalictroides                                                                             6.67%    passed     90.37%
+  73  QMWB-2056566-Anomodon_attenuatus                                                                                   14.44%    passed     99.68%
+  74  RDOO-2000811-Racomitrium_varium                                                                                     6.67%    passed     98.66%
+  75  CBAE-2013716-Huperzia_myrisinites                                                                                  13.33%    passed     97.74%
+  76  UPMJ-2005049-Pseudolycopodiella_caroliniana                                                                         6.67%    passed     99.84%
+  77  CBAE-2013582-Huperzia_myrisinites                                                                                   4.44%    passed     99.52%
+  78  PIVW-2008000-Ceratopteris_thalictroides                                                                             6.67%    passed     82.12%
+  79  UPMJ-2014960-Pseudolycopodiella_caroliniana                                                                         6.67%    passed     99.28%
+  80  PIVW-2004305-Ceratopteris_thalictroides                                                                             6.67%    passed     33.72%
+  81  LGOW-2012213-Schistochila_sp.                                                                                       6.67%    passed     99.55%
+  82  PIVW-2004303-Ceratopteris_thalictroides                                                                             6.67%    passed      8.11%
+  83  PIVW-2001491-Ceratopteris_thalictroides                                                                             6.67%    passed     13.23%
+  84  ENQF-2004631-Lycopodium_annotinum                                                                                   6.67%    passed     99.58%
+  85  PIVW-2001490-Ceratopteris_thalictroides                                                                             6.67%    passed     13.23%
+  86  FFPD-2013100-Ceratodon_purpureus                                                                                    6.67%    passed     99.21%
+  87  UPMJ-2002417-Pseudolycopodiella_caroliniana                                                                         6.67%    passed     70.90%
+  88  PIVW-2002392-Ceratopteris_thalictroides                                                                             6.67%    failed      0.05%
+  89  CBAE-2009937-Huperzia_myrisinites                                                                                   7.78%    passed     90.20%
+  90  PIVW-2019502-Ceratopteris_thalictroides                                                                             6.67%    passed     32.15%
+  91  FFPD-2057947-Ceratodon_purpureus                                                                                    6.67%    passed     98.34%
+  92  CVEG-2033633-Azolla_cf._caroliniana                                                                                 6.67%    passed     84.15%
+  93  ENQF-2015023-Lycopodium_annotinum                                                                                   6.67%    passed     99.76%
+  94  PIVW-2004035-Ceratopteris_thalictroides                                                                             6.67%    passed     54.79%
+  95  UPMJ-2008884-Pseudolycopodiella_caroliniana                                                                         6.67%    passed     99.35%
+  96  PIVW-2003993-Ceratopteris_thalictroides                                                                             6.67%    passed     86.07%
+  97  PIVW-2003992-Ceratopteris_thalictroides                                                                             6.67%    passed     86.07%
+  98  PIVW-2009413-Ceratopteris_thalictroides                                                                             6.67%    passed     91.29%
+  99  CBAE-2012867-Huperzia_myrisinites                                                                                   6.67%    passed     99.94%
+ 100  PIVW-2000173-Ceratopteris_thalictroides                                                                             6.67%    passed     62.15%
+ 101  UPMJ-2017788-Pseudolycopodiella_caroliniana                                                                         6.67%    passed     98.13%
+ 102  PIVW-2004302-Ceratopteris_thalictroides                                                                             6.67%    passed     33.72%
+ 103  PIVW-2009414-Ceratopteris_thalictroides                                                                             6.67%    passed     91.29%
+ 104  PIVW-2007999-Ceratopteris_thalictroides                                                                             6.67%    passed     82.12%
+ 105  NRWZ-2014421-Metzgeria_crassipilis                                                                                  5.56%    passed     92.08%
+ 106  PIVW-2001493-Ceratopteris_thalictroides                                                                            11.11%    passed     92.59%
+ 107  RDOO-2015055-Racomitrium_varium                                                                                     7.78%    passed     99.65%
+ 108  CVEG-2123825-Azolla_cf._caroliniana                                                                                 6.67%    passed     94.63%
+ 109  CVEG-2010487-Azolla_cf._caroliniana                                                                                 6.67%    passed     93.03%
+ 110  XMGP-2014150-Juniperus_scopulorum                                                                                   6.67%    passed     99.54%
+ 111  JZVE-2034291-Parasitaxus_usta                                                                                       6.67%    passed     95.50%
+ 112  XMGP-2012223-Juniperus_scopulorum                                                                                   6.67%    passed     87.89%
+ 113  XMGP-2002769-Juniperus_scopulorum                                                                                   6.67%    passed     92.35%
+ 114  JZVE-2035359-Parasitaxus_usta                                                                                       6.67%    passed     51.08%
+ 115  JZVE-2036348-Parasitaxus_usta                                                                                       6.67%    passed     95.49%
+ 116  JZVE-2036124-Parasitaxus_usta                                                                                       6.67%    passed     56.00%
+ 117  JZVE-2032691-Parasitaxus_usta                                                                                       5.56%    passed     50.97%
+ 118  JZVE-2006929-Parasitaxus_usta                                                                                       6.67%    passed     30.67%
+ 119  JZVE-2007309-Parasitaxus_usta                                                                                       6.67%    passed     99.23%
+ 120  JZVE-2003013-Parasitaxus_usta                                                                                       6.67%    passed     47.03%
+ 121  XMGP-2009071-Juniperus_scopulorum                                                                                   6.67%    passed     99.28%
+ 122  XMGP-2003328-Juniperus_scopulorum                                                                                   6.67%    passed     71.06%
+ 123  JZVE-2003919-Parasitaxus_usta                                                                                       6.67%    passed     78.41%
+ 124  JZVE-2004736-Parasitaxus_usta                                                                                       6.67%    passed     98.80%
+ 125  XMGP-2007459-Juniperus_scopulorum                                                                                   6.67%    passed     82.59%
+ 126  XMGP-2058097-Juniperus_scopulorum                                                                                   6.67%    passed     96.54%
+ 127  JZVE-2004735-Parasitaxus_usta                                                                                       6.67%    passed     99.18%
+ 128  JZVE-2036946-Parasitaxus_usta                                                                                       6.67%    passed     96.73%
+ 129  JZVE-2007246-Parasitaxus_usta                                                                                       6.67%    passed     81.51%
+ 130  tr_Q8LLC8_Q8LLC8_SPIAN_MADS-box_gene_2_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB2_PE_2_SV_1                    6.67%    passed     98.92%
+ 131  tr_Q8LLC6_Q8LLC6_SPIAN_MADS-box_gene_4_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB4_PE_2_SV_1                    6.67%    passed     99.76%
+ 132  tr_Q9FYZ8_Q9FYZ8_SPIAN_MADS-box_protein_LAMB1_OS_Spinulum_annotinum_OX_13840_GN_MB1_PE_2_SV_1                       5.56%    passed     67.07%
+ 133  tr_Q8LLC4_Q8LLC4_SPIAN_MADS-box_gene_6_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB6_PE_2_SV_1                    6.67%    passed     99.21%
+ 134  tr_Q8LLC7_Q8LLC7_SPIAN_MADS-box_gene_3_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB3_PE_2_SV_1                   31.11%    passed     80.78%
+ 135  tr_Q8LLC5_Q8LLC5_SPIAN_MADS-box_gene_5_protein__Fragment__OS_Spinulum_annotinum_OX_13840_GN_LAMB5_PE_2_SV_1        54.44%    passed     97.40%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                               7.88%  2 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: CMADS3_AAC24319 is identical to CRM1_CAA69276 but kept for subsequent analysis
+NOTE: PIVW-2016418-Ceratopteris_thalictroides is identical to CRM7_CAA69411 but kept for subsequent analysis
+NOTE: PIVW-2001493-Ceratopteris_thalictroides is identical to PIVW-2001489-Ceratopteris_thalictroides but kept for subsequent analysis
+NOTE: tr_Q8LLC4_Q8LLC4_SPIAN_MADS-box_gene_6_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB6_PE_2_SV_1 is identical to ENQF-2084602-Lycopodium_annotinum but kept for subsequent analysis
+NOTE: FFPD-2013100-Ceratodon_purpureus is identical to FFPD-2013099-Ceratodon_purpureus but kept for subsequent analysis
+NOTE: RDOO-2000811-Racomitrium_varium is identical to RDOO-2000812-Racomitrium_varium but kept for subsequent analysis
+NOTE: PIVW-2004035-Ceratopteris_thalictroides is identical to PIVW-2004036-Ceratopteris_thalictroides but kept for subsequent analysis
+NOTE: UPMJ-2005049-Pseudolycopodiella_caroliniana is identical to UPMJ-2005050-Pseudolycopodiella_caroliniana but kept for subsequent analysis
+NOTE: ENQF-2004631-Lycopodium_annotinum is identical to ENQF-2004632-Lycopodium_annotinum but kept for subsequent analysis
+NOTE: PIVW-2007999-Ceratopteris_thalictroides is identical to PIVW-2008000-Ceratopteris_thalictroides but kept for subsequent analysis
+NOTE: PIVW-2004302-Ceratopteris_thalictroides is identical to PIVW-2004305-Ceratopteris_thalictroides but kept for subsequent analysis
+NOTE: PIVW-2001490-Ceratopteris_thalictroides is identical to PIVW-2001491-Ceratopteris_thalictroides but kept for subsequent analysis
+NOTE: tr_Q8LLC6_Q8LLC6_SPIAN_MADS-box_gene_4_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB4_PE_2_SV_1 is identical to ENQF-2015023-Lycopodium_annotinum but kept for subsequent analysis
+NOTE: PIVW-2003992-Ceratopteris_thalictroides is identical to PIVW-2003993-Ceratopteris_thalictroides but kept for subsequent analysis
+NOTE: PIVW-2009414-Ceratopteris_thalictroides is identical to PIVW-2009413-Ceratopteris_thalictroides but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.024 seconds
+
+NOTE: 16 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+Increase to 10 rounds for branch lengths
+11 trees examined
+Threads: 1 / Time: 4.282 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -15481
+Threads: 2 / Time: 2.633 sec / Speedup: 1.626 / Efficiency: 81% / LogL: -15481
+Threads: 3 / Time: 2.033 sec / Speedup: 2.106 / Efficiency: 70% / LogL: -15481
+Threads: 4 / Time: 1.917 sec / Speedup: 2.233 / Efficiency: 56% / LogL: -15481
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -10450.853
+2. Current log-likelihood: -10277.572
+3. Current log-likelihood: -10275.656
+4. Current log-likelihood: -10274.688
+5. Current log-likelihood: -10274.360
+Optimal log-likelihood: -10274.214
+Site proportion and rates:  (0.155,0.087) (0.108,0.282) (0.171,0.553) (0.159,0.893) (0.216,1.381) (0.153,1.986) (0.037,3.169)
+Parameters optimization took 5 rounds (1.453 sec)
+Computing ML distances based on estimated model parameters... 6.398 sec
+Computing BIONJ tree...
+0.008 seconds
+Log-likelihood of BIONJ tree: -10235.794
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.750 second
+Computing log-likelihood of 98 initial trees ... 4.100 seconds
+Current best score: -10235.794
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -10191.081
+Iteration 10 / LogL: -10195.097 / Time: 0h:0m:27s
+Iteration 20 / LogL: -10194.102 / Time: 0h:0m:32s
+Finish initializing candidate tree set (20)
+Current best tree score: -10191.081 / CPU time: 18.344
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -10181.808
+Iteration 30 / LogL: -10192.721 / Time: 0h:0m:39s (0h:2m:5s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -10169.065
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -10164.985
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -10163.871
+Iteration 40 / LogL: -10166.123 / Time: 0h:0m:46s (0h:1m:56s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -10163.210
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -10162.577
+Iteration 50 / LogL: -10167.226 / Time: 0h:0m:53s (0h:1m:47s left)
+Iteration 60 / LogL: -10166.453 / Time: 0h:0m:58s (0h:1m:28s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 61: -10161.744
+Iteration 70 / LogL: -10169.643 / Time: 0h:1m:5s (0h:1m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 74: -10161.613
+Iteration 80 / LogL: -10161.890 / Time: 0h:1m:12s (0h:1m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 84: -10160.364
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 87: -10159.761
+Iteration 90 / LogL: -10163.935 / Time: 0h:1m:18s (0h:1m:25s left)
+Iteration 100 / LogL: -10168.141 / Time: 0h:1m:24s (0h:1m:14s left)
+Iteration 110 / LogL: -10160.500 / Time: 0h:1m:30s (0h:1m:3s left)
+Iteration 120 / LogL: -10159.936 / Time: 0h:1m:39s (0h:0m:56s left)
+BETTER TREE FOUND at iteration 130: -10159.753
+Iteration 130 / LogL: -10159.753 / Time: 0h:1m:47s (0h:1m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 132: -10159.448
+Iteration 140 / LogL: -10161.265 / Time: 0h:1m:55s (0h:1m:16s left)
+Iteration 150 / LogL: -10159.959 / Time: 0h:2m:2s (0h:1m:7s left)
+Iteration 160 / LogL: -10165.249 / Time: 0h:2m:7s (0h:0m:57s left)
+Iteration 170 / LogL: -10170.673 / Time: 0h:2m:13s (0h:0m:49s left)
+Iteration 180 / LogL: -10159.861 / Time: 0h:2m:19s (0h:0m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 182: -10159.160
+Iteration 190 / LogL: -10172.311 / Time: 0h:2m:25s (0h:1m:10s left)
+Iteration 200 / LogL: -10176.850 / Time: 0h:2m:32s (0h:1m:2s left)
+Iteration 210 / LogL: -10162.305 / Time: 0h:2m:38s (0h:0m:54s left)
+Iteration 220 / LogL: -10169.591 / Time: 0h:2m:43s (0h:0m:46s left)
+Iteration 230 / LogL: -10180.350 / Time: 0h:2m:49s (0h:0m:38s left)
+Iteration 240 / LogL: -10160.083 / Time: 0h:2m:54s (0h:0m:30s left)
+Iteration 250 / LogL: -10165.283 / Time: 0h:3m:0s (0h:0m:23s left)
+Iteration 260 / LogL: -10185.916 / Time: 0h:3m:6s (0h:0m:15s left)
+Iteration 270 / LogL: -10161.742 / Time: 0h:3m:11s (0h:0m:8s left)
+Iteration 280 / LogL: -10163.505 / Time: 0h:3m:17s (0h:0m:1s left)
+TREE SEARCH COMPLETED AFTER 283 ITERATIONS / Time: 0h:3m:18s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -10159.160
+Optimal log-likelihood: -10159.158
+Site proportion and rates:  (0.198,0.108) (0.182,0.466) (0.073,0.725) (0.151,0.853) (0.233,1.409) (0.136,2.102) (0.028,3.552)
+Parameters optimization took 1 rounds (0.239 sec)
+BEST SCORE FOUND : -10159.158
+Total tree length: 40.989
+
+Total number of iterations: 283
+CPU time used for tree search: 690.934 sec (0h:11m:30s)
+Wall-clock time used for tree search: 184.388 sec (0h:3m:4s)
+Total CPU time used: 727.395 sec (0h:12m:7s)
+Total wall-clock time used: 198.879 sec (0h:3m:18s)
+
+Analysis results written to: 
+  IQ-TREE report:                analyses/MIKC_orthogroup_selection-basal-v8_guide-v4_trees/aligned-mafft-einsi_trim-auto/MIKC_orthogroup_selection-basal-v8_guide-v4_aligned-mafft-einsi_trim-auto_iqtree-j30.iqtree
+  Maximum-likelihood tree:       analyses/MIKC_orthogroup_selection-basal-v8_guide-v4_trees/aligned-mafft-einsi_trim-auto/MIKC_orthogroup_selection-basal-v8_guide-v4_aligned-mafft-einsi_trim-auto_iqtree-j30.treefile
+  Likelihood distances:          analyses/MIKC_orthogroup_selection-basal-v8_guide-v4_trees/aligned-mafft-einsi_trim-auto/MIKC_orthogroup_selection-basal-v8_guide-v4_aligned-mafft-einsi_trim-auto_iqtree-j30.mldist
+  Screen log file:               analyses/MIKC_orthogroup_selection-basal-v8_guide-v4_trees/aligned-mafft-einsi_trim-auto/MIKC_orthogroup_selection-basal-v8_guide-v4_aligned-mafft-einsi_trim-auto_iqtree-j30.log
+
+Date and Time: Wed Aug 26 17:12:45 2020
