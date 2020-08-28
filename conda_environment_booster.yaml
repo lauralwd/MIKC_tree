@@ -1,0 +1,10 @@
+name: booster
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - booster=0.1.2=h516909a_1
+  - libgcc-ng=9.1.0=hdf63c60_0
+prefix: /home/laura/miniconda3/envs/booster
+
