@@ -1,0 +1,374 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: data/alignments_trimmed/MIKC_orthogroup_selection-basal-v8_guide-v4_aligned-mafft-einsi_trim-auto.fasta
+Type of analysis: tree reconstruction
+Random seed number: 776561
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 135 sequences with 90 amino-acid sites
+Number of constant sites: 4 (= 4.44444% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 4 (= 4.44444% of all sites)
+Number of parsimony informative sites: 81
+Number of distinct site patterns: 90
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT+R7
+
+State frequencies: (model)
+
+Model of rate heterogeneity: FreeRate with 7 categories
+Site proportion and rates:  (0.1978,0.1081) (0.1816,0.4658) (0.0729,0.7252) (0.1509,0.8527) (0.2332,1.4089) (0.1361,2.1023) (0.0275,3.5515)
+
+ Category  Relative_rate  Proportion
+  1         0.1081         0.1978
+  2         0.4658         0.1816
+  3         0.7252         0.0729
+  4         0.8527         0.1509
+  5         1.4089         0.2332
+  6         2.1023         0.1361
+  7         3.5515         0.0275
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -10159.1576 (s.e. 675.9429)
+Unconstrained log-likelihood (without tree): -404.9829
+Number of free parameters (#branches + #model parameters): 279
+Akaike information criterion (AIC) score: 20876.3151
+Corrected Akaike information criterion (AICc) score: 177116.3151
+Bayesian information criterion (BIC) score: 21573.7620
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 279
+Sample size (n, alignment length): 90
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 40.9885
+Sum of internal branch lengths: 14.2480 (34.7608% of tree length)
+
+WARNING: 12 near-zero internal branches (<0.0111) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'tr_Q5KU24_Q5KU24_COLSC_MADS-box_transcription_factor_CsMADS1_OS_Coleochaete_scutata_OX_3125_GN_csmads1_PE_2_SV_1' is drawn at root
+
++--tr_Q5KU24_Q5KU24_COLSC_MADS-box_transcription_factor_CsMADS1_OS_Coleochaete_scutata_OX_3125_GN_csmads1_PE_2_SV_1
+|
+|     +--MNNM-2042156-Cosmarium_granatum
++-----|
+|     +-------------------------------tr_Q9FYZ8_Q9FYZ8_SPIAN_MADS-box_protein_LAMB1_OS_Spinulum_annotinum_OX_13840_GN_MB1_PE_2_SV_1
+|
+|           +-------------TPHT-2126301-Spirotaenia_sp.
+|        +--|
+|        |  +------JZVE-2034291-Parasitaxus_usta
+|     +**|
+|     |  |                                      +**CRM1_CAA69276
+|     |  |                                   +--|
+|     |  |                                   |  +**CMADS3_AAC24319
+|     |  |                                +**|
+|     |  |                                |  +--PIVW-2020998-Ceratopteris_thalictroides
+|     |  |                             +--|
+|     |  |                             |  |  +--CRM4_CAA69408
+|     |  |                             |  +--|
+|     |  |                             |     +--CRM5_CAA69409
+|     |  |                          +--|
+|     |  |                          |  |       +--CRM2_CAA69277
+|     |  |                          |  |  +----|
+|     |  |                          |  |  |    |  +**PIVW-2001491-Ceratopteris_thalictroides
+|     |  |                          |  |  |    +--|
+|     |  |                          |  |  |       +**PIVW-2001490-Ceratopteris_thalictroides
+|     |  |                          |  +--|
+|     |  |                          |     |  +**CMADS2_AAC24493
+|     |  |                          |     +--|
+|     |  |                          |        |  +**PIVW-2001489-Ceratopteris_thalictroides
+|     |  |                          |        +**|
+|     |  |                          |           +**PIVW-2001493-Ceratopteris_thalictroides
+|     |  |                 +--------|
+|     |  |                 |        |             +--CMADS4_AAC24320
+|     |  |                 |        |          +--|
+|     |  |                 |        |          |  |  +--PIVW-2004304-Ceratopteris_thalictroides
+|     |  |                 |        |          |  +--|
+|     |  |                 |        |          |     |  +**PIVW-2004305-Ceratopteris_thalictroides
+|     |  |                 |        |          |     +**|
+|     |  |                 |        |          |        +**PIVW-2004302-Ceratopteris_thalictroides
+|     |  |                 |        |      +---|
+|     |  |                 |        |      |   +--PIVW-2004303-Ceratopteris_thalictroides
+|     |  |                 |        |  +---|
+|     |  |                 |        |  |   +-------PIVW-2002392-Ceratopteris_thalictroides
+|     |  |                 |        +--|
+|     |  |                 |           |  +--CVEG-2124355-Azolla_cf._caroliniana
+|     |  |                 |           +--|
+|     |  |                 |              +---CVEG-2010487-Azolla_cf._caroliniana
+|     |  |              +--|
+|     |  |              |  |          +--------PI
+|     |  |              |  |     +----|
+|     |  |              |  |     |    +----OsMADS2
+|     |  |              |  |  +--|
+|     |  |              |  |  |  |      +---JZVE-2036124-Parasitaxus_usta
+|     |  |              |  |  |  +------|
+|     |  |              |  |  |         +--XMGP-2058097-Juniperus_scopulorum
+|     |  |              |  +--|
+|     |  |              |     |           +-----------AP3
+|     |  |              |     |  +--------|
+|     |  |              |     |  |        +----OsMADS16
+|     |  |              |     +--|
+|     |  |              |        |  +----------------AGL32_ABS
+|     |  |              |        +--|
+|     |  |              |           +----------OsMADS30
+|     |  |           +--|
+|     |  |           |  |           +---AGL12
+|     |  |           |  +-----------|
+|     |  |           |              +----------OsMADS26
+|     |  |        +**|
+|     |  |        |  |     +---------AGL15
+|     |  |        |  |  +--|
+|     |  |        |  |  |  +-----------JZVE-2032691-Parasitaxus_usta
+|     |  |        |  +--|
+|     |  |        |     |           +**UPMJ-2005050-Pseudolycopodiella_caroliniana
+|     |  |        |     |        +--|
+|     |  |        |     |        |  +**UPMJ-2005049-Pseudolycopodiella_caroliniana
+|     |  |        |     |     +--|
+|     |  |        |     |     |  +----UPMJ-2008884-Pseudolycopodiella_caroliniana
+|     |  |        |     |  +--|
+|     |  |        |     |  |  |  +----CBAE-2009937-Huperzia_myrisinites
+|     |  |        |     |  |  +**|
+|     |  |        |     |  |     |     +**ENQF-2015023-Lycopodium_annotinum
+|     |  |        |     |  |     |  +--|
+|     |  |        |     |  |     |  |  +**tr_Q8LLC6_Q8LLC6_SPIAN_MADS-box_gene_4_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB4_PE_2_SV_1
+|     |  |        |     |  |     +--|
+|     |  |        |     |  |        +-------tr_Q8LLC7_Q8LLC7_SPIAN_MADS-box_gene_3_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB3_PE_2_SV_1
+|     |  |        |     +--|
+|     |  |        |        +--CBAE-2013582-Huperzia_myrisinites
+|     |  |     +--|
+|     |  |     |  +-----SmMADS6
+|     |  |  +--|
+|     |  |  |  |                  +--CRM6_CAA69410
+|     |  |  |  |               +--|
+|     |  |  |  |               |  |  +**PIVW-2009413-Ceratopteris_thalictroides
+|     |  |  |  |               |  +**|
+|     |  |  |  |               |     +**PIVW-2009414-Ceratopteris_thalictroides
+|     |  |  |  |           +---|
+|     |  |  |  |           |   |     +**PIVW-2003993-Ceratopteris_thalictroides
+|     |  |  |  |           |   +-----|
+|     |  |  |  |           |         +**PIVW-2003992-Ceratopteris_thalictroides
+|     |  |  |  |        +--|
+|     |  |  |  |        |  |      +--PIVW-2002304-Ceratopteris_thalictroides
+|     |  |  |  |        |  |   +--|
+|     |  |  |  |        |  |   |  |  +**PIVW-2004036-Ceratopteris_thalictroides
+|     |  |  |  |        |  |   |  +--|
+|     |  |  |  |        |  |   |     +**PIVW-2004035-Ceratopteris_thalictroides
+|     |  |  |  |        |  +---|
+|     |  |  |  |        |      |  +--PIVW-2000450-Ceratopteris_thalictroides
+|     |  |  |  |        |      +--|
+|     |  |  |  |        |         +----CVEG-2033633-Azolla_cf._caroliniana
+|     |  |  |  |     +--|
+|     |  |  |  |     |  |             +**CRM7_CAA69411
+|     |  |  |  |     |  |     +-------|
+|     |  |  |  |     |  |     |       +**PIVW-2016418-Ceratopteris_thalictroides
+|     |  |  |  |     |  |  +--|
+|     |  |  |  |     |  |  |  +-----OPM1_CAA69412
+|     |  |  |  |     |  +--|
+|     |  |  |  |     |     |         +**CMADS1_AAC24492
+|     |  |  |  |     |     |     +---|
+|     |  |  |  |     |     |     |   +--PIVW-2019843-Ceratopteris_thalictroides
+|     |  |  |  |     |     |  +--|
+|     |  |  |  |     |     |  |  +--Azfi_s0028.g024032_manually_reannotated
+|     |  |  |  |     |     +--|
+|     |  |  |  |     |        |                  +--PIVW-2000174-Ceratopteris_thalictroides
+|     |  |  |  |     |        |  +---------------|
+|     |  |  |  |     |        |  |               +**PIVW-2000173-Ceratopteris_thalictroides
+|     |  |  |  |     |        +--|
+|     |  |  |  |     |           |    +**PIVW-2008000-Ceratopteris_thalictroides
+|     |  |  |  |     |           +----|
+|     |  |  |  |     |                +**PIVW-2007999-Ceratopteris_thalictroides
+|     |  |  |  |  +--|
+|     |  |  |  |  |  |                 +--AGL2_SEP1
+|     |  |  |  |  |  |              +--|
+|     |  |  |  |  |  |              |  +--OsMADS8
+|     |  |  |  |  |  |           +--|
+|     |  |  |  |  |  |           |  |       +--AGL8_FUL
+|     |  |  |  |  |  |           |  |    +--|
+|     |  |  |  |  |  |           |  |    |  +--AtAP1_Homeotic_A
+|     |  |  |  |  |  |           |  +----|
+|     |  |  |  |  |  |           |       |  +--OsMADS15
+|     |  |  |  |  |  |           |       +--|
+|     |  |  |  |  |  |           |          +--OsMADS14_Homeotic_A
+|     |  |  |  |  |  |        +--|
+|     |  |  |  |  |  |        |  |     +---AGL6
+|     |  |  |  |  |  |        |  |  +--|
+|     |  |  |  |  |  |        |  |  |  +--OsMADS6
+|     |  |  |  |  |  |        |  +--|
+|     |  |  |  |  |  |        |     |  +-----------XMGP-2007459-Juniperus_scopulorum
+|     |  |  |  |  |  |        |     +--|
+|     |  |  |  |  |  |        |        +--JZVE-2007246-Parasitaxus_usta
+|     |  |  |  |  |  |     +--|
+|     |  |  |  |  |  |     |  |  +------AGL20_SOC1
+|     |  |  |  |  |  |     |  +--|
+|     |  |  |  |  |  |     |     |     +----XMGP-2014150-Juniperus_scopulorum
+|     |  |  |  |  |  |     |     |  +--|
+|     |  |  |  |  |  |     |     |  |  +--JZVE-2036348-Parasitaxus_usta
+|     |  |  |  |  |  |     |     +--|
+|     |  |  |  |  |  |     |        |        +------JZVE-2035359-Parasitaxus_usta
+|     |  |  |  |  |  |     |        |     +--|
+|     |  |  |  |  |  |     |        |     |  |      +----JZVE-2003013-Parasitaxus_usta
+|     |  |  |  |  |  |     |        |     |  +------|
+|     |  |  |  |  |  |     |        |     |         +----JZVE-2003919-Parasitaxus_usta
+|     |  |  |  |  |  |     |        +-----|
+|     |  |  |  |  |  |     |              |  +----XMGP-2009071-Juniperus_scopulorum
+|     |  |  |  |  |  |     |              +--|
+|     |  |  |  |  |  |     |                 +---XMGP-2003328-Juniperus_scopulorum
+|     |  |  |  |  |  |  +--|
+|     |  |  |  |  |  |  |  |       +--AG
+|     |  |  |  |  |  |  |  |    +--|
+|     |  |  |  |  |  |  |  |    |  |  +--OsMADS3
+|     |  |  |  |  |  |  |  |    |  +--|
+|     |  |  |  |  |  |  |  |    |     +--AtSTK_Homeotic_D
+|     |  |  |  |  |  |  |  +----|
+|     |  |  |  |  |  |  |       +--JZVE-2036946-Parasitaxus_usta
+|     |  |  |  |  |  +--|
+|     |  |  |  |  |     |  +----------------------AGL25_FLC
+|     |  |  |  |  |     +**|
+|     |  |  |  |  |        |         +--AGL17
+|     |  |  |  |  |        |      +--|
+|     |  |  |  |  |        |      |  +------------------------------------AGL33
+|     |  |  |  |  |        +------|
+|     |  |  |  |  |               +--OsMADS23
+|     |  |  |  +--|
+|     |  |  |     |           +--SmMADS3
+|     |  |  |     |        +--|
+|     |  |  |     |        |  |                     +**ENQF-2004632-Lycopodium_annotinum
+|     |  |  |     |        |  +---------------------|
+|     |  |  |     |        |                        +**ENQF-2004631-Lycopodium_annotinum
+|     |  |  |     |     +--|
+|     |  |  |     |     |  |  +--SmMADS1
+|     |  |  |     |     |  +--|
+|     |  |  |     |     |     |                 +**ENQF-2084602-Lycopodium_annotinum
+|     |  |  |     |     |     |              +--|
+|     |  |  |     |     |     |              |  +**tr_Q8LLC4_Q8LLC4_SPIAN_MADS-box_gene_6_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB6_PE_2_SV_1
+|     |  |  |     |     |     |           +--|
+|     |  |  |     |     |     |           |  +---UPMJ-2002417-Pseudolycopodiella_caroliniana
+|     |  |  |     |     |     |        +**|
+|     |  |  |     |     |     |        |  +--ENQF-2007944-Lycopodium_annotinum
+|     |  |  |     |     |     |     +--|
+|     |  |  |     |     |     |     |  +--tr_Q8LLC5_Q8LLC5_SPIAN_MADS-box_gene_5_protein__Fragment__OS_Spinulum_annotinum_OX_13840_GN_LAMB5_PE_2_SV_1
+|     |  |  |     |     |     |  +--|
+|     |  |  |     |     |     |  |  +--CBAE-2013716-Huperzia_myrisinites
+|     |  |  |     |     |     +--|
+|     |  |  |     |     |        |  +--UPMJ-2017788-Pseudolycopodiella_caroliniana
+|     |  |  |     |     |        +--|
+|     |  |  |     |     |           +**tr_Q8LLC8_Q8LLC8_SPIAN_MADS-box_gene_2_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB2_PE_2_SV_1
+|     |  |  |     |  +--|
+|     |  |  |     |  |  |                       +--PPM1_Pp012G078200
+|     |  |  |     |  |  |                    +--|
+|     |  |  |     |  |  |                    |  |  +--PPM2_Pp003G125000
+|     |  |  |     |  |  |                    |  +--|
+|     |  |  |     |  |  |                    |     |     +**FFPD-2013099-Ceratodon_purpureus
+|     |  |  |     |  |  |                    |     |  +--|
+|     |  |  |     |  |  |                    |     |  |  +**FFPD-2013100-Ceratodon_purpureus
+|     |  |  |     |  |  |                    |     +--|
+|     |  |  |     |  |  |                    |        |        +**RDOO-2000812-Racomitrium_varium
+|     |  |  |     |  |  |                    |        |     +--|
+|     |  |  |     |  |  |                    |        |     |  +**RDOO-2000811-Racomitrium_varium
+|     |  |  |     |  |  |                    |        |  +--|
+|     |  |  |     |  |  |                    |        |  |  +--RDOO-2015055-Racomitrium_varium
+|     |  |  |     |  |  |                    |        +**|
+|     |  |  |     |  |  |                    |           +--QMWB-2056566-Anomodon_attenuatus
+|     |  |  |     |  |  |                 +--|
+|     |  |  |     |  |  |                 |  +--PpMADS1_Pp004G002000
+|     |  |  |     |  |  |              +--|
+|     |  |  |     |  |  |              |  +**FFPD-2057947-Ceratodon_purpureus
+|     |  |  |     |  |  |           +**|
+|     |  |  |     |  |  |           |  +--PpMADS_S
+|     |  |  |     |  |  |        +--|
+|     |  |  |     |  |  |        |  +--PPMC5_Pp017G019900
+|     |  |  |     |  |  |     +--|
+|     |  |  |     |  |  |     |  +**PPMC6_Pp014G056100
+|     |  |  |     |  |  |  +--|
+|     |  |  |     |  |  |  |  |     +**MpMADS2
+|     |  |  |     |  |  |  |  |  +--|
+|     |  |  |     |  |  |  |  |  |  +--IRBN-2000158-Scapania_nemorosa
+|     |  |  |     |  |  |  |  +--|
+|     |  |  |     |  |  |  |     |  +--LGOW-2012213-Schistochila_sp.
+|     |  |  |     |  |  |  |     +**|
+|     |  |  |     |  |  |  |        +--NRWZ-2014421-Metzgeria_crassipilis
+|     |  |  |     |  |  +--|
+|     |  |  |     |  |     |  +----UPMJ-2014960-Pseudolycopodiella_caroliniana
+|     |  |  |     |  |     +--|
+|     |  |  |     |  |        +----CBAE-2012867-Huperzia_myrisinites
+|     |  |  |     +--|
+|     |  |  |        |        +-------------PIVW-2019502-Ceratopteris_thalictroides
+|     |  |  |        +--------|
+|     |  |  |                 +----CVEG-2123825-Azolla_cf._caroliniana
+|     |  +--|
+|     |     |      +--AGL22_SVP
+|     |     |  +---|
+|     |     |  |   +-----OsMADS55
+|     |     +--|
+|     |        |     +--------XMGP-2012223-Juniperus_scopulorum
+|     |        |  +--|
+|     |        |  |  +----XMGP-2002769-Juniperus_scopulorum
+|     |        +--|
+|     |           |  +-------JZVE-2006929-Parasitaxus_usta
+|     |           +--|
+|     |              |  +-------------JZVE-2007309-Parasitaxus_usta
+|     |              +--|
+|     |                 |        +---JZVE-2004736-Parasitaxus_usta
+|     |                 +--------|
+|     |                          +--JZVE-2004735-Parasitaxus_usta
+|  +--|
+|  |  |            +**CRM3_CAA69407
+|  |  +------------|
+|  |               +--CMADS6_AAC24325
++--|
+   +------cgMADS1_BAD88436
+
+Tree in newick format:
+
+(tr_Q5KU24_Q5KU24_COLSC_MADS-box_transcription_factor_CsMADS1_OS_Coleochaete_scutata_OX_3125_GN_csmads1_PE_2_SV_1:0.1425450436,(MNNM-2042156-Cosmarium_granatum:0.1769941906,tr_Q9FYZ8_Q9FYZ8_SPIAN_MADS-box_protein_LAMB1_OS_Spinulum_annotinum_OX_13840_GN_MB1_PE_2_SV_1:1.5089452539):0.3009489566,((((TPHT-2126301-Spirotaenia_sp.:0.6945654085,JZVE-2034291-Parasitaxus_usta:0.3618264976):0.1685016969,(((((((((((CRM1_CAA69276:0.0000022221,CMADS3_AAC24319:0.0000022221):0.0121179368,PIVW-2020998-Ceratopteris_thalictroides:0.0120638833):0.0000028540,(CRM4_CAA69408:0.1365920206,CRM5_CAA69409:0.0611678214):0.0132952351):0.0705824791,((CRM2_CAA69277:0.0136121343,(PIVW-2001491-Ceratopteris_thalictroides:0.0000022221,PIVW-2001490-Ceratopteris_thalictroides:0.0000022042):0.0147895394):0.2706446863,(CMADS2_AAC24493:0.0000020441,(PIVW-2001489-Ceratopteris_thalictroides:0.0000022221,PIVW-2001493-Ceratopteris_thalictroides:0.0000022221):0.0000023078):0.0487154540):0.0297791727):0.0784000287,((((CMADS4_AAC24320:0.0383072785,(PIVW-2004304-Ceratopteris_thalictroides:0.0378446408,(PIVW-2004305-Ceratopteris_thalictroides:0.0000022221,PIVW-2004302-Ceratopteris_thalictroides:0.0000022221):0.0000022223):0.0562825303):0.0655388020,PIVW-2004303-Ceratopteris_thalictroides:0.1424289354):0.2267372189,PIVW-2002392-Ceratopteris_thalictroides:0.4083477757):0.2055339802,(CVEG-2124355-Azolla_cf._caroliniana:0.1852885005,CVEG-2010487-Azolla_cf._caroliniana:0.2159849546):0.0338815893):0.0646237296):0.4597582658,(((PI:0.4496242790,OsMADS2:0.2325964543):0.2321643517,(JZVE-2036124-Parasitaxus_usta:0.1911434517,XMGP-2058097-Juniperus_scopulorum:0.1391701114):0.3579035393):0.1356408813,((AP3:0.5731621348,OsMADS16:0.2560643234):0.4203316095,(AGL32_ABS:0.8267910655,OsMADS30:0.5415120955):0.1367665078):0.0897593738):0.0599526314):0.0342658281,(AGL12:0.2203341459,OsMADS26:0.5420002594):0.5774207749):0.0319663802,((AGL15:0.4755983834,JZVE-2032691-Parasitaxus_usta:0.5622627320):0.1019569435,((((UPMJ-2005050-Pseudolycopodiella_caroliniana:0.0000022221,UPMJ-2005049-Pseudolycopodiella_caroliniana:0.0000022486):0.1437250990,UPMJ-2008884-Pseudolycopodiella_caroliniana:0.2736573257):0.1694143682,(CBAE-2009937-Huperzia_myrisinites:0.2372952392,((ENQF-2015023-Lycopodium_annotinum:0.0000026241,tr_Q8LLC6_Q8LLC6_SPIAN_MADS-box_gene_4_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB4_PE_2_SV_1:0.0000022221):0.0888997894,tr_Q8LLC7_Q8LLC7_SPIAN_MADS-box_gene_3_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB3_PE_2_SV_1:0.3797406118):0.0562459237):0.0000021229):0.0352915747,CBAE-2013582-Huperzia_myrisinites:0.1398785258):0.1254494426):0.0474053924):0.0000021584,SmMADS6:0.2791225060):0.0295048332,((((((CRM6_CAA69410:0.0122812478,(PIVW-2009413-Ceratopteris_thalictroides:0.0000022221,PIVW-2009414-Ceratopteris_thalictroides:0.0000022221):0.0000022223):0.0758904265,(PIVW-2003993-Ceratopteris_thalictroides:0.0000022221,PIVW-2003992-Ceratopteris_thalictroides:0.0000022221):0.2944295382):0.1855842125,((PIVW-2002304-Ceratopteris_thalictroides:0.0283740721,(PIVW-2004036-Ceratopteris_thalictroides:0.0000022221,PIVW-2004035-Ceratopteris_thalictroides:0.0000022221):0.1028775724):0.0822347625,(PIVW-2000450-Ceratopteris_thalictroides:0.1121050874,CVEG-2033633-Azolla_cf._caroliniana:0.2537358849):0.0841132628):0.1883677600):0.0984675919,(((CRM7_CAA69411:0.0000022221,PIVW-2016418-Ceratopteris_thalictroides:0.0000022221):0.3946810725,OPM1_CAA69412:0.3219395560):0.0311660736,(((CMADS1_AAC24492:0.0000023989,PIVW-2019843-Ceratopteris_thalictroides:0.0121932973):0.2103605092,Azfi_s0028.g024032_manually_reannotated:0.1420900757):0.1681302913,((PIVW-2000174-Ceratopteris_thalictroides:0.0112492567,PIVW-2000173-Ceratopteris_thalictroides:0.0000028027):0.7429724276,(PIVW-2008000-Ceratopteris_thalictroides:0.0000022221,PIVW-2007999-Ceratopteris_thalictroides:0.0000025052):0.2479294871):0.1526913200):0.1098710511):0.1244161868):0.1044058685,((((((AGL2_SEP1:0.1550512631,OsMADS8:0.0457427042):0.1112458750,((AGL8_FUL:0.1403893893,AtAP1_Homeotic_A:0.1414021756):0.1584380996,(OsMADS15:0.0533567298,OsMADS14_Homeotic_A:0.0530827454):0.0285825708):0.2360816636):0.0393004367,((AGL6:0.2270790767,OsMADS6:0.0787790986):0.1439503124,(XMGP-2007459-Juniperus_scopulorum:0.5584898601,JZVE-2007246-Parasitaxus_usta:0.1504909111):0.0601850503):0.0721898033):0.0466819558,(AGL20_SOC1:0.3508211713,((XMGP-2014150-Juniperus_scopulorum:0.2481609888,JZVE-2036348-Parasitaxus_usta:0.1237748388):0.0992201633,((JZVE-2035359-Parasitaxus_usta:0.3555369335,(JZVE-2003013-Parasitaxus_usta:0.2450871840,JZVE-2003919-Parasitaxus_usta:0.2344536156):0.3554182354):0.1819986968,(XMGP-2009071-Juniperus_scopulorum:0.2704099062,XMGP-2003328-Juniperus_scopulorum:0.1934171600):0.1317371600):0.3013836889):0.0520298063):0.0828155632):0.0656470072,((AG:0.1374970120,(OsMADS3:0.1481678203,AtSTK_Homeotic_D:0.0960154421):0.0642526015):0.0946885792,JZVE-2036946-Parasitaxus_usta:0.0798621971):0.2671195245):0.0551911626,(AGL25_FLC:1.0859384973,((AGL17:0.1187641416,AGL33:1.7238414552):0.1596762942,OsMADS23:0.1638698433):0.3539434590):0.0094306201):0.0603961802):0.0753011375,((((SmMADS3:0.0878020006,(ENQF-2004632-Lycopodium_annotinum:0.0000022221,ENQF-2004631-Lycopodium_annotinum:0.0000022221):1.0195179022):0.0884009026,(SmMADS1:0.1023295786,((((((ENQF-2084602-Lycopodium_annotinum:0.0000022221,tr_Q8LLC4_Q8LLC4_SPIAN_MADS-box_gene_6_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB6_PE_2_SV_1:0.0000022221):0.0250961321,UPMJ-2002417-Pseudolycopodiella_caroliniana:0.1873969772):0.0456322072,ENQF-2007944-Lycopodium_annotinum:0.1573384343):0.0000028610,tr_Q8LLC5_Q8LLC5_SPIAN_MADS-box_gene_5_protein__Fragment__OS_Spinulum_annotinum_OX_13840_GN_LAMB5_PE_2_SV_1:0.0484244942):0.0569905731,CBAE-2013716-Huperzia_myrisinites:0.1243674075):0.0170155645,(UPMJ-2017788-Pseudolycopodiella_caroliniana:0.1586699067,tr_Q8LLC8_Q8LLC8_SPIAN_MADS-box_gene_2_protein_OS_Spinulum_annotinum_OX_13840_GN_LAMB2_PE_2_SV_1:0.0000026096):0.0417562993):0.0473488928):0.0235693961):0.0278497328,((((((((PPM1_Pp012G078200:0.0121382528,(PPM2_Pp003G125000:0.0131930693,((FFPD-2013099-Ceratodon_purpureus:0.0000021547,FFPD-2013100-Ceratodon_purpureus:0.0000022221):0.0251219889,(((RDOO-2000812-Racomitrium_varium:0.0000024221,RDOO-2000811-Racomitrium_varium:0.0000024195):0.0296407527,RDOO-2015055-Racomitrium_varium:0.1099321053):0.0111530570,QMWB-2056566-Anomodon_attenuatus:0.1470462815):0.0089894408):0.0125966058):0.0388336310):0.0457404394,PpMADS1_Pp004G002000:0.0937552949):0.0535050505,FFPD-2057947-Ceratodon_purpureus:0.0000024773):0.0120707426,PpMADS_S:0.0369118634):0.0000023232,PPMC5_Pp017G019900:0.0241928406):0.0120530162,PPMC6_Pp014G056100:0.0000024866):0.0466027313,((MpMADS2:0.0000026330,IRBN-2000158-Scapania_nemorosa:0.0365231493):0.0258190249,(LGOW-2012213-Schistochila_sp.:0.0183354544,NRWZ-2014421-Metzgeria_crassipilis:0.0586730799):0.0096585077):0.1278221242):0.1277414895,(UPMJ-2014960-Pseudolycopodiella_caroliniana:0.2371502048,CBAE-2012867-Huperzia_myrisinites:0.2417000772):0.1316293634):0.0863496566):0.0243112199,(PIVW-2019502-Ceratopteris_thalictroides:0.6838211954,CVEG-2123825-Azolla_cf._caroliniana:0.2403948945):0.4487284265):0.0600471452):0.0291109061):0.0615960265,((AGL22_SVP:0.1601957069,OsMADS55:0.2841477913):0.2280843138,((XMGP-2012223-Juniperus_scopulorum:0.4540818250,XMGP-2002769-Juniperus_scopulorum:0.2657493920):0.0768676006,(JZVE-2006929-Parasitaxus_usta:0.3935492804,(JZVE-2007309-Parasitaxus_usta:0.6812071545,(JZVE-2004736-Parasitaxus_usta:0.2093820203,JZVE-2004735-Parasitaxus_usta:0.1553420729):0.4417216007):0.1222912153):0.1837874467):0.0540330870):0.1386401050):0.0966652630):0.0000023065,(CRM3_CAA69407:0.0000021185,CMADS6_AAC24325:0.0119853411):0.6212111490):0.1450399640,cgMADS1_BAD88436:0.3272937267):0.0651504092);
+
+TIME STAMP
+----------
+
+Date and time: Wed Aug 26 17:12:45 2020
+Total CPU time used: 727.395 seconds (0h:12m:7s)
+Total wall-clock time used: 198.882 seconds (0h:3m:18s)
+
