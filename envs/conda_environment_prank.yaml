@@ -1,0 +1,11 @@
+name: prank
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - libgcc-ng=9.1.0=hdf63c60_0
+  - libstdcxx-ng=9.1.0=hdf63c60_0
+  - prank=v.170427=hc9558a2_3
+prefix: /opt/miniconda3/envs/prank
+
