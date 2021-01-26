@@ -16,7 +16,6 @@ JZVE-2006929-Parasitaxus_usta	branch	#ff0000	normal	1
 AGL32_ABS	branch	#3a58d6	normal	1
 OsMADS16	branch	#3a58d6	normal	1
 OsMADS30	branch	#3a58d6	normal	1
-ENQF-2004631-Lycopodium_annotinum	branch	#00b4f1	normal	1
 AGL12	branch	#3a58d6	normal	1
 OsMADS50	branch	#3a58d6	normal	1
 
@@ -93,7 +92,6 @@ RDOO-2015055-Racomitrium_varium	branch	#EC7505	normal	1
 CBAE-2012867-Huperzia_myrisinites	branch	#00b4f1	normal	1
 AGL17	branch	#3a58d6	normal	1
 FFPD-2013099-Ceratodon_purpureus	branch	#EC7505	normal	1
-ENQF-2004632-Lycopodium_annotinum	branch	#00b4f1	normal	1
 OPM1_CAA69412	branch	#00b456	normal	1
 AP3	branch	#3a58d6	normal	1
 
@@ -167,6 +165,38 @@ CRM7_CAA69411	branch	#00b456	normal	1
 Sacu_v1.1_s0033.g011014_MADS-box_transcription_factor__0.179_	branch	#00b456	normal	1
 ENQF-2007944-Lycopodium_annotinum	branch	#00b4f1	normal	1
 JZVE-2007246-Parasitaxus_usta	branch	#ff0000	normal	1
+
+MNNM-2042156-Cosmarium_granatum	branch	#7635A5	normal	1
+tr_Q5KTX4_Q5KTX4_9VIRI_MADS-box_protein_CpMADS1__Fragment__OS_Closterium_peracerosum-strigosum-littorale_complex_OX_34146_GN_CpMADS1_PE_2_SV_1	branch	#7635A5	normal	1
+tr_Q5KU24_Q5KU24_COLSC_MADS-box_transcription_factor_CsMADS1_OS_Coleochaete_scutata_OX_3125_GN_csmads1_PE_2_SV_1	branch	#7635A5	normal	1
+TPHT-2126301-Spirotaenia_sp.	branch	#7635A5	normal	1
+TPHT-2010795-Spirotaenia_sp.	branch	#7635A5	normal	1
+QPDY-2028842-Coleochaete_irregularis	branch	#7635A5	normal	1
+FQLP-2004170-Klebsormidium_subtile	branch	#7635A5	normal	1
+	
+
+
+Sacu_v1.1_s0932.g027847_MADS-box_transcription_factor__0.179_	branch	#00b456	normal	1
+Sacu_v1.1_s0006.g003429_MADS-box_transcription_factor__0.179_	branch	#00b456	normal	1
+Sacu_v1.1_s0239.g026597_MADS-box_transcription_factor__0.179_	branch	#00b456	normal	1
+PIVW-2008000-Ceratopteris_thalictroides	branch	#00b456	normal	1
+PIVW-2007999-Ceratopteris_thalictroides	branch	#00b456	normal	1
+Sacu_v1.1_s0027.g009704_MADS-box_transcription_factor_0.179	branch	#00b456	normal	1
+Azfi_s0028.g024032_manually_reannotated	branch	#00b456	normal	1
+Azfi_s0028.g024032_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1	branch	#00b456	normal	1
+Sacu_v1.1_s0004.g002217_MADS-box_transcription_factor__0.179_	branch	#00b456	normal	1
+Azfi_s0034.g025354_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1	branch	#00b456	normal	1
+Sacu_v1.1_s0087.g018504_MADS-box_transcription_factor__0.179_	branch	#00b456	normal	1
+Azfi_s0038.g026346_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1	branch	#00b456	normal	1
+Azfi_s0001.g000595_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1	branch	#00b456	normal	1
+Azfi_s0009.g011725_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1	branch	#00b456	normal	1
+Azfi_s0009.g011751_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1	branch	#00b456	normal	1
+Azfi_s0009.g011722_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1	branch	#00b456	normal	1
+Azfi_s0009.g011735_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1	branch	#00b456	normal	1
+Azfi_s0009.g011788_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1	branch	#00b456	normal	1
+Azfi_s0009.g011792_sequence_match_in_blast_db_Azolla_filiculoides_protein_v1.1	branch	#00b456	normal	1
+Sacu_v1.1_s0003.g001705_MADS-box_transcription_factor_0.179	branch	#00b456	normal	1
+Sacu_v1.1_s0129.g021995_MADS-box_transcription_factor_0.179	branch	#00b456	normal	1
 
 
 
