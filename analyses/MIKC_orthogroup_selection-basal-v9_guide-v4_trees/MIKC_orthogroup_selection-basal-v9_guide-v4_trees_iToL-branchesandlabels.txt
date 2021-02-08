@@ -119,7 +119,6 @@ AG	branch	#3a58d6	normal	1
 AGL22_SVP	branch	#3a58d6	normal	1
 FFPD-2013100-Ceratodon_purpureus	branch	#EC7505	normal	1
 CMADS3_AAC24319	branch	#00b456	normal	1
-OROOT	branch	#9400d3	normal	1
 XMGP-2012223-Juniperus_scopulorum	branch	#ff0000	normal	1
 XMGP-2002769-Juniperus_scopulorum	branch	#ff0000	normal	1
 UPMJ-2005050-Pseudolycopodiella_caroliniana	branch	#00b4f1	normal	1
