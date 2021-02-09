@@ -10,7 +10,7 @@ DATASET_ALIGNMENT
 SEPARATOR COMMA
 
 #label is used in the legend table (can be changed later)
-DATASET_LABEL,'basal v7 gt.5 MSA'
+DATASET_LABEL,'basal v9 gt.1 mafft MSA'
 
 #dataset color (can be changed later)
 COLOR,#ff0000
