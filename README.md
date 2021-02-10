@@ -1,29 +1,42 @@
 This respository details our work towards placing _Azolla filiculoides_ MIKC genes in a broader picture of MIKC transcription factor evolution.
-The phylogeny created here, is featured in \[publication\].
+The phylogeny created here, is featured in [this preprint](https://www.biorxiv.org/content/10.1101/2020.09.09.289736v2).
 Many results made publicly available here, are intermediate results and should be treaded as such.
 For the final results, please refer to the quick links listed below
 
-manuscript doi:
+manuscript doi: [preprint](https://www.biorxiv.org/content/10.1101/2020.09.09.289736v2)
 
-repository doi:
+repository doi: pending
 
 ## Quick links
 Final input, output and intermediate files:
-* fasta
-* alignment raw & trimmed
-* tree in newick, png, pdf & inkscape_svg
-* JuPyter notebook detailing all code
+* [fasta](data/MIKC_orthogroup_selection-basal-v9_guide-v4.fasta)
+* alignment [raw](data/alignments_raw/MIKC_orthogroup_selection-basal-v9_guide-v4_aligned-mafft-einsi_prank.fast) &
+          [trimmed](data/alignments_trimmed/MIKC_orthogroup_selection-basal-v9_guide-v4_aligned-mafft-einsi_prank_trim-gt1.fasta)
+* tree in [newick](analyses/MIKC_orthogroup_selection-basal-v9_guide-v4_trees/aligned-mafft-einsi_prank_trim-gt1/MIKC_orthogroup_selection-basal-v9_guide-v4_aligned-mafft-einsi_prank_trim-gt1_iqtree-b1000_booster.treefile)
+          ,[png](figures/MIKC_orthogroup_selection-basal-v9_guide-v4_aligned-mafft-einsi_prank_trim-gt1_iqtree-b1000_booster_withrnaseq.png)
+          , [pdf](figures/MIKC_orthogroup_selection-basal-v9_guide-v4_aligned-mafft-einsi_prank_trim-gt1_iqtree-b1000_booster_withrnaseq.pdf)
+          & [inkscape_svg](figures/MIKC_orthogroup_selection-basal-v9_guide-v4_aligned-mafft-einsi_prank_trim-gt1_iqtree-b1000_booster_withrnaseq.svg)
 
 ## Final figure
-![preliminary figure](figures/MIKC_orthogroup_selection-basal-v9_guide-v4_aligned-mafft-einsi_prank_trim-gt1_iqtree-b1000_booster_withrnaseq.svg)
+![](figures/MIKC_orthogroup_selection-basal-v9_guide-v4_aligned-mafft-einsi_prank_trim-gt1_iqtree-b1000_booster_withrnaseq.svg)
 
 ## Guide through files and directories
 
 ### Directories
+The five directories in this respository should be reasonably self explanatory. 
+The `data` directory contains input sequences and alingments.
+Since I don't consider phylogenetic trees to be data, I store these in the `analyses` directory.
+Because jupy notebooks don't always render too well on GitHub, I included several html "print-outs" in the `docs` directory.
+For any questions about software versions used: conda environments used in the analyses documented here are available in the `envs` directory.
+If no specific conda environment is listed in the notebooks, then the default environment 'phylogenetics' was used.
+Finally, the `figures` directory contains two manually "polished" versions of the phylogenetic tree and annotating data for direct inclusing in a journal submission.
 
 ### JuPy notebooks
-This repository contains many JuPy notebooks in which we stepwise tried to get a better phylogenetic signal of MIKC evolution and interpretation of the placement of fern sequences.
-Here I list very briefly the main conclusion or improvement for each of these files in their chronological order
+This repository contains many JuPy notebooks in which I and my colleagues stepwise tried to get a better phylogenetic signal of MIKC evolution and interpretation of the placement of fern sequences.
+This typically was an itterative process, in which protein sequences were aligned, filtered, some tree was made, and we concluded.
+Each notebook describes one itteration of this process. 
+Here I list briefly the main conclusion or improvement for each of these notebooks in their chronological order.
+
 
 In `MIKC_tree_workflow-v1.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-v1.ipynb)
