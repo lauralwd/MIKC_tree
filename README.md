@@ -10,7 +10,7 @@ repository doi: pending
 ## Quick links
 Final input, output and intermediate files:
 * [fasta](data/MIKC_orthogroup_selection-basal-v9_guide-v4.fasta)
-* alignment [raw](data/alignments_raw/MIKC_orthogroup_selection-basal-v9_guide-v4_aligned-mafft-einsi_prank.fast) &
+* alignment [raw](data/alignments_raw/MIKC_orthogroup_selection-basal-v9_guide-v4_aligned-mafft-einsi_prank.fasta) &
           [trimmed](data/alignments_trimmed/MIKC_orthogroup_selection-basal-v9_guide-v4_aligned-mafft-einsi_prank_trim-gt1.fasta)
 * tree in [newick](analyses/MIKC_orthogroup_selection-basal-v9_guide-v4_trees/aligned-mafft-einsi_prank_trim-gt1/MIKC_orthogroup_selection-basal-v9_guide-v4_aligned-mafft-einsi_prank_trim-gt1_iqtree-b1000_booster.treefile)
           ,[png](figures/MIKC_orthogroup_selection-basal-v9_guide-v4_aligned-mafft-einsi_prank_trim-gt1_iqtree-b1000_booster_withrnaseq.png)
