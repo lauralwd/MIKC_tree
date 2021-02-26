@@ -64,7 +64,7 @@ I add _Salivinia cuculata_ [sequences](data/salvinia_sequences/salivinia_fernbas
 Finally the _Chara globularis_ MADS1 sequence was added, like in the [1kP capstone paper](https://doi.org/10.1038/s41586-019-1693-2) to serve as an outgroup.
 
 In `algal sequences.ipynb`
-([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/algal%20sequences.ipynb)
+([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/algal_sequences.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/algal_sequences.html)
 )
 I extract and align all algal sequences from the MIKC orthogroup from the 1kP project in an effort to identify those algal sequences which truly have all four domains: M, I, K and C.
