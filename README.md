@@ -17,26 +17,25 @@ Final input, output and intermediate files:
           , [pdf](figures/MIKC_orthogroup_selection-basal-v9_guide-v4_aligned-mafft-einsi_prank_trim-gt1_iqtree-b1000_booster_withrnaseq.pdf)
           & [inkscape_svg](figures/MIKC_orthogroup_selection-basal-v9_guide-v4_aligned-mafft-einsi_prank_trim-gt1_iqtree-b1000_booster_withrnaseq.svg)
 
-## Final figure
+## Final figure as shown in Dijkhuizen et al. 2021
 ![](figures/MIKC_orthogroup_selection-basal-v9_guide-v4_aligned-mafft-einsi_prank_trim-gt1_iqtree-b1000_booster_withrnaseq.svg)
 
 ## Guide through files and directories
 
 ### Directories
 The five directories in this respository should be reasonably self explanatory. 
-The `data` directory contains input sequences and alingments.
+The `data` directory contains input sequences and alignments.
 Since I don't consider phylogenetic trees to be data, I store these in the `analyses` directory.
 Because jupy notebooks don't always render too well on GitHub, I included several html "print-outs" in the `docs` directory.
 For any questions about software versions used: conda environments used in the analyses documented here are available in the `envs` directory.
 If no specific conda environment is listed in the notebooks, then the default environment 'phylogenetics' was used.
-Finally, the `figures` directory contains two manually "polished" versions of the phylogenetic tree and annotating data for direct inclusing in a journal submission.
+Finally, the `figures` directory contains two manually "polished" versions of the phylogenetic tree and annotating data for direct inclusion in a journal submission.
 
 ### JuPy notebooks
 This repository contains many JuPy notebooks in which I and my colleagues stepwise tried to get a better phylogenetic signal of MIKC evolution and interpretation of the placement of fern sequences.
-This typically was an itterative process, in which protein sequences were aligned, filtered, some tree was made, and we concluded.
+In this itterative process, MIKC protein sequences were aligned, filtered, a tree was infered, and we concluded.
 Each notebook describes one itteration of this process. 
 Here I list briefly the main conclusion or improvement for each of these notebooks in their chronological order.
-
 
 In `MIKC_tree_workflow-v1.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-v1.ipynb)
@@ -61,14 +60,14 @@ In `MIKC_tree_workflow-basalclades-v2.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v2.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v2.ipynb)
 [iToL_gt4](https://itol.embl.de/tree/13121158204159901593010248))
-I add _Salivinia cuculata_ sequences from [fernbase](fernbase.org) and remove some sequences that were behaving oddly due too large horizontal gaps in the alignment.
-Finally the _Chara globularis_ MADS1 sequence was added, like in the 1kP capstone paper to serve as an outgroup.
+I add _Salivinia cuculata_ [sequences](data/salvinia_sequences/salivinia_fernbase_blast_results_uniq.fasta) from [fernbase](fernbase.org) and remove some sequences that were behaving oddly due too large horizontal gaps in the alignment.
+Finally the _Chara globularis_ MADS1 sequence was added, like in the [1kP capstone paper](https://doi.org/10.1038/s41586-019-1693-2) to serve as an outgroup.
 
 In `algal sequences.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/algal%20sequences.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/algal_sequences.html)
 )
-I extract and align all sequences from the MIKC orthogroup from the 1kP project in an effort to identify those algal sequences which truly have all four domains: M, I, K and C.
+I extract and align all algal sequences from the MIKC orthogroup from the 1kP project in an effort to identify those algal sequences which truly have all four domains: M, I, K and C.
 We found that in this orthogroup sequences almost always have the highly conserved M domain, but often lack the IKC domains or part thereof.
 Based on these results, we proceed only with algal sequences that contain all four domains.
 
@@ -97,14 +96,14 @@ Since the algal outgroup has proven to be stable but also very big, it's size is
 In `MIKC_tree_workflow-basalclades-v6.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v6.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v6.ipynb)
-[iToL-UFbootstrap](https://itol.embl.de/tree/942102157910201593716454))
+[iToL-UFbootstrap](https://itol.embl.de/tree/942102157910201593716454)
 [iToL-nonparametric](https://itol.embl.de/tree/1312115964226201597403301#))
-some _Azolla_ sequences were removed again and a big clade of MIKC* sequences was removed.
+some redundant _Azolla_ sequences were removed again and a big clade of MIKC* sequences was removed.
 MIKC* sequences are characterised by a longer C domain.
 
 In `MIKC_tree_workflow-basalclades-v7.ipynb` 
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v7.ipynb)
-html
+[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v7.ipynb))
 several rogue taxa were removed; those taxa that were poorly supported and moved around the tree inbetween different inferences.
 Also, the algal outgroup was reduced in size and I experimented with different extents of column-content trimming.
 I varied the miniumum sequence content per column from 10% to 50% and made UFBootstrap tree inferences:
@@ -114,8 +113,8 @@ iToL UFbootstrap
 [gt .3](https://itol.embl.de/tree/131211596429651597651060)
 [gt .4](https://itol.embl.de/tree/131211596429721597651060)
 [gt .5](https://itol.embl.de/tree/131211596429741597651061)
-Based on the alignments and the trees, I choose the 50% sequence content alignment and made a nonparmetric tree:
-itol-nonparametric
+Based on the alignments and the trees, I choose the 50% sequence content alignment and made a non-parametric tree only to find that bootstrap support broke down completely:
+[itol-nonparametric](https://itol.embl.de/tree/1312115999190001598359608).
 
 
 
