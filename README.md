@@ -5,7 +5,8 @@ For the final results, please refer to the quick links listed below
 
 manuscript DOI: [preprint](https://www.biorxiv.org/content/10.1101/2020.09.09.289736v2)
 
-repository DOI: pending
+repository DOI: [![DOI](https://zenodo.org/badge/270919511.svg)](https://zenodo.org/badge/latestdoi/270919511)
+
 
 ## Quick links
 Final input, output and intermediate files:
