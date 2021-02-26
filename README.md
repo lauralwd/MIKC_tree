@@ -58,7 +58,7 @@ we attempt to improve the phylogenetic signal by sampling less sequences in more
 
 In `MIKC_tree_workflow-basalclades-v2.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v2.ipynb)
-[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v2.ipynb)
+[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v2.html)
 [iToL_gt4](https://itol.embl.de/tree/13121158204159901593010248))
 I add _Salivinia cuculata_ [sequences](data/salvinia_sequences/salivinia_fernbase_blast_results_uniq.fasta) from [fernbase](fernbase.org) and remove some sequences that were behaving oddly due too large horizontal gaps in the alignment.
 Finally the _Chara globularis_ MADS1 sequence was added, like in the [1kP capstone paper](https://doi.org/10.1038/s41586-019-1693-2) to serve as an outgroup.
@@ -73,7 +73,7 @@ Based on these results, we proceed only with algal sequences that contain all fo
 
 In `MIKC_tree_workflow-basalclades-v3.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v3.ipynb)
-[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v3.ipynb)
+[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v3.html)
 [iToL](https://itol.embl.de/tree/13121159166346421593419936))
 I aim to identify non MIKC sequences and remove these from the analyses;
 hence I'm making a phylogeny of only MIKC genes and not sequences which only have an M domain.
@@ -82,20 +82,20 @@ These should confirm the placing of the CgMADS1 sequence and provide a solid roo
 
 In `MIKC_tree_workflow-basalclades-v4.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v4.ipynb)
-[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v4.ipynb)
+[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v4.html)
 [iToL](https://itol.embl.de/tree/9421021579173651593446746))
 I remove some sequences and run the tree with non-parametric bootstraps instead.
 
 In `MIKC_tree_workflow-basalclades-v5.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v5.ipynb)
-[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v5.ipynb)
+[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v5.html)
 [iToL](https://itol.embl.de/tree/9421021579163171593685733))
 I added gymnosperms and _Azolla_ sequences.
 Since the algal outgroup has proven to be stable but also very big, it's size is trimmed down.
 
 In `MIKC_tree_workflow-basalclades-v6.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v6.ipynb)
-[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v6.ipynb)
+[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v6.html)
 [iToL-UFbootstrap](https://itol.embl.de/tree/942102157910201593716454)
 [iToL-nonparametric](https://itol.embl.de/tree/1312115964226201597403301#))
 some redundant _Azolla_ sequences were removed again and a big clade of MIKC* sequences was removed.
@@ -103,7 +103,7 @@ MIKC* sequences are characterised by a longer C domain.
 
 In `MIKC_tree_workflow-basalclades-v7.ipynb` 
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v7.ipynb)
-[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v7.ipynb))
+[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v7.html))
 several rogue taxa were removed; those taxa that were poorly supported and moved around the tree inbetween different inferences.
 Also, the algal outgroup was reduced in size and I experimented with different extents of column-content trimming.
 I varied the miniumum sequence content per column from 10% to 50% and made UFBootstrap tree inferences:
