@@ -60,7 +60,7 @@ In `MIKC_tree_workflow-basalclades-v2.ipynb`
 ([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v2.ipynb)
 [html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v2.html)
 [iToL_gt4](https://itol.embl.de/tree/13121158204159901593010248))
-I add _Salivinia cuculata_ [sequences](data/salvinia_sequences/salivinia_fernbase_blast_results_uniq.fasta) from [fernbase](fernbase.org) and remove some sequences that were behaving oddly due too large horizontal gaps in the alignment.
+I add _Salivinia cuculata_ [sequences](data/salvinia_sequences/salivinia_fernbase_blast_results_uniq.fasta) from [fernbase](https://www.fernbase.org) and remove some sequences that were behaving oddly due too large horizontal gaps in the alignment.
 Finally the _Chara globularis_ MADS1 sequence was added, like in the [1kP capstone paper](https://doi.org/10.1038/s41586-019-1693-2) to serve as an outgroup.
 
 In `algal sequences.ipynb`
