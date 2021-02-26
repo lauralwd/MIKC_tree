@@ -116,7 +116,22 @@ iToL UFbootstrap
 Based on the alignments and the trees, I choose the 50% sequence content alignment and made a non-parametric tree only to find that bootstrap support broke down completely:
 [itol-nonparametric](https://itol.embl.de/tree/1312115999190001598359608).
 
+In `MIKC_tree_workflow-basalclades-v8.ipynb`
+([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v8.ipynb)
+[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v8.html)
+sequences were removed from the alignment more stringently if they missed too much residues compared to the rest of the alignment.
+Also, more algal sequences were added back into the dataset again, to provide the tree with a more solid and confident outgroup.
+Finally, since [bootstrap vallues](https://itol.embl.de/tree/13121159254447621597996339) on basal branches remain low and uninformative, I experimented with alternative support assessments. 
+Stricter [trimming](https://itol.embl.de/tree/1312115823116101598607728) of allignments and [jackknifing](https://itol.embl.de/tree/9421021579372301598523476) were deedem unsuccessfull, and a baysian method was not considered feasible for deadline considerations. 
+Finally, experimentation with [transfer bootstraps](https://itol.embl.de/tree/1312115823161871598452619) proved to provide more informative tree support vallues.
 
+In `MIKC_tree_workflow-basalclades-v9.ipynb`
+([ipynb](https://github.com/lauralwd/MIKC_tree/blob/master/MIKC_tree_workflow-basalclades-v9.ipynb)
+[html](https://htmlpreview.github.io/?https://github.com/lauralwd/MIKC_tree/blob/master/docs/MIKC_tree_workflow-basalclades-v9.html)
+I tried to keep the best of versions 6, 7 and 8. A solid algal outgrhoup, strict trimming of sequences, and more informative support assessment.
+More notably, I revisited alignment optimisation with `prank`. 
+A set of sequences was aligned and a [ML tree](https://itol.embl.de/tree/13121159214349041611578775) was infered with IQtree as before, and then this ML tree was used to re-align insertions and delitions with `prank`, ideally making a clear and less noisy alignment.
+A final tree was then made with IQtree, [1000 non parametric bootstraps](https://itol.embl.de/tree/9421021579353661611221693) and then [transfer bootstrap support](https://itol.embl.de/tree/9421021579408691611653003) vallues were calculated with `booster`.
 
 ## Data sources
 1kP
